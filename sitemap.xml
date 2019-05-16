@@ -4,7 +4,63 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2019-05-14</lastmod>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/psets/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/labs/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/quizzes/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/tests/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/frqs/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/tutorials/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/info/</loc>
+     <lastmod>2019-05-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
