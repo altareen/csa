@@ -1,4 +1,5 @@
 site_name: CSA
+repo_url: https://github.com/altareen/csa
 pages:
     - Home: 'index.md'
     - Problem Sets: 'psets.md'
