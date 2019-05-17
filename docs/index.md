@@ -1,22 +1,3 @@
-<!--
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](http://mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
--->
 # AP Computer Science A
 
 ---
@@ -72,8 +53,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
 5      | 6      | 7       | 8         | 9        | 10     | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20     | 21      | 22        | 23       | 24 *Winter Break* | 25
-26     | 27     | 28      | 29        | 30
+19     | 20     | 21      | 22        | 23       | 24 *Winter Break Begins* | 25
+26     | 27     | 28      | 29        | 30       | 31
 
 
 
