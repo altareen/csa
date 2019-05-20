@@ -2,9 +2,11 @@
 
 ---
 
+>[Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` problems sets and labs to this autograder.
+
 ## Course Calendar: Semester One
 
-Academic dates are in *italics*, course assessment deadlines are in **bold**.
+>Academic dates are in *italics*, course assessment deadlines are in **bold**.
 
 ## September 2019
 

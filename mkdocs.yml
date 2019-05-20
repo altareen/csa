@@ -2,6 +2,7 @@ site_name: CSA
 repo_url: https://github.com/altareen/csa
 pages:
     - Home: 'index.md'
+    - Notes: 'notes.md'
     - Problem Sets: 'psets.md'
     - Labs: 'labs.md'
     - Quizzes: 'quizzes.md'
