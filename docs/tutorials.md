@@ -1,6 +1,9 @@
 # Tutorials
 
----
++ The following are some detailed guides that will assist you in setting up your
+computer for `Java` software development.
++ Windows, Mac OS, and Linux operating systems are supported.
+
 
 Description | File Size | File Name
 ----------- | --------- | ---------

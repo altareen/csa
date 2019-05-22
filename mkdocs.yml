@@ -1,13 +1,22 @@
 site_name: CSA
 repo_url: https://github.com/altareen/csa
-pages:
-    - Home: 'index.md'
-    - Notes: 'notes.md'
-    - Problem Sets: 'psets.md'
-    - Labs: 'labs.md'
-    - Quizzes: 'quizzes.md'
-    - Tests: 'tests.md'
-    - FRQs: 'frqs.md'
-    - Tutorials: 'tutorials.md'
-    - Course Info: 'info.md'
-theme: mkdocs
+theme: cinder
+extra_css:
+    - css/tablefont.css
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+markdown_extensions:
+    - admonition
+    - pymdownx.arithmatex
+nav:
+    - Home: index.md
+    - Notes: notes.md
+    - Problem Sets:
+        - 'Problem Set 1: HelloWorld': pset01.md
+        - 'Problem Set 2: Fahrenheit': pset02.md
+    - Labs: labs.md
+    - Quizzes: quizzes.md
+    - Tests: tests.md
+    - FRQs: frqs.md
+    - Tutorials: tutorials.md
+    - Course Info: info.md

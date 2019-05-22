@@ -1,16 +1,15 @@
 # Course Information(Syllabus)
 
----
-
->[AP Central:](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a) Official course descriptions, reference materials, and exam resources.
+!!! note "[AP Central](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a)"
+    Link to CollegeBoard's official course descriptions, reference materials, and exam resources.
 
 ## Course Location
 + **Course Title:** AP Computer Science A
 + **Meeting Place:** Room 308
 + **Instructor:** Mr. Alwin Tareen
-+ **Course Website:** [https://altareen.github.io/csa](https://altareen.github.io/csa)
-+ **GitHub Code Repository:** [https://github.com/altareen/csa](https://github.com/altareen/csa)
-+ **Engage Grading Website:** [http://www.engage.com](http://www.engage.com)
++ **Course Website:** <https://altareen.github.io/csa>
++ **GitHub Code Repository:** <https://github.com/altareen/csa>
++ **Engage Grading Website:** <http://www.engage.com>
 
 ## Course Description
 + Introduction to the theory of computer science, and the craft of programming in
@@ -46,15 +45,17 @@ complete the assignment in electronic form.
 Homework submission instructions will be described within the
 assignment overview.
 + Students are expected to submit their homework before the due date.
-+ **Late Policy:** If a student submits their homework within
-24 hours of the due date, I will impose a 50% grading penalty.
-After that time frame, the homework will be assigned a grade of 0. 
+
+!!! warning "Late Policy"
+    If a student submits their homework within
+    24 hours after the due date has passed, I will impose a **50% grading penalty**.
+    After that time frame, the homework will be assigned a **grade of 0**. 
 
 ## Plagiarism
 + Copying all or part of a programming solution, from another student,
 or from an Internet source, is a violation of the **BNDS Academic Dishonesty Policy.**
 + Homework assignments that have been found to be plagiarized will receive a
-grade of 0.
+**grade of 0**.
 
 ## Grading
 + **Homework:** Students are encouraged to put forth their best
@@ -81,19 +82,19 @@ Labs       | 20%
 Quizzes    | 20%
 Tests      | 40%
 
-## Websites
+## Course Websites
 + Students will be required to visit the class website
 on a regular basis to obtain
 homework assignments and other course materials:
-[http://altareen.github.io/csa](http://altareen.github.io/csa)
+<http://altareen.github.io/csa>
 
 + Any `Java` programs that are covered in class, such as AP code examples,
 case studies and homework solutions will be posted in the public GitHub
 code repository:
-[https://github.com/altareen/csa](https://github.com/altareen/csa)
+<https://github.com/altareen/csa>
 
 + Grades, student score averages, and the results of homeworks,
 quizzes and tests will be available at the school's Engage grading website:
-[http://www.engage.com](http://www.engage.com)
+<http://www.engage.com>
 
 
