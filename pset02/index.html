@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Course Info - CSA</title>
+    <title>Problem Set 2: Fahrenheit - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -83,7 +83,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -94,8 +94,8 @@
 
                         
                             
-<li >
-    <a href="../pset02/">Problem Set 2: Fahrenheit</a>
+<li class="active">
+    <a href="./">Problem Set 2: Fahrenheit</a>
 </li>
 
                         
@@ -134,8 +134,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Course Info</a>
+                    <li >
+                        <a href="../info/">Course Info</a>
                     </li>
                 
                 
@@ -148,17 +148,17 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../tutorials/">
+                        <a rel="prev" href="../pset01/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../labs/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/altareen/csa/edit/master/docs/info.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/altareen/csa/edit/master/docs/pset02.md"><i class="fab fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -170,156 +170,104 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#course-informationsyllabus">Course Information(Syllabus)</a></li>
-            <li class="second-level"><a href="#course-location">Course Location</a></li>
+        <li class="first-level active"><a href="#problem-set-2-fahrenheit">Problem Set 2: Fahrenheit</a></li>
+            <li class="second-level"><a href="#background">Background</a></li>
                 
-            <li class="second-level"><a href="#course-description">Course Description</a></li>
+            <li class="second-level"><a href="#distribution">Distribution</a></li>
                 
-            <li class="second-level"><a href="#textbooks">Textbooks</a></li>
+            <li class="second-level"><a href="#specification">Specification</a></li>
                 
-            <li class="second-level"><a href="#materials">Materials</a></li>
+            <li class="second-level"><a href="#hints">Hints</a></li>
                 
-            <li class="second-level"><a href="#homework">Homework</a></li>
+            <li class="second-level"><a href="#testing">Testing</a></li>
                 
-            <li class="second-level"><a href="#plagiarism">Plagiarism</a></li>
-                
-            <li class="second-level"><a href="#grading">Grading</a></li>
-                
-            <li class="second-level"><a href="#grade-weighting">Grade Weighting</a></li>
-                
-            <li class="second-level"><a href="#course-websites">Course Websites</a></li>
+            <li class="second-level"><a href="#submission">Submission</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="course-informationsyllabus">Course Information(Syllabus)</h1>
+<h1 id="problem-set-2-fahrenheit">Problem Set 2: Fahrenheit</h1>
 <div class="admonition note">
-<p class="admonition-title"><a href="https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a">AP Central</a></p>
-<p>Link to CollegeBoard's official course descriptions, reference materials, and exam resources.</p>
+<p class="admonition-title">Due Date</p>
+<p>Monday, September 16, 2019</p>
 </div>
-<h2 id="course-location">Course Location</h2>
+<h2 id="background">Background</h2>
 <ul>
-<li><strong>Course Title:</strong> AP Computer Science A</li>
-<li><strong>Meeting Place:</strong> Room 308</li>
-<li><strong>Instructor:</strong> Mr. Alwin Tareen</li>
-<li><strong>Course Website:</strong> <a href="https://altareen.github.io/csa">https://altareen.github.io/csa</a></li>
-<li><strong>GitHub Code Repository:</strong> <a href="https://github.com/altareen/csa">https://github.com/altareen/csa</a></li>
-<li><strong>Engage Grading Website:</strong> <a href="http://www.engage.com">http://www.engage.com</a></li>
+<li><strong>Total Points:</strong> 10</li>
+<li>In this problem set, you must write a <code>Java</code> program that performs a simple
+temperature conversion.</li>
 </ul>
-<h2 id="course-description">Course Description</h2>
-<ul>
-<li>Introduction to the theory of computer science, and the craft of programming in
-<code>Java</code>.</li>
-<li>This course teaches students how to think algorithmically, and to solve
-problems efficiently.</li>
-<li>Topics include <code>Java</code> syntax, arithmetic expressions, text
-processing, object-oriented programming, arrays and <code>ArrayLists</code>, sorting algorithms,
-inheritance and recursion.</li>
-<li>Problem sets and labs are inspired by the real-world domains of biology,
-cryptography, finance, forensics, and gaming.</li>
-<li>This course is designed for both beginner and expert programmers alike.</li>
-</ul>
-<h2 id="textbooks">Textbooks</h2>
-<ul>
-<li><strong>Barron's AP Computer Science A,</strong> 8th Edition, Roselyn Teukolsky.
-This will be the primary textbook used in this course.
-The entire textbook will be provided to students free of charge.</li>
-<li><strong>Blue Pelican Java,</strong> Version 7.0.1A, Charles E. Cook.
-This textbook contains additional material that will be useful in this course.
-It will be provided to students free of charge.</li>
-<li><strong>Head First Java,</strong> 2nd Edition, K. Sierra and B. Bates.
-This textbook provides an in-depth study of the Java language.
-It is useful as a reference guide, but it won't be used in class.</li>
-</ul>
-<h2 id="materials">Materials</h2>
-<p>Each student is required to bring their laptop computer to class.
-<strong>Windows,</strong> <strong>Mac OS</strong> and <strong>Linux</strong> operating systems are supported.</p>
-<h2 id="homework">Homework</h2>
-<ul>
-<li>Homework assignments will be posted regularly on the class website.
-Students are required to download and
-complete the assignment in electronic form.
-Homework submission instructions will be described within the
-assignment overview.</li>
-<li>Students are expected to submit their homework before the due date.</li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Late Policy</p>
-<p>If a student submits their homework within
-24 hours after the due date has passed, I will impose a <strong>50% grading penalty</strong>.
-After that time frame, the homework will be assigned a <strong>grade of 0</strong>. </p>
-</div>
-<h2 id="plagiarism">Plagiarism</h2>
-<ul>
-<li>Copying all or part of a programming solution, from another student,
-or from an Internet source, is a violation of the <strong>BNDS Academic Dishonesty Policy.</strong></li>
-<li>Homework assignments that have been found to be plagiarized will receive a
-<strong>grade of 0</strong>.</li>
-</ul>
-<h2 id="grading">Grading</h2>
-<ul>
-<li><strong>Homework:</strong> Students are encouraged to put forth their best
-effort, even if the result does not compile, or produces an incorrect
-output. Students will receive partial credit in such cases.</li>
-<li><strong>Labs:</strong> Students will be expected to demonstrate their
-programming proficiency by working through coding problems in class.</li>
-<li><strong>Quizzes:</strong> Short 15 minute quizzes on current topics.
-These will be announced in advance.</li>
-<li><strong>Tests:</strong> An extensive test of the topics covered in the
-section. Tests will be graded with partial credit, and carefully
-analyzed for understanding and general knowledge. Tests will consist
-of problems similar to examples covered in class and homework.
-Students will be informed of a test at least one week in advance.
-A missed test with and unexcused absence will receive a grade of 0.
-A missed test with an excused absence can be made up by appointment.</li>
-</ul>
-<h2 id="grade-weighting">Grade Weighting</h2>
+<h2 id="distribution">Distribution</h2>
 <table>
 <thead>
 <tr>
-<th>Assessment</th>
-<th>Weight</th>
+<th>Description</th>
+<th>File Size</th>
+<th>File Name</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Homework</td>
-<td>20%</td>
-</tr>
-<tr>
-<td>Labs</td>
-<td>20%</td>
-</tr>
-<tr>
-<td>Quizzes</td>
-<td>20%</td>
-</tr>
-<tr>
-<td>Tests</td>
-<td>40%</td>
+<td><code>Java</code> Source Code for Problem Set 2</td>
+<td>4.1KB</td>
+<td><a href="../pset02.zip">pset02.zip</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="course-websites">Course Websites</h2>
+<pre><code class="bash">PSet02SourceCode/
+├── Fahrenheit.class
+├── Fahrenheit.ctxt
+├── Fahrenheit.java
+├── FahrenheitJUnitTest.class
+├── FahrenheitJUnitTest.ctxt
+├── FahrenheitJUnitTest.java
+├── package.bluej
+└── README.TXT
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Java</code> program in the file <code>Fahrenheit.java</code> that
+converts a temperature from celsius to fahrenheit. The formula for this
+conversion is as follows: Take the temperature in celsius, multiply it by 9,
+divide the result by 5, and add 32. The equation can be expressed as:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+\mbox{fahrenheit} = \frac{\mbox{celsius} \times 9}{5} + 32
+</div>
+<script type="math/tex; mode=display">
+\mbox{fahrenheit} = \frac{\mbox{celsius} \times 9}{5} + 32
+</script>
+</div>
 <ul>
 <li>
-<p>Students will be required to visit the class website
-on a regular basis to obtain
-homework assignments and other course materials:
-<a href="http://altareen.github.io/csa">http://altareen.github.io/csa</a></p>
+<p>You will write your solution
+in a function called
+<code>calculateFahrenheit(double celsius)</code>,
+right below the place where it says: <code>YOUR CODE HERE</code>.</p>
 </li>
 <li>
-<p>Any <code>Java</code> programs that are covered in class, such as AP code examples,
-case studies and homework solutions will be posted in the public GitHub
-code repository:
-<a href="https://github.com/altareen/csa">https://github.com/altareen/csa</a></p>
+<p>When the function call <code>calculateFahrenheit(100)</code> is executed, the
+output of the program should be: <code>212.0</code></p>
 </li>
-<li>
-<p>Grades, student score averages, and the results of homeworks,
-quizzes and tests will be available at the school's Engage grading website:
-<a href="http://www.engage.com">http://www.engage.com</a></p>
-</li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Recall that <code>Java</code> performs integer division. You may have to multiply one
+of the constants in the equation by <code>1.0</code> to obtain the correct answer.</li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench.
+<code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful
+test with a <strong>red</strong> bar.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Submit your <code>Java</code> program by uploading it to the
+<a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT automated grading platform.</a></li>
 </ul></div>
         
         
