@@ -23,7 +23,7 @@ inheritance and recursion.
 cryptography, finance, forensics, and gaming.
 + This course is designed for both beginner and expert programmers alike.
 
-## Textbooks
+## Reference Material
 + **Barron's AP Computer Science A,** 8th Edition, Roselyn Teukolsky.
 This will be the primary textbook used in this course.
 The entire textbook will be provided to students free of charge.
@@ -34,7 +34,7 @@ It will be provided to students free of charge.
 This textbook provides an in-depth study of the Java language.
 It is useful as a reference guide, but it won't be used in class.
 
-## Materials
+## Hardware
 Each student is required to bring their laptop computer to class.
 **Windows,** **Mac OS** and **Linux** operating systems are supported.
 
@@ -54,7 +54,7 @@ assignment overview.
 ## Plagiarism
 + Copying all or part of a programming solution, from another student,
 or from an Internet source, is a violation of the **BNDS Academic Dishonesty Policy.**
-+ Homework assignments that have been found to be plagiarized will receive a
++ Any assignment that has been found to be plagiarized will receive a
 **grade of 0**.
 
 ## Grading

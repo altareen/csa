@@ -1,5 +1,4 @@
 site_name: CSA
-repo_url: https://github.com/altareen/csa
 theme: cinder
 extra_css:
     - css/tablefont.css
@@ -8,6 +7,7 @@ extra_javascript:
 markdown_extensions:
     - admonition
     - pymdownx.arithmatex
+    - pymdownx.details
 nav:
     - Home: index.md
     - Notes: notes.md

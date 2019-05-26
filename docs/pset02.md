@@ -5,6 +5,7 @@
 
 ## Background
 + **Total Points:** 10
++ **Code Submission:** [Web-CAT automated grading platform.](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa)
 + In this problem set, you must write a `Java` program that performs a simple
 temperature conversion.
 
@@ -12,7 +13,7 @@ temperature conversion.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Java` Source Code for Problem Set 2 | 4.1KB | [pset02.zip](pset02.zip)
+`Java` Source Code for Fahrenheit | 4.1KB | [pset02.zip](/zip/pset02.zip)
 
 ```bash
 PSet02SourceCode/
@@ -52,9 +53,5 @@ of the constants in the equation by `1.0` to obtain the correct answer.
 + Click on the **Run Tests** button to execute the `JUnit` test bench.
 `JUnit` indicates a successful test with a **green** bar, and an unsuccessful
 test with a **red** bar.
-
-## Submission
-+ Submit your `Java` program by uploading it to the
-[Web-CAT automated grading platform.](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa)
 
 

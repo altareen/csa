@@ -5,9 +5,10 @@
 
 ## Course Calendar: Semester One
 
->Academic dates are in *italics*, course assessment deadlines are in **bold**.
+!!! note ""
+    Academic dates are in *italics*, course assessment deadlines are in **bold**.
 
-## September 2019
+### September 2019
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
@@ -17,7 +18,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 22     | 23     | 24      | 25        | 26       | 27     | 28 
 29 *Make-up Day* | 30 *National Day Holiday* | | | | | 
 
-## October 2019
+### October 2019
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
@@ -27,7 +28,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 20     | 21     | 22      | 23        | 24       | 25     | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 
 
-## November 2019
+### November 2019
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
@@ -37,7 +38,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28       | 29     | 30
 
-## December 2019
+### December 2019
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
@@ -47,7 +48,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 *Xmas Carnival*
 29     | 30     | 31 *New Year's Eve* | | | | 
 
-## January 2020
+### January 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
