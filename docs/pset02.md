@@ -1,11 +1,11 @@
 # Problem Set 2: Fahrenheit
 
-!!! note "Due Date"
-    Monday, September 16, 2019
+!!! note ""
+    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` programs to this automated grading platform.
 
 ## Background
++ **Due Date:** Monday, September 16, 2019
 + **Total Points:** 10
-+ **Code Submission:** [Web-CAT automated grading platform.](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa)
 + In this problem set, you must write a `Java` program that performs a simple
 temperature conversion.
 

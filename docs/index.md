@@ -1,7 +1,7 @@
 # AP Computer Science A
 
-!!! note "[Web-CAT](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa)"
-    Submit `Java` problems sets and labs to this autograder.
+!!! note ""
+    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` programs to this automated grading platform.
 
 ## Course Calendar: Semester One
 

@@ -1,7 +1,7 @@
 # Course Notes
 
-!!! note "[GitHub Code Repository](https://github.com/altareen/csa)"
-    Link to all of the `Java` code samples that are covered in this course.
+!!! note ""
+    [GitHub Code Repository:](https://github.com/altareen/csa) Link to all of the `Java` code samples that are covered in this course.
 
 ## Module 1: `Java` Syntax
 
@@ -10,7 +10,7 @@ operators that present in `Java`.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Java` syntax slides  | MB | [csaNotes01JavaSyntax.pdf](/pdf/csaNotes01JavaSyntax.pdf)
+`Java` syntax slides  | 193KB | [csaNotes01JavaSyntax.pdf](/pdf/csaNotes01JavaSyntax.pdf)
 
 ## Module 2: Conditionals and Looping
 
@@ -20,6 +20,6 @@ and the `for` loop.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Conditionals and looping slides  | MB | [csaNotes02ConditionalsLooping.pdf](/pdf/csaNotes02ConditionalsLooping.pdf)
+Conditionals and looping slides  | KB | [csaNotes02ConditionalsLooping.pdf](/pdf/csaNotes02ConditionalsLooping.pdf)
 
 

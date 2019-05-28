@@ -1,7 +1,7 @@
-# Course Information(Syllabus)
+# Syllabus
 
-!!! note "[AP Central](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a)"
-    Link to CollegeBoard's official course descriptions, reference materials, and exam resources.
+!!! note ""
+    [AP Central:](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a) Link to CollegeBoard's official course descriptions, reference materials, and exam resources.
 
 ## Course Location
 + **Course Title:** AP Computer Science A
@@ -73,9 +73,9 @@ Students will be informed of a test at least one week in advance.
 A missed test with and unexcused absence will receive a grade of 0.
 A missed test with an excused absence can be made up by appointment.
 
-## Grade Weighting
+## Assignment Weighting
 
-Assessment | Weight
+Assignment | Weight
 ---------- | ------
 Homework   | 20%
 Labs       | 20%

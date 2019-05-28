@@ -10,7 +10,7 @@ markdown_extensions:
     - pymdownx.details
 nav:
     - Home: index.md
-    - Notes: notes.md
+    - Course Notes: notes.md
     - Problem Sets:
         - 'Problem Set 1: HelloWorld': pset01.md
         - 'Problem Set 2: Fahrenheit': pset02.md
@@ -18,5 +18,5 @@ nav:
     - Quizzes: quizzes.md
     - Tests: tests.md
     - FRQs: frqs.md
-    - Tutorials: tutorials.md
-    - Course Info: info.md
+    - Reference: reference.md
+    - Syllabus: syllabus.md

@@ -1,11 +1,11 @@
 # Problem Set 1: HelloWorld
 
-!!! note "Due Date"
-    Monday, September 9, 2019
+!!! note ""
+    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` programs to this automated grading platform.
 
 ## Background
++ **Due Date:** Monday, September 9, 2019
 + **Total Points:** 10
-+ **Code Submission:** [Web-CAT automated grading platform.](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa)
 + This problem set introduces you to the **write-compile-run** software development
 cycle, with a very simple code framework.
 
