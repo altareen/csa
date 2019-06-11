@@ -13,7 +13,7 @@ temperature conversion.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Java` Source Code for Fahrenheit | 4.1KB | [pset02.zip](/zip/pset02.zip)
+`Java` Source Code for Fahrenheit | 4.1KB | [pset02.zip](/csa/zip/pset02.zip)
 
 ```bash
 PSet02SourceCode/

@@ -7,6 +7,6 @@ of the upcoming exam.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-AP Computer Science A Semester 2 Exam, June 2018  | 129KB | [apCompSciASemester2Exam.pdf](/pdf/apCompSciASemester2Exam.pdf)
+AP Computer Science A Semester 2 Exam, June 2018  | 129KB | [apCompSciASemester2Exam.pdf](/csa/pdf/apCompSciASemester2Exam.pdf)
 
 

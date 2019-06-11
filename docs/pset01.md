@@ -13,7 +13,7 @@ cycle, with a very simple code framework.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Java` Source Code for HelloWorld | 3.9KB | [pset01.zip](/zip/pset01.zip)
+`Java` Source Code for HelloWorld | 3.9KB | [pset01.zip](/csa/zip/pset01.zip)
 
 ```bash
 PSet01SourceCode/
@@ -46,13 +46,13 @@ Save your code by clicking on the **Project** menu and selecting
 BlueJ project window and click on the **Compile** button. I have
 indicated it with my cursor in the following screenshot.
 
-![Compile step](/img/pset01Step01.png)
+![Compile step](/csa/img/pset01Step01.png)
 
 + If you have made an error in your code, then you must correct it
 before your code will successfully compile. For example, in the screenshot
 below, this is how BlueJ reacts when I leave off the terminating semicolon.
 
-![Code error](/img/pset01Step02.png)
+![Code error](/csa/img/pset01Step02.png)
 
 ### Executing your `Java` Program
 + Now, you must **run** your `Java` program. **Right-click**
@@ -61,12 +61,12 @@ small menu box will appear. Select the option listed as
 `void main(String[] args)`. I have indicated it in the screenshot
 below with my cursor.
 
-![Select menu](/img/pset01Step03.png)
+![Select menu](/csa/img/pset01Step03.png)
 
 + Then, a **Method Call** dialog box should appear, like in the
 following screenshot. Click on the **Ok** button.
 
-![Method call](/img/pset01Step04.png)
+![Method call](/csa/img/pset01Step04.png)
 
 + Next, a **Terminal Window** should appear. You should see the
 text `hello world` being displayed in the **Terminal Window**.
@@ -74,7 +74,7 @@ This is exactly what we intended this program to do. If your result
 is something other than this, then you need to correct your program
 before the testing phase.
 
-![Terminal window](/img/pset01Step05.png)
+![Terminal window](/csa/img/pset01Step05.png)
 
 ## Testing
 + Now, we are going to verify that we have a correct `Java`
@@ -84,7 +84,7 @@ program by using the `JUnit` testing feature of BlueJ.
 **Run Tests** button. I have indicated it in the following
 screenshot with my cursor.
 
-![Run tests](/img/pset01Step06.png)
+![Run tests](/csa/img/pset01Step06.png)
 
 + Immediately after clicking on the **Run Tests** button, you should
 see a **BlueJ: Test Results** window appear.
@@ -92,6 +92,6 @@ Since this in an example of a successful test, you should see a
 green bar appear. Also, the specific function that was tested has a
 green checkmark in front of it. Click on the **Close** button to exit.
 
-![Test results](/img/pset01Step07.png)
+![Test results](/csa/img/pset01Step07.png)
 
 
