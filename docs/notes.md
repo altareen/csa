@@ -27,4 +27,5 @@ Conditionals and looping slides  | 289KB | [csaNotes02Conditionals.pdf](/csa/pdf
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`String`s slides  | 164KB | [csaNotes03Strings.pdf](/csa/pdf/csaNotes03Strings.pdf)
+`String` slides  | 164KB | [csaNotes03Strings.pdf](/csa/pdf/csaNotes03Strings.pdf)
+
