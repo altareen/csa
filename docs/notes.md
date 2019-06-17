@@ -29,3 +29,12 @@ Description | File Size | File Name
 ----------- | --------- | ---------
 `String` slides  | 164KB | [csaNotes03Strings.pdf](/csa/pdf/csaNotes03Strings.pdf)
 
+## Module 4: Methods, Arguments, and Parameters
+
++ Structuring your programs for code reuse.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Methods slides  | 148KB | [csaNotes04Methods.pdf](/csa/pdf/csaNotes04Methods.pdf)
+
+
