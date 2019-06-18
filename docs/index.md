@@ -13,7 +13,7 @@
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1 *First Day of School* | 2      | 3       | 4         | 5        | 6      | 7 
-8      | 9 **PSet 1 Due** | 10      | 11        | 12       | 13 *Mid-Autumn Holiday* | 14 
+8      | 9 **PSet 1 Due** | 10 *Teachers' Day* | 11        | 12       | 13 *Mid-Autumn Holiday* | 14 
 15     | 16 **PSet 2 Due** | 17      | 18        | 19       | 20     | 21 
 22     | 23     | 24      | 25        | 26       | 27     | 28 
 29 *Make-up Day* | 30 *National Day Holiday* | | | | | 
@@ -55,7 +55,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
 5      | 6      | 7       | 8         | 9        | 10     | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20     | 21      | 22        | 23       | 24 *Winter Break Begins* | 25
+19     | 20     | 21      | 22        | 23       | 24 *Winter Break Begins* | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
 
 ## Course Calendar: Semester Two
@@ -71,7 +71,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 2      | 3      | 4       | 5         | 6        | 7      | 8 
 9      | 10     | 11      | 12        | 13       | 14     | 15
 16     | 17     | 18      | 19        | 20       | 21     | 22
-23     | 24     | 25      | 26        | 27       | 28     | 29 
+23     | 24 *School Resumes* | 25      | 26        | 27       | 28     | 29 
 
 ### March 2020
 
@@ -87,7 +87,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3      | 4 
+       |        |         | 1         | 2        | 3      | 4 *Tomb Sweeping Day*
 5      | 6      | 7       | 8         | 9        | 10     | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
@@ -97,7 +97,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         |           |          | 1      | 2 
+       |        |         |           |          | 1 *May Day* | 2 
 3      | 4      | 5       | 6         | 7        | 8      | 9 
 10     | 11     | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
@@ -111,14 +111,14 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        | 1      | 2       | 3         | 4        | 5      | 6
 7      | 8      | 9       | 10        | 11       | 12     | 13
 14     | 15     | 16      | 17        | 18       | 19     | 20
-21     | 22     | 23      | 24        | 25       | 26     | 27
+21     | 22     | 23      | 24        | 25 *Dragon Boat Festival* | 26     | 27
 28     | 29     | 30
 
 ### July 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3      | 4 
+       |        |         | 1         | 2        | 3 *Summer Break Begins* | 4 
 5      | 6      | 7       | 8         | 9        | 10     | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
