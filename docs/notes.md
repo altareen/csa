@@ -43,7 +43,7 @@ Methods slides  | 148KB | [csaNotes04Methods.pdf](/csa/pdf/csaNotes04Methods.pdf
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-The `Math` class slides  | 134KB | [csaNotes05MathClass.pdf](/csa/pdf/csaNotes05MathClass.pdf)
+`Math` class slides  | 134KB | [csaNotes05MathClass.pdf](/csa/pdf/csaNotes05MathClass.pdf)
 
 
 
