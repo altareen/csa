@@ -37,4 +37,13 @@ Description | File Size | File Name
 ----------- | --------- | ---------
 Methods slides  | 148KB | [csaNotes04Methods.pdf](/csa/pdf/csaNotes04Methods.pdf)
 
+## Module 5: The `Math` Class
+
++ Providing common mathematical functions.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+The `Math` class slides  | 134KB | [csaNotes05MathClass.pdf](/csa/pdf/csaNotes05MathClass.pdf)
+
+
 
