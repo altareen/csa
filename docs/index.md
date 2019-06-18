@@ -60,6 +60,9 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 ## Course Calendar: Semester Two
 
+!!! note ""
+    Academic dates are in *italics*, course assessment deadlines are in **bold**.
+
 ### February 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
