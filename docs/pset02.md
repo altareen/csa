@@ -9,7 +9,7 @@
 + In this problem set, you must write a `Java` program that performs a simple
 temperature conversion.
 
-## Distribution
+## Code Distribution
 
 Description | File Size | File Name
 ----------- | --------- | ---------

@@ -9,7 +9,7 @@
 + This problem set introduces you to the **write-compile-run** software development
 cycle, with a very simple code framework.
 
-## Distribution
+## Code Distribution
 
 Description | File Size | File Name
 ----------- | --------- | ---------
