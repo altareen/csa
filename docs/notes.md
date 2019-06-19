@@ -45,5 +45,17 @@ Description | File Size | File Name
 ----------- | --------- | ---------
 `Math` class slides  | 134KB | [csaNotes05MathClass.pdf](/csa/pdf/csaNotes05MathClass.pdf)
 
+## Module 6: Arrays
+
++ A collection of data for simple access.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Arrays slides  | 237KB | [csaNotes06Arrays.pdf](/csa/pdf/csaNotes06Arrays.pdf)
+
+
+
+
+
 
 
