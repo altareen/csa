@@ -53,7 +53,13 @@ Description | File Size | File Name
 ----------- | --------- | ---------
 Arrays slides  | 237KB | [csaNotes06Arrays.pdf](/csa/pdf/csaNotes06Arrays.pdf)
 
+## Module 7: Object Oriented Programming
 
++ Creating classes with state and behavior.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Object oriented programming slides  | 290KB | [csaNotes07ObjectOriented.pdf](/csa/pdf/csaNotes07ObjectOriented.pdf)
 
 
 
