@@ -25,7 +25,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 
 6      | 7 *National Day Holiday* | 8       | 9         | 10       | 11     | 12 *Make-up Day*
 13     | 14     | 15      | 16        | 17       | 18     | 19
-20     | 21     | 22      | 23        | 24       | 25     | 26
+20     | 21     | 22      | 23        | 24       | 25 *Field Trip* | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 
 
 ### November 2019
@@ -33,7 +33,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1      | 2 
-3      | 4      | 5       | 6         | 7        | 8      | 9 
+3      | 4      | 5       | 6         | 7        | 8 *End of First Quarter* | 9 
 10     | 11 *Remembrance Day* | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28       | 29     | 30
@@ -45,7 +45,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 1      | 2      | 3       | 4         | 5        | 6      | 7 
 8      | 9      | 10      | 11        | 12       | 13     | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
-22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 *Xmas Carnival*
+22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
 29     | 30     | 31 *New Year's Eve* | | | | 
 
 ### January 2020
@@ -53,9 +53,9 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
-5      | 6      | 7       | 8         | 9        | 10     | 11
-12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20     | 21      | 22        | 23       | 24 *Winter Break Begins* | 25 *Chinese New Year*
+5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 *Final Exams* | 11
+12     | 13 *Final Exams* | 14      | 15        | 16       | 17 *Winter Break Begins* | 18
+19     | 20     | 21      | 22        | 23       | 24  | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
 
 ## Course Calendar: Semester Two
@@ -70,8 +70,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         |           |          |        | 1 
 2      | 3      | 4       | 5         | 6        | 7      | 8 
 9      | 10     | 11      | 12        | 13       | 14     | 15
-16     | 17     | 18      | 19        | 20       | 21     | 22
-23     | 24 *School Resumes* | 25      | 26        | 27       | 28     | 29 
+16     | 17 *School Resumes* | 18      | 19        | 20       | 21     | 22
+23     | 24  | 25      | 26        | 27       | 28     | 29 
 
 ### March 2020
 
@@ -118,8 +118,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3 *Summer Break Begins* | 4 
-5      | 6      | 7       | 8         | 9        | 10     | 11
+       |        |         | 1         | 2        | 3      | 4 
+5      | 6      | 7       | 8         | 9        | 10 *Summer Break Begins* | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
