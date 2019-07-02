@@ -16,14 +16,14 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 8      | 9 **PSet 1 Due** | 10 *Teachers' Day* | 11        | 12       | 13 *Mid-Autumn Holiday* | 14 
 15     | 16 **PSet 2 Due** | 17      | 18        | 19       | 20     | 21 
 22     | 23     | 24      | 25        | 26       | 27     | 28 
-29 *Make-up Day* | 30 *National Day Holiday* | | | | | 
+29 *Make-up Day* | 30  | | | | | 
 
 ### October 2019
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 
-6      | 7      | 8       | 9         | 10       | 11     | 12 *Make-up Day*
+6      | 7 *National Day Holiday* | 8       | 9         | 10       | 11     | 12 *Make-up Day*
 13     | 14     | 15      | 16        | 17       | 18     | 19
 20     | 21     | 22      | 23        | 24       | 25     | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 
