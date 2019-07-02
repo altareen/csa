@@ -61,6 +61,13 @@ Description | File Size | File Name
 ----------- | --------- | ---------
 Object oriented programming slides  | 290KB | [csaNotes07ObjectOriented.pdf](/csa/pdf/csaNotes07ObjectOriented.pdf)
 
+## Module 8: Object References
+
++ Aliasing and its associated effects.
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Object references slides  | 151KB | [csaNotes08ObjectReferences.pdf](/csa/pdf/csaNotes08ObjectReferences.pdf)
 
 
 
