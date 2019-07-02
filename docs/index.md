@@ -47,7 +47,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
 29     | 30     | 31 *New Year's Eve* | | | | 
-New Event
+
 ### January 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
