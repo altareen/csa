@@ -94,4 +94,6 @@ green checkmark in front of it. Click on the **Close** button to exit.
 
 ![Test results](/csa/img/pset01Step07.png)
 
+## Submission
++ Upload the file `HelloWorld.java` to the [Web-CAT](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) automated grading platform.
 
