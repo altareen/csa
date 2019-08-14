@@ -54,4 +54,6 @@ of the constants in the equation by `1.0` to obtain the correct answer.
 `JUnit` indicates a successful test with a **green** bar, and an unsuccessful
 test with a **red** bar.
 
+## Submission
++ Upload the file `Fahrenheit.java` to the [Web-CAT](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) automated grading platform.
 
