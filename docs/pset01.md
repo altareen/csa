@@ -15,6 +15,7 @@ Description | File Size | File Name
 ----------- | --------- | ---------
 `Java` Source Code for HelloWorld | 3.9KB | [pset01.zip](/csa/zip/pset01.zip)
 
+**Contents of `pset01.zip`:**
 ```bash
 PSet01SourceCode/
 ├── HelloWorld.class
