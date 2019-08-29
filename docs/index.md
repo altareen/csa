@@ -9,6 +9,7 @@
 
 + Classes begin on Monday, September 2nd.
 + Problem Set 1 is due on Monday, September 9th.
++ Problem Set 2 is due on Monday, September 16h.
 
 ## Course Calendar: Semester One
 
