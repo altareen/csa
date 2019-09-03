@@ -1,5 +1,6 @@
 site_name: CSA
 theme: cinder
+use_directory_urls: false
 extra_css:
     - css/tablefont.css
 extra_javascript:
