@@ -1,6 +1,6 @@
 site_name: CSA
 theme: cinder
-use_directory_urls: false
+#use_directory_urls: false
 extra_css:
     - css/tablefont.css
 extra_javascript:
@@ -10,14 +10,14 @@ markdown_extensions:
     - pymdownx.arithmatex
     - pymdownx.details
 nav:
-    - Home: index.md
-    - Course Notes: notes.md
-    - Problem Sets: psets.md
-#        - 'Problem Set 1: HelloWorld': pset01.md
-#        - 'Problem Set 2: Fahrenheit': pset02.md
-    - Labs: labs.md
-    - Quizzes: quizzes.md
-    - Tests: tests.md
-    - FRQs: frqs.md
-    - References: references.md
-    - Syllabus: syllabus.md
+- Home: index.md
+- Course Notes: notes.md
+- Problem Sets:
+    - 'Problem Set 1: HelloWorld': pset01.md
+    - 'Problem Set 2: Fahrenheit': pset02.md
+- Labs: labs.md
+- Quizzes: quizzes.md
+- Tests: tests.md
+- FRQs: frqs.md
+- References: references.md
+- Syllabus: syllabus.md
