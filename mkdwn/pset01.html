@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Tests - CSA</title>
+    <title>Problem Set 1: HelloWorld - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -62,7 +62,7 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href="..">CSA</a>
+            <a class="navbar-brand" href="../index.html">CSA</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -72,55 +72,55 @@
                 
                 
                     <li >
-                        <a href="..">Home</a>
+                        <a href="../index.html">Home</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../notes/">Course Notes</a>
+                        <a href="../notes.html">Course Notes</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../psets/">Problem Sets</a>
+                        <a href="../psets.html">Problem Sets</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../labs/">Labs</a>
+                        <a href="../labs.html">Labs</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../quizzes/">Quizzes</a>
-                    </li>
-                
-                
-                
-                    <li class="active">
-                        <a href="./">Tests</a>
+                        <a href="../quizzes.html">Quizzes</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../frqs/">FRQs</a>
+                        <a href="../tests.html">Tests</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../references/">References</a>
+                        <a href="../frqs.html">FRQs</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../syllabus/">Syllabus</a>
+                        <a href="../references.html">References</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../syllabus.html">Syllabus</a>
                     </li>
                 
                 
@@ -130,16 +130,6 @@
                     <li>
                         <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                             <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../quizzes/">
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="../frqs/">
-                            Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
             </ul>
@@ -152,12 +142,141 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#tests">Tests</a></li>
+        <li class="first-level active"><a href="#problem-set-1-helloworld">Problem Set 1: HelloWorld</a></li>
+            <li class="second-level"><a href="#background">Background</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+                <li class="third-level"><a href="#using-the-assignment-operator">Using the Assignment Operator</a></li>
+                <li class="third-level"><a href="#compiling-your-java-program">Compiling your Java Program</a></li>
+                <li class="third-level"><a href="#executing-your-java-program">Executing your Java Program</a></li>
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="tests">Tests</h1></div>
+<h1 id="problem-set-1-helloworld">Problem Set 1: HelloWorld</h1>
+<div class="admonition note">
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
+</div>
+<h2 id="background">Background</h2>
+<ul>
+<li><strong>Due Date:</strong> Monday, September 9, 2019</li>
+<li><strong>Total Points:</strong> 10</li>
+<li>This problem set introduces you to the <strong>write-compile-run</strong> software development
+cycle, with a very simple code framework.</li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>File Size</th>
+<th>File Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Java</code> Source Code for HelloWorld</td>
+<td>3.9KB</td>
+<td><a href="/csa/zip/pset01.zip">pset01.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contents of <code>pset01.zip</code>:</strong></p>
+<pre><code class="bash">PSet01SourceCode/
+├── HelloWorld.class
+├── HelloWorld.ctxt
+├── HelloWorld.java
+├── HelloWorldJUnitTest.class
+├── HelloWorldJUnitTest.ctxt
+├── HelloWorldJUnitTest.java
+├── package.bluej
+└── README.TXT
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<h3 id="using-the-assignment-operator">Using the Assignment Operator</h3>
+<ul>
+<li>
+<p>Write a <code>Java</code> program in the file <code>HelloWorld.java</code> that
+uses the assignment operator to assign the message <code>hello world</code> to
+the <code>String</code> variable <code>greetings</code>.</p>
+</li>
+<li>
+<p>You will write your solution in a <strong>method</strong> called
+<code>displayMessage()</code>, right below the place
+where it says: <code>YOUR CODE HERE</code>. Make sure that
+the phrase <code>hello world</code> is placed in the variable <code>greetings</code>.
+Save your code by clicking on the <strong>Project</strong> menu and selecting
+<strong>Save</strong>.</p>
+</li>
+</ul>
+<h3 id="compiling-your-java-program">Compiling your <code>Java</code> Program</h3>
+<ul>
+<li>Now, you must <strong>compile</strong> your <code>Java</code> program. Go to the
+BlueJ project window and click on the <strong>Compile</strong> button. I have
+indicated it with my cursor in the following screenshot.</li>
+</ul>
+<p><img alt="Compile step" src="/csa/img/pset01Step01.png" /></p>
+<ul>
+<li>If you have made an error in your code, then you must correct it
+before your code will successfully compile. For example, in the screenshot
+below, this is how BlueJ reacts when I leave off the terminating semicolon.</li>
+</ul>
+<p><img alt="Code error" src="/csa/img/pset01Step02.png" /></p>
+<h3 id="executing-your-java-program">Executing your <code>Java</code> Program</h3>
+<ul>
+<li>Now, you must <strong>run</strong> your <code>Java</code> program. <strong>Right-click</strong>
+on the <code>HelloWorld</code> module in the BlueJ project window, and a
+small menu box will appear. Select the option listed as
+<code>void main(String[] args)</code>. I have indicated it in the screenshot
+below with my cursor.</li>
+</ul>
+<p><img alt="Select menu" src="/csa/img/pset01Step03.png" /></p>
+<ul>
+<li>Then, a <strong>Method Call</strong> dialog box should appear, like in the
+following screenshot. Click on the <strong>Ok</strong> button.</li>
+</ul>
+<p><img alt="Method call" src="/csa/img/pset01Step04.png" /></p>
+<ul>
+<li>Next, a <strong>Terminal Window</strong> should appear. You should see the
+text <code>hello world</code> being displayed in the <strong>Terminal Window</strong>.
+This is exactly what we intended this program to do. If your result
+is something other than this, then you need to correct your program
+before the testing phase.</li>
+</ul>
+<p><img alt="Terminal window" src="/csa/img/pset01Step05.png" /></p>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>
+<p>Now, we are going to verify that we have a correct <code>Java</code>
+program by using the <code>JUnit</code> testing feature of BlueJ.</p>
+</li>
+<li>
+<p>In order to run the <code>JUnit</code> test bench, simply click on the
+<strong>Run Tests</strong> button. I have indicated it in the following
+screenshot with my cursor.</p>
+</li>
+</ul>
+<p><img alt="Run tests" src="/csa/img/pset01Step06.png" /></p>
+<ul>
+<li>Immediately after clicking on the <strong>Run Tests</strong> button, you should
+see a <strong>BlueJ: Test Results</strong> window appear.
+Since this in an example of a successful test, you should see a
+green bar appear. Also, the specific function that was tested has a
+green checkmark in front of it. Click on the <strong>Close</strong> button to exit.</li>
+</ul>
+<p><img alt="Test results" src="/csa/img/pset01Step07.png" /></p>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>HelloWorld.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul></div>
         
         
     </div>
