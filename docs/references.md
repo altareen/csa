@@ -12,7 +12,7 @@ Using the `JUnit` testing framework | 530KB | [runTestsButton.pdf](/csa/pdf/runT
 Submitting your `Java` program to Web-CAT | 2.7MB | [submittingJavaCode.pdf](/csa/pdf/submittingJavaCode.pdf)
 Setting up the `KeePass` password manager | 3.1KB | [keePassManager.pdf](/csa/pdf/keePassManager.pdf)
 
-## Installing the [Dr. Java IDE](http://www.drjava.org/)(for a Windows system)
+### Installing the [Dr. Java IDE](http://www.drjava.org/)(for a Windows system)
 + Download and install the [Java Runtime Environment(JRE)](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239858_230deb18db3e4014bb8e3e8324f81b43) from the Oracle website.
 + Download the [Dr. Java Windows executable](http://prdownloads.sourceforge.net/drjava/drjava-stable-20120818-r5686.exe) and run it.
 
