@@ -13,7 +13,12 @@ Submitting your `Java` program to Web-CAT | 2.7MB | [submittingJavaCode.pdf](/cs
 Setting up the `KeePass` password manager | 3.1KB | [keePassManager.pdf](/csa/pdf/keePassManager.pdf)
 
 ### Installing the [Dr. Java IDE](http://www.drjava.org/)(for a Windows system)
-+ Download and install the [Java Runtime Environment(64-bit, 75.92MB)](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239858_230deb18db3e4014bb8e3e8324f81b43) from the Oracle website.
++ Download and install the Java Runtime Environment(JRE).
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Java Runtime Environment(64-bit) | 75.92MB | [jre-8u221-windows-x64.exe](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239858_230deb18db3e4014bb8e3e8324f81b43)
+
 + Download the [Dr. Java Windows executable](http://prdownloads.sourceforge.net/drjava/drjava-stable-20120818-r5686.exe) and run it.
 
 # Reference Material
