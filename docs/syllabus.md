@@ -12,6 +12,11 @@
 + **Engage Grading Website:** <http://engage.bnds.cn>
 + **AP Classroom:** <https://myap.collegeboard.org/login>
 
+## Teaching Assistant
++ **Nick XuYangZhou** is the teaching assistant(TA) for this course.
++ He will be conducting extra study sessions to assist students with understanding the
+course content and debugging the problem sets.
+
 ## Course Description
 + Introduction to the theory of computer science, and the craft of programming in
 `Java`.
