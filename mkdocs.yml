@@ -15,7 +15,8 @@ nav:
 - Problem Sets:
     - 'Problem Set 1: HelloWorld': pset01.md
     - 'Problem Set 2: Fahrenheit': pset02.md
-- Labs: labs.md
+- Labs:
+    - 'Lab 1: To Be Posted': lab01.md
 - Quizzes: quizzes.md
 - Tests: tests.md
 - FRQs: frqs.md
