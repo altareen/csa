@@ -9,7 +9,7 @@
 ## Announcements
 
 <!-- + [Problem Set 1](pset01.md) is due on Monday, September 9th. -->
-+ [Lab 1](lab01.md) is due on Thursday, September 12th.
++ [Lab 1](lab01.md) is due on Thursday, September 12th. It is a programming lab, which will be done in class.
 + [Problem Set 2](pset02.md) is due on Monday, September 16th.
 + [Quiz 1](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Tuesday, September 17th.
 
