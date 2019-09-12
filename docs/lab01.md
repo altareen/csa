@@ -13,7 +13,7 @@ day and month that Easter Sunday appears.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Java` Source Code for Easter Sunday | 4.8KB | [lab01.zip](/csp/zip/lab01.zip)
+`Java` Source Code for Easter Sunday | 4.8KB | [lab01.zip](/csa/zip/lab01.zip)
 
 **Contents of `lab01.zip`:**
 ```bash
