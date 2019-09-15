@@ -34,7 +34,7 @@ the frequency. In other words, 5.9 corresponds to 880Hz, and 3.9 corresponds to
 equally spaced, and this is known as a **tempered scale.**
 + The formula we use to calculate the frequency from a given *octave pitch* note is as follows:
 $$
-\mbox{frequency} = \mbox{ref} \times 2^{\left(\mbox{octa} + \frac{\mbox{semi}}{12.0}\right)}
+\mbox{frequency} = \text{ref} \times 2^{\left(\text{octa} + \frac{\text{semi}}{12.0}\right)}
 $$
 + In `Java`, this formula would be implemented as:
 ```java
@@ -48,7 +48,7 @@ frequency = ref * Math.pow(2, (octa + (semi/12.0)));
 ## Code Distribution
 Description | File Size | File Name
 ----------- | --------- | ---------
-`Java` Source Code for fahrenheit | 4.8KB | [pset03.zip](/csa/zip/pset03.zip)
+`Java` Source Code for Note Frequency | 4.8KB | [pset03.zip](/csa/zip/pset03.zip)
 
 **Contents of `pset03.zip`:**
 ```bash
