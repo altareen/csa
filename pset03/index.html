@@ -234,14 +234,16 @@ the 4th octave, 9th semitone, which is note A.</li>
 the frequency. In other words, 5.9 corresponds to 880Hz, and 3.9 corresponds to
 220Hz. This mapping system assumes that each of the semitones within an octave is
 equally spaced, and this is known as a <strong>tempered scale.</strong></li>
-<li>The formula we use to calculate the frequency from a given <em>octave pitch</em> note is as follows:
-<!-- $$
+<li>
+<p>The formula we use to calculate the frequency from a given <em>octave pitch</em> note is as follows:
+$$
 \mbox{frequency} = \text{ref} \times 2^{\left(\text{octa} + \frac{\text{semi}}{12.0}\right)}
-$$ --></li>
-</ul>
-<p><img alt="Frequency equation" src="/csa/img/frequency.png" title="Frequency equation" /></p>
-<ul>
-<li>In <code>Java</code>, this formula would be implemented as:</li>
+$$
+<!-- <img alt="Frequency equation" src="/csa/img/frequency.png" title="Frequency equation" /> --></p>
+</li>
+<li>
+<p>In <code>Java</code>, this formula would be implemented as:</p>
+</li>
 </ul>
 <pre><code class="java">frequency = ref * Math.pow(2, (octa + (semi/12.0)));
 </code></pre>
@@ -285,7 +287,7 @@ $$ --></li>
 <ul>
 <li>Write a <code>Java</code> program in the file <code>NoteFrequency.java</code> that calculates the
 frequency of a particular musical note, given its <em>octave</em> and <em>pitch</em> class.</li>
-<li>You will write your solution in a function called <code>temperedscale(octave, pitch)</code>
+<li>You will write your solution in a function called <code>temperedscale(int octave, int pitch)</code>
 right below the place where it says: <code>YOUR CODE HERE</code></li>
 <li>When the function call <code>temperedscale(0, 0)</code> is executed, the
 output of the program should be: <code>16.351597831287414</code></li>
