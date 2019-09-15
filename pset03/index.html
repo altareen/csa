@@ -235,9 +235,12 @@ the frequency. In other words, 5.9 corresponds to 880Hz, and 3.9 corresponds to
 220Hz. This mapping system assumes that each of the semitones within an octave is
 equally spaced, and this is known as a <strong>tempered scale.</strong></li>
 <li>The formula we use to calculate the frequency from a given <em>octave pitch</em> note is as follows:
-$$
+<!-- $$
 \mbox{frequency} = \text{ref} \times 2^{\left(\text{octa} + \frac{\text{semi}}{12.0}\right)}
-$$</li>
+$$ --></li>
+</ul>
+<p><img alt="Frequency equation" src="/csa/img/frequency.png" title="Frequency equation" /></p>
+<ul>
 <li>In <code>Java</code>, this formula would be implemented as:</li>
 </ul>
 <pre><code class="java">frequency = ref * Math.pow(2, (octa + (semi/12.0)));
