@@ -34,7 +34,7 @@ the frequency. In other words, 5.9 corresponds to 880Hz, and 3.9 corresponds to
 equally spaced, and this is known as a **tempered scale.**
 + The formula we use to calculate the frequency from a given *octave pitch* note is as follows:
 $$
-\mbox{frequency} = \mbox{ref} \times 2^{\mbox{octa} + \frac{\mbox{semi}}{12/0}}
+\mbox{frequency} = \mbox{ref} \times 2^{\left(\mbox{octa} + \frac{\mbox{semi}}{12.0}\right)}
 $$
 + In `Java`, this formula would be implemented as:
 ```java
