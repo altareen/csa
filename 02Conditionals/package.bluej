@@ -1,10 +1,10 @@
 #BlueJ package file
 objectbench.height=100
 objectbench.width=118
-package.editor.height=812
+package.editor.height=824
 package.editor.width=297
-package.editor.x=27
-package.editor.y=9
+package.editor.x=42
+package.editor.y=12
 package.numDependencies=0
 package.numTargets=12
 package.showExtends=true
