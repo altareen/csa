@@ -4,7 +4,7 @@ public class WhileLoop
     {
         // a counter-controlled while loop
         int count = 0;
-        while (count < 4)
+        while (count < 5)
         {
             System.out.println(count);
             count++;
