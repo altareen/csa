@@ -1,4 +1,4 @@
-public class Calendar
+public class APCalendar
 {
     public static boolean isLeapYear(int year)
     {
@@ -31,7 +31,7 @@ public class Calendar
     
     public static int firstDayOfYear(int year)
     {
-        // In 2016, January 1st was on a Friday, day = 5
+        // in 2016, January 1 was on a Friday, so day = 5
         return 5;
     }
     
@@ -43,10 +43,13 @@ public class Calendar
     
     public static int dayOfWeek(int month, int day, int year)
     {
-        int weekday = firstDayOfYear(year);
-        int numdays = dayOfYear(month, day, year);
+        int weekday = firstDayOfYear(2016);
+        int numdays = dayOfYear(3, 1, 2016);
+        
         for (int i = 1; i < numdays; i++)
         {
+            System.out.print("Weekday: " + weekday);
+            System.out.println(" nth day: " + i);
             weekday = (weekday+1)%7;
         }
         return weekday;
@@ -56,16 +59,7 @@ public class Calendar
     {
         int outcome = numberOfLeapYears(1960, 2000);
         System.out.println("Number of leap years: " + outcome);
-        
-        int day = dayOfWeek(3, 1, 2016);
-        System.out.println("Weekday = " + day);
+        int solution = dayOfWeek(3, 1, 2016);
+        System.out.println("Weekday on March 1, 2016: " + solution);
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }

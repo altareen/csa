@@ -20,6 +20,7 @@ nav:
 - Labs:
     - 'Lab 1: Easter Sunday': lab01.md
     - 'Lab 2: Movie Critic': lab02.md
+    - 'Lab 3: Coin Change': lab03.md
 - Course Notes: notes.md
 - FRQs: frqs.md
 - Past Exams: pastexams.md
