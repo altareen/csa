@@ -15,11 +15,13 @@
 + [Lab 2](lab02.md) is due on Friday, September 20th. It is a programming lab, which will be done in class.
 + [Problem Set 3](pset03.md) is due on Monday, September 23rd.
 + [Problem Set 4](pset04.md) is due on Tuesday, October 8th.
-+ [picoCTF 2019:](https://2019game.picoctf.com/#g=9473ed19fe1c472cbe3f128e681c8fb2) Use this link to register with my team, **Digital Dragons.** Note that you must use a VPN to overcome the reCAPTCHA. -->
++ [picoCTF 2019:](https://2019game.picoctf.com/#g=9473ed19fe1c472cbe3f128e681c8fb2) Use this link to register with my team, **Digital Dragons.** Note that you must use a VPN to overcome the reCAPTCHA.
 + [Lab 3](lab03.md) is due on Saturday, October 12th.
-+ [Problem Set 5](pset05.md) is due on Wednesday, October 16th.
++ [Problem Set 5](pset05.md) is due on Wednesday, October 16th. -->
++ [Lab 4](lab04.md) is due on Friday, October 18th.
++ [Problem Set 6](pset06.md) is due on Wednesday, October 23rd.
 + [Quiz 2](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Monday, October 21st.
-+ **Test 1: Java Syntax and Strings** will be held on Thursday, October 24th.
++ **Test 1: Java Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the `Math` class.
 
 ## Course Calendar: Semester One
 
@@ -32,8 +34,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        | 1 *National Day Holiday* | 2 *National Day Holiday* | 3 *National Day Holiday* | 4 *National Day Holiday* | 5 *SAT*
 6      | 7 *National Day Holiday* | 8 [**PSet 4 Due**](pset04.md) | 9         | 10       | 11    | 12 *Make-up Day*<br>[**Lab 3 Due**](lab03.md)
-13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18     | 19
-20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23        | 24 **Test 1: Java Syntax & Strings** | 25 *Field Trip* | 26
+13     | 14     | 15      | 16 [**PSet 5 Due**](pset05.md) | 17       | 18 [**Lab 4 Due**](lab04.md) | 19
+20     | 21 [**Quiz 2 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 22      | 23 [**PSet 6 Due**](pset06.md) | 24 **Test 1: Java Syntax & Strings** | 25 *Field Trip* | 26
 27     | 28     | 29      | 30        | 31 *Halloween* | | 
 
 ### November 2019
@@ -116,7 +118,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 *May Day* | 2 
-3      | 4      | 5       | 6         | 7        | 8      | 9 
+3      | 4      | 5       | 6         | 7        | 8 **AP CSA Exam 12:00PM** | 9 
 10     | 11     | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28       | 29     | 30
