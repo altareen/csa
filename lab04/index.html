@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Prior Tests - CSA</title>
+    <title>Lab 4: Gene Detection - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -122,7 +122,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -145,8 +145,8 @@
 
                         
                             
-<li >
-    <a href="../lab04/">Lab 4: Gene Detection</a>
+<li class="active">
+    <a href="./">Lab 4: Gene Detection</a>
 </li>
 
                         
@@ -167,8 +167,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Prior Tests</a>
+                    <li >
+                        <a href="../priortests/">Prior Tests</a>
                     </li>
                 
                 
@@ -193,12 +193,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../frqs/">
+                        <a rel="prev" href="../lab03/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../references/">
+                        <a rel="next" href="../notes/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -212,17 +212,55 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#prior-tests">Prior Tests</a></li>
-            <li class="second-level"><a href="#semester-1">Semester 1</a></li>
+        <li class="first-level active"><a href="#lab-4-gene-detection">Lab 4: Gene Detection</a></li>
+            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
-                <li class="third-level"><a href="#test-1-java-syntax-and-strings">Test 1: Java Syntax and Strings</a></li>
+            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#example-case">Example Case</a></li>
+                
+            <li class="second-level"><a href="#hints">Hints</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="prior-tests">Prior Tests</h1>
-<h2 id="semester-1">Semester 1</h2>
-<h3 id="test-1-java-syntax-and-strings">Test 1: <code>Java</code> Syntax and Strings</h3>
+<h1 id="lab-4-gene-detection">Lab 4: Gene Detection</h1>
+<div class="admonition note">
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
+</div>
+<h2 id="task-outline">Task Outline</h2>
+<ul>
+<li><strong>Due Date:</strong> Friday, October 18, 2019</li>
+<li><strong>Total Points:</strong> 10</li>
+<li>Implement a <code>Java</code> program that determines which gene is present in a DNA sequence.</li>
+</ul>
+<h2 id="background-theory">Background Theory</h2>
+<ul>
+<li>DNA is often described as a double helix of molecules known as <strong>nucleotides</strong>. Only four DNA nucleotides exist, and they are known by the labels A, C, G, and T. This means that we can conveniently represent a DNA sequence with a Java text string.</li>
+<li>A cluster of three nucleotides is called a <strong>codon</strong>, and they represent amino acids which are present in DNA. For example, ATG is a codon which occurs throughout a DNA sequence. Codons are significant, because they are markers which indicate the presence of a <strong>gene</strong>.</li>
+<li>ATG is the <strong>start codon</strong> which marks the beginning of a gene sequence. All of the nucleotides which are present, right up to, and including the <strong>stop codon</strong> are part of the gene.</li>
+</ul>
+<h2 id="example-case">Example Case</h2>
+<ul>
+<li>Consider the following DNA sequence: <code>ATATGTAGCTAGCATAATA</code></li>
+<li>The start codon is <code>ATG</code>, and the stop codon for this example is <code>TAA</code>. Note that there are 9 nucleotides between these codons: <code>AT</code> <code>ATGTAGCTAGCATAA</code> <code>TA</code></li>
+<li>Therefore, the gene sequence which results from these codons is: <code>ATGTAGCTAGCATAA</code></li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Note that we will not consider the case where a gene is absent from a DNA sequence. All of the DNA sequences used in the test benches have exactly one gene for you to find.</li>
+<li>Also, each of the DNA sequences will have exactly one stop codon for your program to locate. In other words, there will not be multiple stop codons in the gene sequences.</li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
 <table>
 <thead>
 <tr>
@@ -233,32 +271,40 @@
 </thead>
 <tbody>
 <tr>
-<td>Fall 2014</td>
-<td>104KB</td>
-<td><a href="/csa/pdf/csaTest01Fall2014.pdf">csaTest01Fall2014.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2015</td>
-<td>115KB</td>
-<td><a href="/csa/pdf/csaTest01Fall2015.pdf">csaTest01Fall2015.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2016</td>
-<td>93KB</td>
-<td><a href="/csa/pdf/csaTest01Fall2016.pdf">csaTest01Fall2016.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2017</td>
-<td>118KB</td>
-<td><a href="/csa/pdf/csaTest01Fall2017.pdf">csaTest01Fall2017.pdf</a></td>
-</tr>
-<tr>
-<td>Fall 2018</td>
-<td>147KB</td>
-<td><a href="/csa/pdf/csaTest01Fall2018.pdf">csaTest01Fall2018.pdf</a></td>
+<td><code>Java</code> Source Code for Gene Detection</td>
+<td>5.2KB</td>
+<td><a href="/csa/zip/lab04.zip">lab04.zip</a></td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<p><strong>Contents of <code>lab04.zip</code>:</strong></p>
+<pre><code class="bash">Lab04GeneDetection/
+├── GeneDetection.class
+├── GeneDetection.ctxt
+├── GeneDetection.java
+├── GeneDetectionJUnitTest.class
+├── GeneDetectionJUnitTest.ctxt
+├── GeneDetectionJUnitTest.java
+├── package.bluej
+└── README.TXT
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Java</code> program in the file <code>GeneDetection.java</code> that finds and displays a single gene which is present in a DNA sequence.</li>
+<li>You will write your solution in a function called <code>findGene(String dna, String stopCodon)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>findGene("ATATGTAGCTAGCATAATA", "TAA")</code> is executed, the output of the program should be: <code>ATGTAGCTAGCATAA</code></li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench.
+<code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful
+test with a <strong>red</strong> bar.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>GeneDetection.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul></div>
         
         
     </div>
