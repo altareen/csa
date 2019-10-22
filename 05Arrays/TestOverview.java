@@ -29,7 +29,86 @@ public class TestOverview
         
         // Fall 2016 Test 1
         
+        // Question 10.
+        int num = 407;
         
+        // Question 11.
+        num++;
+        num += 1;
+        num = num + 1;
         
+        // Question 16.
+        boolean b = false;
+        int m = 0;
+        if (m <= 44)
+        {
+            b = true;
+        }
+        
+        // Question 17.
+        for (int i = 2; i <= 10; i += 2)
+        {
+            System.out.println(i);
+        }
+        
+        // Question 22.
+        if (num%5 == 0)
+        {
+            System.out.println("multiple of 5");
+        }
+        
+        // Question 23.
+        if (num%2 == 0)
+        {
+            System.out.println("even");
+        }
+        else
+        {
+            System.out.println("odd");
+        }
+        
+        // Question 24.
+        if (num%5 == 0 && num%7 == 0)
+        {
+            System.out.println("multiple of 5 and 7");
+        }
+        
+        // Question 25.
+        if (num%3 == 0 && num%24 != 0)
+        {
+            System.out.println("multiple of 3 not 24");
+        }
+        
+        // Question 33.
+        double radius = 5.0;
+        double area = 3.14 * Math.pow(radius, 2);
+        System.out.println(area);
+        
+        // Question 34.
+        double fahrenheit = 83.0;
+        double celsius = 5.0/9.0 * (fahrenheit - 32);
+        System.out.println(celsius);
+        
+        // Question 36.
+        String grade = reportCard(3.89);
+        System.out.println(grade);
+    }
+    
+    public static String reportCard(double gpa)
+    {
+        String result = "";
+        if (gpa >= 3.5)
+        {
+            result = "A";
+        }
+        else if (gpa >= 2.5 && gpa < 3.5)
+        {
+            result = "B";
+        }
+        else if (gpa < 2.5)
+        {
+            result = "C";
+        }
+        return result;
     }
 }
