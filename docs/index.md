@@ -21,7 +21,7 @@
 + [Lab 4](lab04.md) is due on Friday, October 18th.
 + [Problem Set 6](pset06.md) is due on Wednesday, October 23rd.
 + [Quiz 2](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Monday, October 21st.
-+ **Test 1: Java Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the `Math` class.
++ **Test 1: Java Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the `Math` class. **Note:** Number conversions(binary to decimal, etc.) will **not** be covered.
 
 ## Course Calendar: Semester One
 
