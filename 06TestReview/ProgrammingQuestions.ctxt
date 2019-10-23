@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=double\ pythagoras(double,\ double)
+comment1.params=num
+comment1.target=void\ hailstone(int)
+comment2.params=grow\ shrink
+comment2.target=int\ multiply(int,\ int)
+comment3.params=word
+comment3.target=java.lang.String\ pigLatin(java.lang.String)
+comment4.params=sample
+comment4.target=int\ countVowels(java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
