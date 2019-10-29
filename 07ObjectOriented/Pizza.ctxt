@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pizza()
+comment1.params=
+comment1.target=java.lang.String\ getTopping()
+comment2.params=
+comment2.target=double\ getPrice()
+comment3.params=t
+comment3.target=void\ setTopping(java.lang.String)
+comment4.params=p
+comment4.target=void\ setPrice(double)
+numComments=5
