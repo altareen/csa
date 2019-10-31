@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=StepMonitor(int)
+comment1.params=
+comment1.target=int\ activeDays()
+comment2.params=
+comment2.target=double\ averageSteps()
+comment3.params=steps
+comment3.target=void\ addDailySteps(int)
+numComments=4
