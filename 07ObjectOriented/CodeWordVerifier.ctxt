@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=min\ max\ ex
+comment0.target=CodeWordVerifier(int,\ int,\ java.lang.String)
+comment1.params=ex
+comment1.target=CodeWordVerifier(java.lang.String)
+comment2.params=word
+comment2.target=boolean\ isValid(java.lang.String)
+numComments=3

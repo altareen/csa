@@ -3,7 +3,7 @@ public class StepTracker
     // instance variables
     private int minSteps;
     private int days;
-    private int activeDays;
+    private int powerDays;
     private int dailySteps;
     
     // constructors
@@ -11,7 +11,7 @@ public class StepTracker
     {
         minSteps = m;
         days = 0;
-        activeDays = 0;
+        powerDays = 0;
         dailySteps = 0;
     }
     
@@ -22,19 +22,18 @@ public class StepTracker
         days++;
         if (s >= minSteps)
         {
-            activeDays++;
+            powerDays++;
         }
     }
     
     public int activeDays()
     {
-        return activeDays;
+        return powerDays;
     }
     
     public double averageSteps()
     {
-        
+        double result = 1.0*dailySteps/days;
+        return result;
     }
-    
-    
 }
