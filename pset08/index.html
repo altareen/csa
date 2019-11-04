@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>FRQs - CSA</title>
+    <title>Problem Set 8: Book Identifier - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -124,8 +124,8 @@
 
                         
                             
-<li >
-    <a href="../pset08/">Problem Set 8: Book Identifier</a>
+<li class="active">
+    <a href="./">Problem Set 8: Book Identifier</a>
 </li>
 
                         
@@ -179,8 +179,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">FRQs</a>
+                    <li >
+                        <a href="../frqs/">FRQs</a>
                     </li>
                 
                 
@@ -211,12 +211,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../notes/">
+                        <a rel="prev" href="../pset07/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../priortests/">
+                        <a rel="next" href="../lab01/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -230,95 +230,140 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#free-response-questions">Free Response Questions</a></li>
+        <li class="first-level active"><a href="#problem-set-8-book-identifier">Problem Set 8: Book Identifier</a></li>
+            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
+                
+            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+                <li class="third-level"><a href="#calculating-the-check-digit">Calculating the Check Digit</a></li>
+                <li class="third-level"><a href="#example-case">Example Case</a></li>
+            <li class="second-level"><a href="#hints">Hints</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="free-response-questions">Free Response Questions</h1>
+<h1 id="problem-set-8-book-identifier">Problem Set 8: Book Identifier</h1>
 <div class="admonition note">
-<p>The following are the official AP free response questions from previous
-years' examinations. The <code>zip</code> files contain each question's code framework,
-complete with <code>JUnit</code> test cases.</p>
+<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
 </div>
+<h2 id="task-outline">Task Outline</h2>
+<ul>
+<li><strong>Due Date:</strong> Monday, November 11, 2019</li>
+<li><strong>Total Points:</strong> 10</li>
+<li>Implement a <code>Java</code> program that validates <code>ISBN-10</code> numbers.</li>
+</ul>
+<h2 id="background-theory">Background Theory</h2>
+<ul>
+<li>Any book that you purchase has an <strong>International Standard Book Number</strong>, otherwise known as an <code>ISBN</code> or <code>ISBN-10</code>. This is a 10-digit number that uniquely identifies books and media products published internationally.</li>
+<li>It turns out that the last number of an <code>ISBN-10</code>'s digits is a <strong>check digit,</strong> otherwise known as a <strong>checksum,</strong> which is a number related mathematically to its preceding digits. </li>
+<li>The digits of an <code>ISBN-10</code> are supposed to adhere to a formula, and this check digit allows you to verify whether an <code>ISBN-10</code>'s other nine digits are valid, without having to resort to other means of verification, for instance, by performing a query on a database of books.</li>
+</ul>
+<h3 id="calculating-the-check-digit">Calculating the Check Digit</h3>
+<ul>
+<li>The check digit of an <code>ISBN-10</code> number can be defined as follows. If <span><span class="MathJax_Preview">x_1</span><script type="math/tex">x_1</script></span> represents an <code>ISBN-10</code>'s first digit, and <span><span class="MathJax_Preview">x_{10}</span><script type="math/tex">x_{10}</script></span> represents its last digit, then we have the following:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 6 \cdot x_6 + 7 \cdot x_7 + 8 \cdot x_8 + 9 \cdot x_9)\, \mbox{modulus}\, 11
+</div>
+<script type="math/tex; mode=display">
+x_{10} = (1 \cdot x_1 + 2 \cdot x_2 + 3 \cdot x_3 + 4 \cdot x_4 + 5 \cdot x_5 + 6 \cdot x_6 + 7 \cdot x_7 + 8 \cdot x_8 + 9 \cdot x_9)\, \mbox{modulus}\, 11
+</script>
+</div>
+<ul>
+<li>In other words, to compute an <code>ISBN-10</code>'s tenth digit, multiply its first digit by 1, its second digit by 2, its third digit by 3, its fourth digit by 4, its fifth digit by 5, its sixth digit by 6, its seventh digit by 7, its eighth digit by 8, and its ninth digit by 9. Take the sum of those products and perform a modulus with 11. The result should be the <code>ISBN-10</code>'s tenth digit.</li>
+</ul>
+<h3 id="example-case">Example Case</h3>
+<ul>
+<li>For example, the <code>ISBN-10</code> for the textbook <em>Absolute Beginner's Guide to C</em>, is <code>0-789-75198-4</code>, the tenth digit of which is <code>4</code>. Let's take the sum of the products of the<code>ISBN-10</code>'s first nine digits:</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+(1 \cdot \texttt{0}) + (2 \cdot \texttt{7}) + (3 \cdot \texttt{8}) + (4 \cdot \texttt{9}) + (5 \cdot \texttt{7}) + (6 \cdot \texttt{5}) + (7 \cdot \texttt{1}) + (8 \cdot \texttt{9}) + (9 \cdot \texttt{8}) = 290
+</div>
+<script type="math/tex; mode=display">
+(1 \cdot \texttt{0}) + (2 \cdot \texttt{7}) + (3 \cdot \texttt{8}) + (4 \cdot \texttt{9}) + (5 \cdot \texttt{7}) + (6 \cdot \texttt{5}) + (7 \cdot \texttt{1}) + (8 \cdot \texttt{9}) + (9 \cdot \texttt{8}) = 290
+</script>
+</div>
+<ul>
+<li>If we now compute 290 modulus 11, we get a result of 4, which is equal to the tenth digit in the <code>ISBN-10</code>. This verifies that the <code>ISBN-10</code> number is legitimate.</li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Note that the <code>ISBN-10</code> is being read in as a string, and it gets converted to an integer by using the <code>Integer.parseInt()</code> function. The reason for this procedure is to accommodate <code>ISBN-10</code>'s with leading zeros.</li>
+<li>Now that we have an <code>ISBN-10</code> in integer form, how can we get at its tenth(i.e. rightmost) digit? Perhaps we can make a clever use of the modulus operator:</li>
+</ul>
+<pre><code class="Java">tenth = isbncode % 10
+</code></pre>
+
+<ul>
+<li>Now, how can we get a that same variable's ninth digit? Perhaps we can get rid of its tenth digit by using integer division:</li>
+</ul>
+<pre><code class="Java">isbncode = isbncode // 10
+</code></pre>
+
+<ul>
+<li>Afterwards, we can access the ninth digit by using the modulus operator:</li>
+</ul>
+<pre><code class="Java">ninth = isbncode % 10
+</code></pre>
+
+<ul>
+<li>Hopefully, you can detect a pattern here. Remember that a certain looping construct such as the <code>for</code> loop can be very useful here.</li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
 <table>
 <thead>
 <tr>
-<th>PDF File</th>
+<th>Description</th>
 <th>File Size</th>
-<th>Q1</th>
-<th>Q2</th>
-<th>Q3</th>
-<th>Q4</th>
+<th>File Name</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="/csa/pdf/apCSA2010.pdf">apCSA2010.pdf</a></td>
-<td>74KB</td>
-<td><a href="/csa/zip/cookie.zip">cookie.zip</a></td>
-<td></td>
-<td><a href="/csa/zip/trail.zip">trail.zip</a></td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2013.pdf">apCSA2013.pdf</a></td>
-<td>207KB</td>
-<td><a href="/csa/zip/music.zip">music.zip</a></td>
-<td></td>
-<td>N/A</td>
-<td><a href="/csa/zip/sky.zip">sky.zip</a></td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2014.pdf">apCSA2014.pdf</a></td>
-<td>265KB</td>
-<td><a href="/csa/zip/mixed.zip">mixed.zip</a></td>
-<td>N/A</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2015.pdf">apCSA2015.pdf</a></td>
-<td>346KB</td>
-<td></td>
-<td><a href="/csa/zip/hidden.zip">hidden.zip</a></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2016.pdf">apCSA2016.pdf</a></td>
-<td>368KB</td>
-<td></td>
-<td></td>
-<td><a href="/csa/zip/crossword.zip">crossword.zip</a></td>
-<td><a href="/csa/zip/formatter.zip">formatter.zip</a></td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2017.pdf">apCSA2017.pdf</a></td>
-<td>264KB</td>
-<td></td>
-<td></td>
-<td><a href="/csa/zip/phrase.zip">phrase.zip</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2018.pdf">apCSA2018.pdf</a></td>
-<td>312KB</td>
-<td></td>
-<td><a href="/csa/zip/pair.zip">pair.zip</a></td>
-<td></td>
-<td><a href="/csa/zip/tester.zip">tester.zip</a></td>
-</tr>
-<tr>
-<td><a href="/csa/pdf/apCSA2019.pdf">apCSA2019.pdf</a></td>
-<td>279KB</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><code>Java</code> Source Code for Book Identifier</td>
+<td>4.9KB</td>
+<td><a href="/csa/zip/pset08.zip">pset08.zip</a></td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<p><strong>Contents of <code>pset08.zip</code>:</strong></p>
+<pre><code class="bash">PSet08BookIdentifier/
+├── BookIdentifier.class
+├── BookIdentifier.ctxt
+├── BookIdentifier.java
+├── BookIdentifierJUnitTest.class
+├── BookIdentifierJUnitTest.ctxt
+├── BookIdentifierJUnitTest.java
+├── package.bluej
+└── README.TXT
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Java</code> program in the file <code>BookIdentifier.java</code> that determines whether an <code>ISBN-10</code> number is legitimate or not.</li>
+<li>You will write your solution in a function called <code>validateBook(String isbnCode)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>If the <code>ISBN-10</code> number is valid, then your <code>validateBook</code> method should return the string <code>YES</code>. Otherwise, if the <code>ISBN-10</code> number is not valid, then your <code>validateBook</code> method should return the string <code>NO</code>.</li>
+<li>When the function call <code>validateBook("0789751984")</code> is executed, the output of the program should be: <code>YES</code></li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>BookIdentifier.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul></div>
         
         
     </div>
