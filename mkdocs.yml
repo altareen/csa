@@ -26,6 +26,7 @@ nav:
     - 'Lab 3: Coin Change': lab03.md
     - 'Lab 4: Gene Detection': lab04.md
     - 'Lab 5: Smooth Signal': lab05.md
+    - 'Lab 6: Caesar Cipher': lab06.md
 - Course Notes: notes.md
 - FRQs: frqs.md
 - Prior Tests: priortests.md

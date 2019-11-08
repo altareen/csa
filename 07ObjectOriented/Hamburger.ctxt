@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Hamburger()
+comment1.params=s\ c
+comment1.target=Hamburger(java.lang.String,\ int)
+comment2.params=s
+comment2.target=Hamburger(java.lang.String)
+comment3.params=temperature
+comment3.target=Hamburger(int)
+numComments=4
