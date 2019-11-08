@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Lab 2: Movie Critic - CSA</title>
+    <title>Lab 6: Caesar Cipher - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -145,8 +145,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Lab 2: Movie Critic</a>
+<li >
+    <a href="../lab02/">Lab 2: Movie Critic</a>
 </li>
 
                         
@@ -169,8 +169,8 @@
 
                         
                             
-<li >
-    <a href="../lab06/">Lab 6: Caesar Cipher</a>
+<li class="active">
+    <a href="./">Lab 6: Caesar Cipher</a>
 </li>
 
                         
@@ -217,12 +217,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../lab01/">
+                        <a rel="prev" href="../lab05/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../lab03/">
+                        <a rel="next" href="../notes/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -236,10 +236,12 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#lab-2-movie-critic">Lab 2: Movie Critic</a></li>
+        <li class="first-level active"><a href="#lab-6-caesar-cipher">Lab 6: Caesar Cipher</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+            <li class="second-level"><a href="#hints">Hints</a></li>
                 
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
                 
@@ -253,53 +255,45 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="lab-2-movie-critic">Lab 2: Movie Critic</h1>
+<h1 id="lab-6-caesar-cipher">Lab 6: Caesar Cipher</h1>
 <div class="admonition note">
 <p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Friday, September 20, 2019</li>
+<li><strong>Due Date:</strong> Friday, November 8, 2019</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>In this lab, you must write a <code>Java</code> program that determines the user's interest
-in seeing a particular movie.</li>
+<li>Implement a <code>Java</code> program that encrypts a message using the caesar cipher.</li>
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>You interest in a movie depends upon the following two factors:<ol>
-<li>The <code>price</code> of the movie's ticket, in dollars.</li>
-<li>The <code>rating</code> which the movie received, which can be any decimal number from 0 to 5, inclusive.</li>
-</ol>
-</li>
+<li>The main idea behind the Caesar Cipher is to shift each letter in a secret message by a fixed number of positions. If this shifting behaviour goes further than the end of the alphabet, then it <strong>wraps around</strong> to the beginning, and continues from there.</li>
+<li>The security of this crypto-system relies on having only the sender and the recipient know the secret <strong>key</strong>, which is the number of places by which the letters have been shifted.</li>
 </ul>
-<hr />
+<p><img alt="Encryption shift" src="/csp/img/encrypt.png" title="Encryption shift" /></p>
+<h2 id="hints">Hints</h2>
 <ul>
-<li>Your level of interest in a movie is shown by the following indicators:<ul>
-<li><code>extremely interested</code></li>
-<li><code>very interested</code></li>
-<li><code>moderately interested</code></li>
-<li><code>barely interested</code></li>
-<li><code>completely uninterested</code></li>
+<li>Unencrypted text is generally called <strong>plaintext</strong>, and encrypted text is generally known as <strong>ciphertext</strong>. The quantity by which the letters have been shifted is called a <strong>key</strong>.</li>
+<li>In general, the Caesar Cipher encrypts messages by <strong>rotating</strong> each letter by <code>key</code> positions. More formally, if <code>p</code> is the <code>alphabet</code> index of a plaintext letter, and <code>key</code> is the amount by which that letter is shifted, then the <code>alphabet</code> index of the corresponding letter in the ciphertext <code>c</code>, is computed by the following equation:</li>
 </ul>
-</li>
-</ul>
-<hr />
+<div>
+<div class="MathJax_Preview">
+c = (p + \mbox{key})\, \mbox{mod}\, 26
+</div>
+<script type="math/tex; mode=display">
+c = (p + \mbox{key})\, \mbox{mod}\, 26
+</script>
+</div>
 <ul>
-<li>The following are the criteria upon which you make your movie viewing decisions. <em>Hint:</em>
-Implement these in <code>Java</code> using an <code>if-else if-else</code> code structure.<ol>
-<li>You like bargains. Any movie that costs less than $5.00 is one that you are <code>extremely interested</code> in viewing, as long as that movie has received 2 or more stars.</li>
-<li>You dislike expensive movies. If a movie costs $12.00 or more, then you are <code>completely uninterested</code> in seeing it. However, if that movie happened to recieve 5 stars, then you are <code>barely interested</code> in seeing it.</li>
-<li>You enjoy high quality movies. You are <code>very interested</code> in seeing any movie that has a price below $12.00, and is rated greater than 4 stars.</li>
-<li>You are <code>moderately interested</code> in seeing any movie which costs between $5.00 and $11.99, as long as those movies received between 2 and 4 stars, inclusive.</li>
-<li>You dislike poorly rated movies. Any movie that has received less than 2 stars is one that you are <code>barely interested</code> in seeing, as long as it costs less than $5.00.</li>
-<li>If any movie falls outside of the previously mentioned criteria, then you are <code>completely uninterested</code> in seeing it.</li>
-</ol>
-</li>
+<li>You may assume that all of the characters in the plaintext messages are in <strong>lowercase</strong>.</li>
+<li>There will be no punctuation present in any of the plaintext messages, with the exception of the space character. You should design your program so that any spaces in the plaintext message are transferred into the encrypted ciphertext.</li>
+<li>Note that the complete lowercase <code>alphabet</code> has been provided for you:</li>
 </ul>
-<hr />
+<pre><code class="Java">String alphabet = &quot;abcdefghijklmnopqrstuvwxyz&quot;;
+</code></pre>
+
 <ul>
-<li>Note that the function <code>selectFilm()</code> returns the variable <code>outcome</code>. You must assign
-the corresponding interest String to the variable <code>outcome</code>, before it is returned.</li>
+<li>This means that <code>"a"</code> corresponds to index <code>0</code>, <code>"b"</code> corresponds to index <code>1</code>, etc.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -312,42 +306,37 @@ the corresponding interest String to the variable <code>outcome</code>, before i
 </thead>
 <tbody>
 <tr>
-<td><code>Java</code> Source Code for Movie Critic</td>
-<td>4.8KB</td>
-<td><a href="/csa/zip/lab02.zip">lab02.zip</a></td>
+<td><code>Java</code> Source Code for Caesar Cipher</td>
+<td>5.6KB</td>
+<td><a href="/csa/zip/lab06.zip">lab06.zip</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Contents of <code>lab02.zip</code>:</strong></p>
-<pre><code class="bash">Lab02MovieCritic/
-├── MovieCritic.class
-├── MovieCritic.ctxt
-├── MovieCritic.java
-├── MovieCriticJUnitTest.class
-├── MovieCriticJUnitTest.ctxt
-├── MovieCriticJUnitTest.java
+<p><strong>Contents of <code>lab06.zip</code>:</strong></p>
+<pre><code class="bash">Lab06CaesarCipher/
+├── CaesarCipher.class
+├── CaesarCipher.ctxt
+├── CaesarCipher.java
+├── CaesarCipherJUnitTest.class
+├── CaesarCipherJUnitTest.ctxt
+├── CaesarCipherJUnitTest.java
 ├── package.bluej
 └── README.TXT
 </code></pre>
 
 <h2 id="specification">Specification</h2>
 <ul>
-<li>Write a <code>Java</code> program in the file <code>MovieCritic.java</code> that produces an output which
-corresponds to your particular interest in a certain movie.</li>
-<li>You will write your solution in a function called <code>selectFilm(double price, double rating)</code>
-right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>When the function call <code>selectFilm(6.5, 3,5)</code> is executed, the
-output of the program should be: <code>moderately interested</code></li>
+<li>Write a <code>Java</code> program in the file <code>CaesarCipher.java</code> that encrypts a message using the caesar cipher.</li>
+<li>You will write your solution in a function called <code>encrypt(String message, int key)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>encrypt("hello", 1)</code> is executed, the output of the program should be: <code>ifmmp</code></li>
 </ul>
 <h2 id="testing">Testing</h2>
 <ul>
-<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench.
-<code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful
-test with a <strong>red</strong> bar.</li>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
 </ul>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>MovieCritic.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>Upload the file <code>CaesarCipher.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
