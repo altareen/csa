@@ -24,9 +24,10 @@
 + **Test 1: Java Syntax and Strings** will be held on Thursday, October 24th. This test will cover all material up to and including the `Math` class. **Note:** Number conversions(binary to decimal, etc.) will **not** be covered.
 + [Lab 5](lab05.md) is due on Friday, November 1st.
 + [Problem Set 7](pset07.md) is due on Monday, November 4th.
-+ [Quiz 3](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 6th. -->
++ [Quiz 3](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 6th.
 + [Lab 6](lab06.md) is due on Friday, November 8th.
-+ [Problem Set 8](pset08.md) is due on Monday, November 11th.
++ [Problem Set 8](pset08.md) is due on Monday, November 11th. -->
++ [Problem Set 9](pset09.md) is due on Monday, November 18th. -->
 + [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 
 ## Course Calendar: Semester One
@@ -41,7 +42,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         |           |          | 1 [**Lab 5 Due**](lab05.md) | 2 *SAT II*
 3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 6 Due**](lab06.md) | 9 
 10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15     | 16
-17     | 18     | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22     | 23
+17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28 *Thanksgiving* | 29     | 30
 
 ### December 2019
