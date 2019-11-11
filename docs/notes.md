@@ -12,6 +12,7 @@ Description | File Size | File Name
 **Arrays:** A collection of data for simple access. | 237KB | [csaNotes06Arrays.pdf](/csa/pdf/csaNotes06Arrays.pdf)
 **Object Oriented Programming:** Creating classes with state and behavior. | 290KB | [csaNotes07ObjectOriented.pdf](/csa/pdf/csaNotes07ObjectOriented.pdf)
 **Object References:** Aliasing and its associated effects. | 151KB | [csaNotes08ObjectReferences.pdf](/csa/pdf/csaNotes08ObjectReferences.pdf)
+**Arrays of Objects:** Using the array data structure with objects. | 180KB | [csaNotes09ObjectArrays.pdf](/csa/pdf/csaNotes09ObjectArrays.pdf)
 
 <!--
 !!! note ""
