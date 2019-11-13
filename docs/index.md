@@ -27,7 +27,7 @@
 + [Quiz 3](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 6th.
 + [Lab 6](lab06.md) is due on Friday, November 8th.
 + [Problem Set 8](pset08.md) is due on Monday, November 11th. -->
-+ [Problem Set 9](pset09.md) is due on Monday, November 18th. -->
++ [Problem Set 9](pset09.md) is due on Monday, November 18th.
 + [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 
 ## Course Calendar: Semester One

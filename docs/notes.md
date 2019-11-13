@@ -13,6 +13,7 @@ Description | File Size | File Name
 **Object Oriented Programming:** Creating classes with state and behavior. | 290KB | [csaNotes07ObjectOriented.pdf](/csa/pdf/csaNotes07ObjectOriented.pdf)
 **Object References:** Aliasing and its associated effects. | 151KB | [csaNotes08ObjectReferences.pdf](/csa/pdf/csaNotes08ObjectReferences.pdf)
 **Arrays of Objects:** Using the array data structure with objects. | 180KB | [csaNotes09ObjectArrays.pdf](/csa/pdf/csaNotes09ObjectArrays.pdf)
+**Parameters of Different Types:** Using primitive, object, and array parameters. | 174KB | [csaNotes10Parameters.pdf](/csa/pdf/csaNotes10Parameters.pdf)
 
 <!--
 !!! note ""
