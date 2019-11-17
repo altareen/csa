@@ -51,7 +51,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2 *Junior Week* | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
-8      | 9      | 10      | 11        | 12       | 13     | 14
+8      | 9      | 10      | 11        | 12 **Test 2: Arrays & Classes** | 13     | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
 29     | 30     | 31 *NYE Carnival* | | | | 
