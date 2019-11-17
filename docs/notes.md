@@ -14,6 +14,7 @@ Description | File Size | File Name
 **Object References:** Aliasing and its associated effects. | 151KB | [csaNotes08ObjectReferences.pdf](/csa/pdf/csaNotes08ObjectReferences.pdf)
 **Arrays of Objects:** Using the array data structure with objects. | 180KB | [csaNotes09ObjectArrays.pdf](/csa/pdf/csaNotes09ObjectArrays.pdf)
 **Parameters of Different Types:** Using primitive, object, and array parameters. | 174KB | [csaNotes10Parameters.pdf](/csa/pdf/csaNotes10Parameters.pdf)
+**ArrayLists:** A flexible data structure for use with objects. | 177KB | [csaNotes11ArrayLists.pdf](/csa/pdf/csaNotes11ArrayLists.pdf)
 
 <!--
 !!! note ""
