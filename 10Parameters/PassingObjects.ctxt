@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ outputResult()
+comment1.params=element
+comment1.target=void\ outputSolution(Digit)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

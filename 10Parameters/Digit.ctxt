@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Digit()
+comment1.params=
+comment1.target=int\ getNum()
+comment2.params=n
+comment2.target=void\ setNum(int)
+numComments=3
