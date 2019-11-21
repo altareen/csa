@@ -28,9 +28,11 @@
 + [Lab 6](lab06.md) is due on Friday, November 8th.
 + [Problem Set 8](pset08.md) is due on Monday, November 11th.
 + [Lab 7](lab07.md) is due on Friday, November 15th.
-+ [Problem Set 9](pset09.md) is due on Monday, November 18th. -->
-+ [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
++ [Problem Set 9](pset09.md) is due on Monday, November 18th.
++ [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th. -->
++ [Lab 8](lab08.md) is due on Friday, November 22nd.
 + [Problem Set 10](pset10.md) is due on Monday, November 25th.
++ [Quiz 5: Classes and Objects](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 
 ## Course Calendar: Semester One
 
@@ -44,7 +46,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         |           |          | 1 [**Lab 5 Due**](lab05.md) | 2 *SAT II*
 3      | 4 [**PSet 7 Due**](pset07.md) | 5       | 6 [**Quiz 3 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 7        | 8 *End of First Quarter*<br>[**Lab 6 Due**](lab06.md) | 9 
 10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 7 Due**](lab07.md) | 16
-17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22     | 23
+17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 8 Due**](lab08.md) | 23
 24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29     | 30
 
 ### December 2019
@@ -52,7 +54,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2 *Junior Week* | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
-8      | 9      | 10      | 11        | 12 **Test 2: Arrays & Classes** | 13     | 14
+8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12 **Test 2: Arrays & Classes** | 13     | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
 29     | 30     | 31 *NYE Carnival* | | | | 
