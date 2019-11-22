@@ -30,6 +30,7 @@ nav:
     - 'Lab 5: Smooth Signal': lab05.md
     - 'Lab 6: Caesar Cipher': lab06.md
     - 'Lab 7: Polybius Cipher': lab07.md
+    - 'Lab 8: Substitution Cipher': lab08.md
 - Course Notes: notes.md
 - FRQs: frqs.md
 - Prior Tests: priortests.md
