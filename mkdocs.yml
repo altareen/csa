@@ -22,6 +22,7 @@ nav:
     - 'Problem Set 8: Book Identifier': pset08.md
     - 'Problem Set 9: Radiation Exposure': pset09.md
     - 'Problem Set 10: Credit Card': pset10.md
+    - 'Problem Set 11: Vigenere Cipher': pset11.md
 - Labs:
     - 'Lab 1: Easter Sunday': lab01.md
     - 'Lab 2: Movie Critic': lab02.md

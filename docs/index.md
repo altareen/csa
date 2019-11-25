@@ -29,9 +29,10 @@
 + [Problem Set 8](pset08.md) is due on Monday, November 11th.
 + [Lab 7](lab07.md) is due on Friday, November 15th.
 + [Problem Set 9](pset09.md) is due on Monday, November 18th.
-+ [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th. -->
++ [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 + [Lab 8](lab08.md) is due on Friday, November 22nd.
-+ [Problem Set 10](pset10.md) is due on Monday, November 25th.
++ [Problem Set 10](pset10.md) is due on Monday, November 25th. -->
++ [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Classes and Objects](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 
 ## Course Calendar: Semester One
@@ -53,7 +54,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *Junior Week* | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
+1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
 8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12 **Test 2: Arrays & Classes** | 13     | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
@@ -118,18 +119,18 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3      | 4 *Tomb Sweeping Day*
-5      | 6      | 7       | 8         | 9        | 10     | 11
+       |        |         | 1         | 2        | 3      | 4 
+5      | 6 *Tomb Sweeping Holiday* | 7       | 8         | 9        | 10     | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
-26     | 27     | 28      | 29        | 30
+26 *Make-up Day* | 27     | 28      | 29        | 30
 
 ### May 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         |           |          | 1 *May Day* | 2 
-3      | 4      | 5       | 6         | 7        | 8 **AP CSA Exam 12:00PM** | 9 
+       |        |         |           |          | 1 *May Day Holiday* | 2 
+3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8 **AP CSA Exam 12:00PM** | 9 *Make-up Day*
 10     | 11     | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28       | 29     | 30
@@ -142,8 +143,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        | 1      | 2       | 3         | 4        | 5      | 6
 7      | 8      | 9       | 10        | 11       | 12     | 13
 14     | 15     | 16      | 17        | 18       | 19     | 20
-21     | 22     | 23      | 24        | 25 *Dragon Boat Festival* | 26     | 27
-28     | 29     | 30
+21     | 22     | 23      | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
+28 *Make-up Day* | 29     | 30
 
 ### July 2020
 
