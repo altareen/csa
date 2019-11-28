@@ -14,5 +14,5 @@ PDF File | File Size | Q1 | Q2 | Q3 | Q4
 [apCSA2016.pdf](/csa/pdf/apCSA2016.pdf) | 368KB | | | [crossword.zip](/csa/zip/crossword.zip) | [formatter.zip](/csa/zip/formatter.zip)
 [apCSA2017.pdf](/csa/pdf/apCSA2017.pdf) | 264KB | | | [phrase.zip](/csa/zip/phrase.zip) |
 [apCSA2018.pdf](/csa/pdf/apCSA2018.pdf) | 312KB | | [pair.zip](/csa/zip/pair.zip) | |  [tester.zip](/csa/zip/tester.zip)
-[apCSA2019.pdf](/csa/pdf/apCSA2019.pdf) | 279KB | |  | | 
+[apCSA2019.pdf](/csa/pdf/apCSA2019.pdf) | 279KB | |  | [delimiters.zip](/csa/zip/delimiters.zip) | 
 
