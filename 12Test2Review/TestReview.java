@@ -49,6 +49,54 @@ public class TestReview
                         {7.3, 7.9} };
         System.out.println(temps.length);
         
+        // Short Answer
+        
+        // 1.
+        double[] numsa = new double[800];
+        
+        // 2.
+        double[] scoresa = new double[21];
+        System.out.println(scoresa.length);
+        
+        // 3.
+        int[] tempsa = {34, 56, -102, 18, 5};
+        System.out.println(tempsa[1]);
+        
+        // 4.
+        int[] tempsb = {34, 56, -102, 18, 5};
+        System.out.println(tempsb[3] + tempsb[4]);
+        
+        // 5.
+        String[] names = {"Bob", "Jim", "Sally"};
+        System.out.println(names[2]);
+        
+        // 6.
+        int[] numsb = new int[7];
+        for (int i = 0; i < numsb.length; i++)
+        {
+            numsb[i] = 23;
+        }
+        System.out.println(Arrays.toString(numsb));
+        
+        // 7.
+        int[][] elementsa = new int[10][10];
+        for (int i = 0; i < elementsa.length; i++)
+        {
+            for (int j = 0; j < elementsa[0].length; j++)
+            {
+                elementsa[i][j] = 58;
+            }
+        }
+        for (int[] row : elementsa)
+            System.out.println(Arrays.toString(row));
+        
+        // 9.
+        // 75
+        // 10
+        
+        
+        
+        
         
         
         
