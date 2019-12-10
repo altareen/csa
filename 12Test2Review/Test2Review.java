@@ -49,7 +49,70 @@ public class Test2Review
                 {7.3, 7.9} };
                 System.out.println(temps.length);
         
+        // Short Answer
+        // 1.
+        double[] nums1 = new double[800];
         
+        // 2.
+        double[] scores1 = new double[21];
+        System.out.println(scores1.length);
         
+        // 3.
+        int[] temps1 = {34, 56, -102, 18, 5};
+        System.out.println(temps1[1]);
+        
+        // 4.
+        System.out.println(temps1[3] + temps1[4]);
+        
+        // 5.
+        String[] names = {"Bob", "Jim", "Sally"};
+        System.out.println(names[2]);
+        
+        // 6.
+        int[] nums2 = new int[7];
+        for (int i = 0; i < nums2.length; i++)
+        {
+            nums2[i] = 23;
+        }
+        System.out.println(Arrays.toString(nums2));
+        
+        // 7.
+        int[][] numz = new int[10][10];
+        for (int i = 0; i < numz.length; i++)
+        {
+            for (int j = 0; j < numz[0].length; j++)
+            {
+                numz[i][j] = 58;
+            }
+        }
     }
+    
+    // 8.
+    private int length;
+    private int width;
+    
+    public int getPerimiter()
+    {
+        int result = 2*length + 2*width;
+        return result;
+    }
+    
+    public int getArea()
+    {
+        int area = length * width;
+        return area;
+    }
+        
+    // 9.
+    // 75
+    // 10
+    
+        
+        
+        
+        
+        
+        
+        
+    
 }
