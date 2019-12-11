@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=d\ m\ e
+comment0.target=Telescope(double,\ double,\ double)
+comment1.params=
+comment1.target=double\ magnification()
+comment2.params=
+comment2.target=double\ fNumber()
+numComments=3

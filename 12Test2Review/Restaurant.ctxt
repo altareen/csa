@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Restaurant()
+comment1.params=i\ c
+comment1.target=void\ addCustomer(int,\ Customer)
+comment2.params=
+comment2.target=void\ applyDiscount()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=m\ p
+comment0.target=Customer(java.lang.String,\ double)
+comment1.params=
+comment1.target=java.lang.String\ getMeal()
+comment2.params=
+comment2.target=double\ getPrice()
+comment3.params=m
+comment3.target=void\ setMeal(java.lang.String)
+comment4.params=p
+comment4.target=void\ setPrice(double)
+numComments=5
