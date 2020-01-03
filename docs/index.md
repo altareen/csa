@@ -32,32 +32,23 @@
 + [Quiz 4: Java Arrays](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, November 20th.
 + [Lab 8](lab08.md) is due on Friday, November 22nd.
 + [Problem Set 10](pset10.md) is due on Monday, November 25th.
-+ [Lab 9](lab09.md) is due on Friday, November 29th. -->
++ [Lab 9](lab09.md) is due on Friday, November 29th.
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Classes and Objects](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
-+ **Test 2: Java Arrays and Classes** will be held on Thursday, December 12th.
++ **Test 2: Java Arrays and Classes** will be held on Thursday, December 12th. -->
++ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library.
 
 ## Course Calendar: Semester One
 
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
 
-### December 2019
-
-Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
------- | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
-8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12 **Test 2: Arrays & Classes** | 13     | 14
-15     | 16     | 17      | 18        | 19       | 20     | 21
-22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
-29     | 30     | 31 *NYE Carnival* | | | | 
-
 ### January 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
-5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 *Final Exams* | 11
+5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 **CSA Exam 2:00PM**<br>**6F Library** | 11
 12     | 13 *Final Exams* | 14      | 15        | 16       | 17 *Winter Break Begins* | 18
 19     | 20     | 21      | 22        | 23       | 24  | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
@@ -91,6 +82,16 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 10     | 11 *Remembrance Day*<br>[**PSet 8 Due**](pset08.md) | 12      | 13        | 14       | 15 [**Lab 7 Due**](lab07.md) | 16
 17     | 18 [**PSet 9 Due**](pset09.md) | 19      | 20 [**Quiz 4 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 21       | 22 [**Lab 8 Due**](lab08.md) | 23
 24     | 25 [**PSet 10 Due**](pset10.md) | 26      | 27        | 28 *Thanksgiving* | 29 [**Lab 9 Due**](lab09.md) | 30
+
+### December 2019
+
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
+------ | ------ | ------- | --------- | -------- | ------ | --------
+1      | 2 *Junior Week*<br>[**PSet 11 Due**](pset11.md) | 3 *Junior Week* | 4 *Junior Week* | 5 *Junior Week* | 6 *Junior Week* | 7 *SAT*
+8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12 **Test 2: Arrays & Classes** | 13     | 14
+15     | 16     | 17      | 18        | 19       | 20     | 21
+22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
+29     | 30     | 31 *NYE Carnival* | | | | 
 
 ## Course Calendar: Semester Two
 

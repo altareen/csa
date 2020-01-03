@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MasterOrder()
+comment1.params=theOrder
+comment1.target=void\ addOrder(CookieOrder)
+comment2.params=
+comment2.target=int\ getTotalBoxes()
+comment3.params=cookieVar
+comment3.target=int\ removeVariety(java.lang.String)
+comment4.params=
+comment4.target=java.util.ArrayList\ getOrders()
+numComments=5
