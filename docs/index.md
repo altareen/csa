@@ -49,7 +49,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1 *New Year's Day* | 2        | 3      | 4
 5      | 6 *Final Exams* | 7 *Final Exams* | 8 *Final Exams* | 9 *Final Exams* | 10 **CSA Exam 2:00PM**<br>**6F Library** | 11
-12     | 13 *Final Exams* | 14      | 15        | 16       | 17 *Winter Break Begins* | 18
+12     | 13 *Final Exams* | 14 *Final Exams* | 15        | 16       | 17 *Winter Break Begins* | 18
 19     | 20     | 21      | 22        | 23       | 24  | 25 *Chinese New Year*
 26     | 27     | 28      | 29        | 30       | 31 | 
 

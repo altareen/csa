@@ -15,6 +15,11 @@ Description | File Size | File Name
 **Arrays of Objects:** Using the array data structure with objects. | 180KB | [csaNotes09ObjectArrays.pdf](/csa/pdf/csaNotes09ObjectArrays.pdf)
 **Parameters of Different Types:** Using primitive, object, and array parameters. | 174KB | [csaNotes10Parameters.pdf](/csa/pdf/csaNotes10Parameters.pdf)
 **ArrayLists:** A flexible data structure for use with objects. | 177KB | [csaNotes11ArrayLists.pdf](/csa/pdf/csaNotes11ArrayLists.pdf)
+
+## Semester 2
+
+Description | File Size | File Name
+----------- | --------- | ---------
 **Wrapper Classes:** Using primitive types with an `ArrayList` | 146KB | [csaNotes12WrapperClasses.pdf](/csa/pdf/csaNotes12WrapperClasses.pdf)
 **Removing Items from an `ArrayList`:** Looping through an `ArrayList` and removing multiple items | 172KB | [csaNotes13ArrayListRemoval.pdf](/csa/pdf/csaNotes13ArrayListRemoval.pdf)
 
