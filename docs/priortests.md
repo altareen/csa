@@ -9,6 +9,13 @@ Description | File Size | File Name
 Spring 2018 | 176KB | [csaTest03Spring2018.pdf](/csa/pdf/csaTest03Spring2018.pdf)
 Spring 2019 | 170KB | [csaTest03Spring2019.pdf](/csa/pdf/csaTest03Spring2019.pdf)
 
+### Test 4: Searching, Sorting & Recursion
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Spring 2018 | 154KB | [csaTest04Spring2018.pdf](/csa/pdf/csaTest04Spring2018.pdf)
+Spring 2019 | 150KB | [csaTest04Spring2019.pdf](/csa/pdf/csaTest04Spring2019.pdf)
+
 ## Semester 1
 
 ### Test 1: `Java` Syntax and Strings
