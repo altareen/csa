@@ -22,11 +22,13 @@ Fall 2015 |  97KB | [csaTest02Fall2015.pdf](/csa/pdf/csaTest02Fall2015.pdf)
 Fall 2016 | 156KB | [csaTest02Fall2016.pdf](/csa/pdf/csaTest02Fall2016.pdf)
 Fall 2017 | 163KB | [csaTest02Fall2017.pdf](/csa/pdf/csaTest02Fall2017.pdf)
 Fall 2018 | 168KB | [csaTest02Fall2018.pdf](/csa/pdf/csaTest02Fall2018.pdf)
+Fall 2019 | 175KB | [csaTest02Fall2019.pdf](/csa/pdf/csaTest02Fall2019.pdf)
 
 ### Semester 1 Exam
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Fall 2018 | 251KB | [csaSemester1Exam2018.pdf](/csa/pdf/csaSemester1Exam2018.pdf)
 Fall 2017 | 244KB | [csaSemester1Exam2017.pdf](/csa/pdf/csaSemester1Exam2017.pdf)
+Fall 2018 | 251KB | [csaSemester1Exam2018.pdf](/csa/pdf/csaSemester1Exam2018.pdf)
+Fall 2019 | 242KB | [csaSemester1Exam2019.pdf](/csa/pdf/csaSemester1Exam2019.pdf)
 

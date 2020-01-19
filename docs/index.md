@@ -37,7 +37,7 @@
 + [Quiz 5: Classes and Objects](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 + **Test 2: Java Arrays and Classes** will be held on Thursday, December 12th.
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
-+ [Problem Set 12](pset12.md) is due on Monday, February 17th.
++ **Winter Break Assignment:** [Problem Set 12](pset12.md) is due on Monday, February 17th.
 
 ## Course Calendar: Semester Two
 
