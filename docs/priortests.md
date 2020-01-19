@@ -1,5 +1,14 @@
 # Prior Tests
 
+## Semester 2
+
+### Test 3: Inheritance
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Spring 2018 | 176KB | [csaTest03Spring2018.pdf](/csa/pdf/csaTest03Spring2018.pdf)
+Spring 2019 | 170KB | [csaTest03Spring2019.pdf](/csa/pdf/csaTest03Spring2019.pdf)
+
 ## Semester 1
 
 ### Test 1: `Java` Syntax and Strings
