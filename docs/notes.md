@@ -11,7 +11,7 @@ Description | File Size | File Name
 **Inheritance:** Providing a unique form of code-sharing. | 189KB | [csaNotes14Inheritance.pdf](/csa/pdf/csaNotes14Inheritance.pdf)
 **Polymorphism:** Allowing methods and objects to take on different forms. | 170KB | [csaNotes15Polymorphism.pdf](/csa/pdf/csaNotes15Polymorphism.pdf)
 **Searching Algorithms:** Locating an element from within a data structure. | 208KB | [csaNotes16Searching.pdf](/csa/pdf/csaNotes16Searching.pdf)
-**Sorting Algorithms:** Rearranging data into a particular order.(To be posted) | KB | [csaNotes17Sorting.pdf](/csa/pdf/csaNotes17Sorting.pdf)
+**Sorting Algorithms:** Rearranging data into a particular order. | 236KB | [csaNotes17Sorting.pdf](/csa/pdf/csaNotes17Sorting.pdf)
 **Recursion:** A programming technique in which a method calls itself.(To be posted) | KB | [csaNotes18Recursion.pdf](/csa/pdf/csaNotes18Recursion.pdf)
 
 ## Semester 1
