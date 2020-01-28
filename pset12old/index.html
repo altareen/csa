@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -148,8 +148,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Problem Set 12: Library Rental</a>
+<li >
+    <a href="../pset12/">Problem Set 12: Library Rental</a>
 </li>
 
                         
@@ -258,16 +258,6 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
-                    <li >
-                        <a rel="prev" href="../pset11/">
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="../lab01/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
             </ul>
         </div>
     </div>
@@ -278,111 +268,23 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-12-library-rentalwinter-break-assignment">Problem Set 12: Library Rental(Winter Break Assignment)</a></li>
+        <li class="first-level active"><a href="#problem-set-12-library-rental">Problem Set 12: Library Rental</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
-                
-            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
-                
-            <li class="second-level"><a href="#the-problem-scope">The Problem Scope</a></li>
-                
-            <li class="second-level"><a href="#hints">Hints</a></li>
-                
-            <li class="second-level"><a href="#example-case">Example Case</a></li>
-                
-            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
-                
-            <li class="second-level"><a href="#specification">Specification</a></li>
-                
-            <li class="second-level"><a href="#testing">Testing</a></li>
-                
-            <li class="second-level"><a href="#submission">Submission</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-12-library-rentalwinter-break-assignment">Problem Set 12: Library Rental(Winter Break Assignment)</h1>
+<h1 id="problem-set-12-library-rental">Problem Set 12: Library Rental</h1>
 <div class="admonition note">
 <p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
 <li><strong>Due Date:</strong> Monday, February 17, 2020</li>
-<li><strong>Total Points:</strong> 10</li>
+<li><strong>Total Points:</strong> 21</li>
 <li>Implement a <code>Java</code> program that manages an electronic book rental system for a library.</li>
 </ul>
-<h2 id="background-theory">Background Theory</h2>
-<ul>
-<li>The libraries of SmallTownX need a new electronic book rental system, and it is up to you to build it. SmallTownX has two libraries. Each library offers many books to rent. Customers can print the list of available books, borrow, and return books.</li>
-<li>Four classes have been given: <code>Book</code>, <code>Library</code>, <code>LibraryTest</code>, and <code>LibraryJUnitTest</code>. These classes provide the functionality for the book database. You must implement the missing methods in the file <code>Library.java</code> to make these classes work.</li>
-</ul>
-<h2 id="the-problem-scope">The Problem Scope</h2>
-<ul>
-<li>Your task for this problem set is to implement the <code>Library</code> class. It is the class that will represent each library, and manage a collection of books. All libraries have the same hours: 9AM to 5PM daily. However, they have different addresses and book collections (i.e., ArrayLists of <code>Book</code> objects).</li>
-<li>The files <code>Book.java</code>, <code>Library.java</code>, <code>LibraryTest.java</code> and <code>LibraryJUnitTest.java</code> have been provided for you. <code>public static void main(String[] args)</code> method is included in <code>LibraryTest.java</code> which creates two libraries, and then performs some operations on the books. However, most of the necessary methods in the file <code>Library.java</code> are missing.</li>
-<li>Specifically, the methods you will need to define and implement are the following:</li>
-</ul>
-<pre><code class="bash">public static String displayOpeningHours()
-public String displayAddress()
-public String addBook(Book novel)
-public String borrowBook(String novelName)
-public String returnBook(String textName)
-</code></pre>
-
-<h2 id="hints">Hints</h2>
-<ul>
-<li>Note that all of these methods return a <code>String</code>. If you examine the output of the program run, you will notice that every time some method is called, it returns a confirmation message.</li>
-<li>Do not include any <code>System.out.println()</code> statements to display a confirmation message to the output. These <code>String</code> messages are return values from each method, which are then printed out in the file <code>LibraryTest.java</code>.</li>
-<li>Be careful when comparing <code>String</code> objects. Use <code>first.equals(second)</code> for comparing the contents of
-<code>first</code> and <code>second</code>.</li>
-<li>You should get a small part working at a time. Start by commenting out the entire <code>public static void main(String[] args)</code>, then uncomment it line by line. Run the program, get the first lines working, then uncomment the next line, get that working, etc.</li>
-<li>You must <strong>not</strong> modify the code in <code>Book.java</code>, <code>LibraryTest.java</code>, and <code>LibraryJUnitTest.java</code>.</li>
-<li>This is a much tougher assignment than what you are accustomed to. Start working on this project as soon as possible, and leave plenty of time for debugging. Also, I will be checking carefully for plaigiarism violations.</li>
-</ul>
-<h2 id="example-case">Example Case</h2>
-<ul>
-<li>The output when you run this program should be similar to the following:</li>
-</ul>
-<pre><code class="bash">Adding books to the first library:
-You have successfully added The Da Vinci Code
-You have successfully added Le Petit Prince
-You have successfully added A Tale of Two Cities
-You have successfully added The Lord of the Rings
-
-Library hours:
-Libraries are open daily from 9am to 5pm.
-
-Library addresses:
-10 Main St.
-228 Liberty St.
-
-Borrowing The Lord of the Rings:
-You have successfully borrowed The Lord of the Rings
-Sorry, this book is already borrowed.
-Sorry, this book is not in our catalog.
-
-Books available in the first library:
-The Da Vinci Code
-Le Petit Prince
-A Tale of Two Cities
-
-Books available in the second library:
-No books in our catalog.
-
-Returning The Lord of the Rings to the second library:
-Sorry, this book is not in our catalog.
-
-Returning The Lord of the Rings to the first library:
-You have successfully returned The Lord of the Rings
-
-Books available in the first library:
-The Da Vinci Code
-Le Petit Prince
-A Tale of Two Cities
-The Lord of the Rings
-</code></pre>
-
-<h2 id="code-distribution">Code Distribution</h2>
 <table>
 <thead>
 <tr>
@@ -393,50 +295,17 @@ The Lord of the Rings
 </thead>
 <tbody>
 <tr>
-<td><code>Java</code> Source Code for Library Rental</td>
+<td>Winter Break Assignment: <code>Library Rental</code></td>
+<td>59KB</td>
+<td><a href="/csa/pdf/apCompSciAProblemSet12.pdf">apCompSciAProblemSet12.pdf</a></td>
+</tr>
+<tr>
+<td><code>Java</code> Source Code for <code>Library Rental</code></td>
 <td>12KB</td>
 <td><a href="/csa/zip/pset12.zip">pset12.zip</a></td>
 </tr>
 </tbody>
-</table>
-<p><strong>Contents of <code>pset12.zip</code>:</strong></p>
-<pre><code class="bash">PSet12LibraryRental/
-├── Book.class
-├── Book.ctxt
-├── Book.java
-├── Library.class
-├── Library.ctxt
-├── Library.java
-├── LibraryJUnitTest.class
-├── LibraryJUnitTest.ctxt
-├── LibraryJUnitTest.java
-├── LibraryTest.class
-├── LibraryTest.ctxt
-├── LibraryTest.java
-├── package.bluej
-└── README.TXT
-</code></pre>
-
-<h2 id="specification">Specification</h2>
-<ul>
-<li>Write a <code>Java</code> program in the file <code>Library.java</code> that manages an electronic book rental system for a library.</li>
-<li>You will write your solutions in the following functions where it states: <code>YOUR CODE HERE</code></li>
-</ul>
-<pre><code class="bash">public static String displayOpeningHours()
-public String displayAddress()
-public String addBook(Book novel)
-public String borrowBook(String novelName)
-public String returnBook(String textName)
-</code></pre>
-
-<h2 id="testing">Testing</h2>
-<ul>
-<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
-</ul>
-<h2 id="submission">Submission</h2>
-<ul>
-<li>Upload the file <code>VigenereCipher.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
-</ul></div>
+</table></div>
         
         
     </div>
