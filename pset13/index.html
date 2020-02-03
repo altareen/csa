@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Lab 8: Substitution Cipher - CSA</title>
+    <title>Problem Set 13: Stock Broker - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -77,7 +77,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Problem Sets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -154,8 +154,8 @@
 
                         
                             
-<li >
-    <a href="../pset13/">Problem Set 13: Stock Broker</a>
+<li class="active">
+    <a href="./">Problem Set 13: Stock Broker</a>
 </li>
 
                         
@@ -164,7 +164,7 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -211,8 +211,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Lab 8: Substitution Cipher</a>
+<li >
+    <a href="../lab08/">Lab 8: Substitution Cipher</a>
 </li>
 
                         
@@ -265,12 +265,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../lab07/">
+                        <a rel="prev" href="../pset12/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../lab09/">
+                        <a rel="next" href="../lab01/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -284,11 +284,17 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#lab-8-substitution-cipher">Lab 8: Substitution Cipher</a></li>
+        <li class="first-level active"><a href="#problem-set-13-stock-broker">Problem Set 13: Stock Broker</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
                 
+            <li class="second-level"><a href="#the-problem-scope">The Problem Scope</a></li>
+                
+                <li class="third-level"><a href="#instance-variables">Instance variables:</a></li>
+                <li class="third-level"><a href="#constructor">Constructor:</a></li>
+                <li class="third-level"><a href="#accessor-method">Accessor method:</a></li>
+                <li class="third-level"><a href="#mutator-method">Mutator method:</a></li>
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
                 
             <li class="second-level"><a href="#specification">Specification</a></li>
@@ -301,23 +307,57 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="lab-8-substitution-cipher">Lab 8: Substitution Cipher</h1>
+<h1 id="problem-set-13-stock-broker">Problem Set 13: Stock Broker</h1>
 <div class="admonition note">
 <p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Friday, November 22, 2019</li>
+<li><strong>Due Date:</strong> Monday, March 9, 2020</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Java</code> program that encrypts a message using the substitution cipher.</li>
+<li>Implement a <code>Java</code> program that manages the value of an investor's stock portfolio.</li>
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>In a substitution cipher, we <strong>encrypt</strong> a message by replacing every letter in a plaintext message with some other letter.</li>
-<li>In order to perform this encryption, we make use of a <strong>key</strong>. In the case of the substitution cipher, the key is a mapping of each of the letters of the alphabet to the letter that it should correspond to, when we encrypt it.</li>
-<li>To <strong>decrypt</strong> the message, the receiver of the message would need to know the key, so that they could reverse the process.</li>
-<li>A <strong>key</strong>, for example, might be the string <code>jtrekyavogdxpsncuizlfbmwhq</code>. This 26-character key means that <code>a</code>(the first letter of the alphabet) should be converted into <code>j</code>(the first letter of the key). Similarly, the letter <code>b</code>(the second letter of the alphabet) should be converted into <code>t</code>(the second letter of the key) and so on.</li>
-<li>Therefore, a message like <code>hello</code> would be encrypted as <code>vkxxn</code>, replacing each of the letters according to the mapping as determined by the key.</li>
+<li>Stocks are a type of security that gives stockholders a share of ownership in a company. They are issued by companies in order to raise capital, so that they may grow their business, or undertake new projects.</li>
+<li>Investors can buy and sell stocks on an open exchange called the stock market. It contains an indexed list of every company that has issued stock. It also provides the price of every company's stock at the current time, which is the stock's market value.</li>
+<li>The price of a stock can fluctuate dramatically according to market forces, and the concept of supply and demand. If a company is perfoming well, then the price of its stock tends to rise. However, if a company is doing poorly, then its stock price can drop.</li>
+<li>Investors can make money on the stock market by purchasing stock at a certain price, and then selling it later at a higher price, in which case they have earned a profit. However, if an investor sells a stock for a lower price than they have purchased it, then they shall incur a loss.</li>
+</ul>
+<h2 id="the-problem-scope">The Problem Scope</h2>
+<ul>
+<li>In order to simplify matters, we will assume that the investor is only purchasing shares in a single company. Also, we will only deal with the purchasing of shares, not the selling of them.</li>
+<li>Your <code>StockBroker</code> class should have the following properties:</li>
+</ul>
+<h3 id="instance-variables">Instance variables:</h3>
+<ul>
+<li><code>private ArrayList&lt;Integer&gt; shares;</code>
+This data structure stores the <strong>quantity of shares</strong> that a investor has purchased, and each purchase is recorded as a separate event.</li>
+<li><code>private ArrayList&lt;Double&gt; cost;</code>
+This data structure stores the <strong>price per share</strong> for each transaction that an investor has engaged in.</li>
+<li>In general, these two <code>ArrayLists</code> form a transaction history for the investor, as they store the quantity of shares purchased and the price per share for every purchase event, which occurs at every index.</li>
+</ul>
+<h3 id="constructor">Constructor:</h3>
+<ul>
+<li><code>public StockBroker()</code>
+This is a default constructor, as it has no parameters. It is responsible for initializing the two <code>ArrayLists</code>, <code>shares</code> and <code>cost</code>.</li>
+</ul>
+<h3 id="accessor-method">Accessor method:</h3>
+<ul>
+<li><code>public double getProfit(double currentPrice)</code>
+This method indicates the amount of money that has been gained or lost on the investor's stock holdings. The method has one parameter, which is the current price per share of the stock, which is a <code>double</code>.</li>
+<li>If the investor has earned money on his stock investments(market value is greater than total cost), then the result will be a positive value. However, if the investor has lost money on the stock(market value is smaller than total cost), then the result will be a negative value.</li>
+<li>The profit is computed in the following manner:<ul>
+<li>Compute the current <strong>market value</strong> of all the shares of the stock(which is the total number of shares purchased so far, times the current price passed to the method).</li>
+<li>Subtract the <strong>total cost</strong> of all the shares of the stock(the total amount of money that the person has paid for all the shares of stock purchased so far).</li>
+</ul>
+</li>
+</ul>
+<h3 id="mutator-method">Mutator method:</h3>
+<ul>
+<li><code>{public void purchase(int amount, double price)</code>
+This method executes a purchase transaction, in which an investor buys some shares of stock at a given price.</li>
+<li>The method has two parameters: <code>amount</code>, which is the <strong>number of shares</strong> as an <code>int</code>, and <code>price</code>, which is the <strong>price per share</strong> as a <code>double</code>.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -330,29 +370,33 @@
 </thead>
 <tbody>
 <tr>
-<td><code>Java</code> Source Code for Substitution Cipher</td>
-<td>6.0KB</td>
-<td><a href="/csa/zip/lab08.zip">lab08.zip</a></td>
+<td><code>Java</code> Source Code for Stock Broker</td>
+<td>7.5KB</td>
+<td><a href="/csa/zip/pset13.zip">pset13.zip</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Contents of <code>lab08.zip</code>:</strong></p>
-<pre><code class="bash">Lab08SubstitutionCipher/
+<p><strong>Contents of <code>pset13.zip</code>:</strong></p>
+<pre><code class="bash">PSet13StockBroker/
 ├── package.bluej
 ├── README.TXT
-├── SubstitutionCipher.class
-├── SubstitutionCipher.ctxt
-├── SubstitutionCipher.java
-├── SubstitutionCipherJUnitTest.class
-├── SubstitutionCipherJUnitTest.ctxt
-└── SubstitutionCipherJUnitTest.java
+├── StockBroker.class
+├── StockBroker.ctxt
+├── StockBroker.java
+├── StockBrokerJUnitTest.class
+├── StockBrokerJUnitTest.ctxt
+├── StockBrokerJUnitTest.java
+├── StockBrokerTest.class
+├── StockBrokerTest.ctxt
+└── StockBrokerTest.java
+
 </code></pre>
 
 <h2 id="specification">Specification</h2>
 <ul>
-<li>Write a <code>Java</code> program in the file <code>SubstitutionCipher.java</code> that encrypts a message using the substitution cipher.</li>
-<li>You will write your solution in a function called <code>encrypt(String message, String key)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>When the function call <code>encrypt("hello", "jtrekyavogdxpsncuizlfbmwhq")</code> is executed, the output of the program should be: <code>vkxxn</code></li>
+<li>Write a <code>Java</code> program in the file <code>StockBroker.java</code> that keeps track of an investor's purchases of stock in a particular company. The price of a stock changes frequently, so stocks bought at different times are usually purchased at different prices.</li>
+<li>You will write your solution in a class called <code>public class StockBroker</code>, right below the place where it says: <code>YOUR CODE HERE</code>.</li>
+<li>The program <code>StockBrokerTest</code> includes method calls to <code>purchase()</code> and <code>getProfit()</code>. It depicts an investor making a net profit of $30.00. This is because the investor buys a total of 30 shares(20 + 10) for a total of <span><span class="MathJax_Preview">90.00 cost(</span><script type="math/tex">90.00 cost(</script></span>70.00 + $20.00), but the new current share price is $4.00, meaning that the shares are now worth $120.00. The output of the program should be: <code>Profit earned = 30.0</code></li>
 </ul>
 <h2 id="testing">Testing</h2>
 <ul>
@@ -360,7 +404,7 @@
 </ul>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>SubstitutionCipher.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>Upload the file <code>StockBroker.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
