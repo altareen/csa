@@ -4,7 +4,7 @@
     [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` programs to this automated grading platform.
 
 ## Task Outline
-+ **Due Date:** Monday, February 17, 2020
++ **Due Date:** Monday, March 2nd, 2020
 + **Total Points:** 10
 + Implement a `Java` program that manages an electronic book rental system for a library.
 
