@@ -37,7 +37,8 @@
 + [Quiz 5: Classes and Objects](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 + **Test 2: Java Arrays and Classes** will be held on Thursday, December 12th.
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
-+ **Winter Break Assignment:** [Problem Set 12](pset12.md) is due on Monday, March 2nd.
++ [Problem Set 12](pset12.md): **Library Rental** is due on Monday, March 2nd(Winter Break Assignment).
++ [Problem Set 13](pset13.md): **Stock Broker** is due on Monday, March 9th.
 
 ## Course Calendar: Semester Two
 
@@ -69,7 +70,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2 *School Resumes*<br>[**PSet 12 Due**](pset12.md) | 3       | 4         | 5        | 6      | 7 
-8      | 9      | 10      | 11        | 12       | 13     | 14
+8      | 9 [**PSet 13 Due**](pset13.md) | 10      | 11        | 12       | 13     | 14
 15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
 22     | 23     | 24      | 25        | 26       | 27     | 28
 29     | 30     | 31

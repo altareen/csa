@@ -38,7 +38,7 @@ This method indicates the amount of money that has been gained or lost on the in
     + Subtract the **total cost** of all the shares of the stock(the total amount of money that the person has paid for all the shares of stock purchased so far).
 
 ### Mutator method:
-+ `{public void purchase(int amount, double price)`
++ `public void purchase(int amount, double price)`
 This method executes a purchase transaction, in which an investor buys some shares of stock at a given price.
 + The method has two parameters: `amount`, which is the **number of shares** as an `int`, and `price`, which is the **price per share** as a `double`.
 
@@ -67,7 +67,7 @@ PSet13StockBroker/
 ## Specification
 + Write a `Java` program in the file `StockBroker.java` that keeps track of an investor's purchases of stock in a particular company. The price of a stock changes frequently, so stocks bought at different times are usually purchased at different prices.
 + You will write your solution in a class called `public class StockBroker`, right below the place where it says: `YOUR CODE HERE`.
-+ The program `StockBrokerTest` includes method calls to `purchase()` and `getProfit()`. It depicts an investor making a net profit of $30.00. This is because the investor buys a total of 30 shares(20 + 10) for a total of $90.00 cost($70.00 + $20.00), but the new current share price is $4.00, meaning that the shares are now worth $120.00. The output of the program should be: `Profit earned = 30.0`
++ The program `StockBrokerTest` includes method calls to `purchase()` and `getProfit()`. It depicts an investor making a net profit of \$30.00. This is because the investor buys a total of 30 shares(20 + 10) for a total of \$90.00 cost(\$70.00 + \$20.00), but the new current share price is \$4.00, meaning that the shares are now worth \$120.00. The output of the program should be: `Profit earned = 30.0`
 
 ## Testing
 + Click on the **Run Tests** button to execute the `JUnit` test bench. `JUnit` indicates a successful test with a **green** bar, and an unsuccessful test with a **red** bar.
