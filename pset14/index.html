@@ -295,6 +295,16 @@
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
                 
+            <li class="second-level"><a href="#hints">Hints</a></li>
+                
+            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
+                
+            <li class="second-level"><a href="#specification">Specification</a></li>
+                
+            <li class="second-level"><a href="#testing">Testing</a></li>
+                
+            <li class="second-level"><a href="#submission">Submission</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -332,7 +342,7 @@ of the gene.
 </code></pre>
 
 <ul>
-<li>\item The nucleotide sequence that is present between the start and stop codons is as follows:</li>
+<li>The nucleotide sequence that is present between the start and stop codons is as follows:</li>
 </ul>
 <pre><code class="bash">GTC[ATGCTACGTACGTATCGAGTCTCGTAA]CTG
 </code></pre>
@@ -364,6 +374,67 @@ of the gene.
 <ul>
 <li>Since the CG ratio is greater than 0.3, we can conclude that this nucleotide sequence is a valid, protein-coding gene.</li>
 <li>Note that we need to multiply this ratio by 1.0, in order to force a decimal division.</li>
+</ul>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Your program must examine each of the provided DNA sequences, and determine if a valid, protein-coding gene is present. This gene must satisfy the following constraints:<ul>
+<li>It must begin with a valid <strong>start codon</strong>: ATG</li>
+<li>It must end with a valid <strong>stop codon</strong>: TAA, TAG, or TGA</li>
+<li>It must contain at least <strong>5</strong> codons, including its initial start codon, and its final stop codon.</li>
+<li>The size of the gene must be a multiple of <strong>3</strong>.</li>
+<li>The nucleotides <strong>Cytosine</strong>(C) and <strong>Guanine</strong>(G) must make up at least 30% of the gene's total composition.</li>
+</ul>
+</li>
+<li>First, you should examine the provided DNA sequence for the index of the start codon, ATG. If this start codon is not present in the DNA sequence, then you simply cannot have any gene in there.</li>
+<li>Note that all of the DNA sequences under consideration will only contain zero or one ATG start codons. In other words, we will not consider cases where the DNA sequence contains more than one gene.</li>
+<li>Once you have the index of the ATG start codon, you should scan through the rest of the DNA sequence for a stop codon. There are only two possibilities here: either you find a stop codon, or you reach the end of the DNA sequence(in which case you didn't find a stop codon).</li>
+<li>As you are scanning through the DNA sequence, you should probably examine it in string chunks of size three. This makes it easy to compare each string chunk with each of the stop codon varieties.</li>
+<li>Once you have found a stop codon, you should check that the gene contains at least 5 codons in total, including the start and stop codons.</li>
+<li>Then, you should perform a simple calculation to verify that at least 30% of the gene's nucleotides are <strong>Cytosine</strong>(C) or <strong>Guanine</strong>(G).</li>
+<li>At various points in your program, especially during the evaluation of certain conditional statements, you may come to the conclusion that you don't have a valid gene. In such cases, there is no need to continue with the rest of the program, and you can simply exit the method with the statement: <code>return "INVALID"</code></li>
+</ul>
+<h2 id="code-distribution">Code Distribution</h2>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>File Size</th>
+<th>File Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Java</code> Source Code for Gene Extraction</td>
+<td>6.6KB</td>
+<td><a href="/csa/zip/pset14.zip">pset14.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contents of <code>pset14.zip</code>:</strong></p>
+<pre><code class="bash">PSet14GeneExtraction/
+├── GeneExtraction.class
+├── GeneExtraction.ctxt
+├── GeneExtraction.java
+├── GeneExtractionJUnitTest.class
+├── GeneExtractionJUnitTest.ctxt
+├── GeneExtractionJUnitTest.java
+├── package.bluej
+└── README.TXT
+</code></pre>
+
+<h2 id="specification">Specification</h2>
+<ul>
+<li>Write a <code>Java</code> program in the file <code>GeneExtraction.java</code> that determines whether a valid gene is present in a DNA sequence. If this is the case, then your program should return the sequence of nucleotide letters that represents the gene. Otherwise, it should return the string: \texttt{INVALID}</li>
+<li>You will write your solution in a function called <code>geneSequence(String dna)</code> right below the place where it says: <code>YOUR CODE HERE</code></li>
+<li>When the function call <code>geneSequence("GTCATGCTACGTACGTATCGAGTCTCGTAACTG")</code> is executed, the output of the program should be: <code>ATGCTACGTACGTATCGAGTCTCGTAA</code></li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<ul>
+<li>Upload the file <code>GeneExtraction.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
