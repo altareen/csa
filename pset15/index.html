@@ -389,7 +389,9 @@
 \underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4
 </script>
 </div>
-<p>Then, add together each of the underlined digits(the ones corresponding to <strong>even</strong> indexes):</p>
+<ul>
+<li>Then, add together each of the underlined digits(the ones corresponding to <strong>even</strong> indexes):</li>
+</ul>
 <div>
 <div class="MathJax_Preview">
 0 + 2 + 0 + 0 + 2 + 0 = 4
@@ -398,7 +400,9 @@
 0 + 2 + 0 + 0 + 2 + 0 = 4
 </script>
 </div>
-<p>Next, multiply this sum by 3:</p>
+<ul>
+<li>Next, multiply this sum by 3:</li>
+</ul>
 <div>
 <div class="MathJax_Preview">
 4 * 3 = 12
@@ -407,9 +411,9 @@
 4 * 3 = 12
 </script>
 </div>
-<ol>
+<ul>
 <li>Add together each of the non-underlined digits(the ones corresponding to <strong>odd</strong> indexes), except for the final digit:</li>
-</ol>
+</ul>
 <div>
 <div class="MathJax_Preview">
 1 + 0 + 0 + 0 + 3 = 4
@@ -418,9 +422,9 @@
 1 + 0 + 0 + 0 + 3 = 4
 </script>
 </div>
-<ol>
+<ul>
 <li>Then, add these two results together:</li>
-</ol>
+</ul>
 <div>
 <div class="MathJax_Preview">
 12 + 4 = 16
@@ -429,7 +433,9 @@
 12 + 4 = 16
 </script>
 </div>
-<p>Determine the remainder when this result is divided by 10(<strong>Hint:</strong> use the modulus operator):</p>
+<ul>
+<li>Determine the remainder when this result is divided by 10(<strong>Hint:</strong> use the modulus operator):</li>
+</ul>
 <div>
 <div class="MathJax_Preview">
 16 \,\,\texttt{%}\,\, 10 = 6
@@ -438,9 +444,9 @@
 16 \,\,\texttt{%}\,\, 10 = 6
 </script>
 </div>
-<ol>
+<ul>
 <li>The result is not equal to 0, so subtract it from 10:</li>
-</ol>
+</ul>
 <div>
 <div class="MathJax_Preview">
 10 - 6 = 4
@@ -449,9 +455,9 @@
 10 - 6 = 4
 </script>
 </div>
-<ol>
+<ul>
 <li>Notice that the resulting number 4 is exactly the same as the <strong>Modulo Check Character</strong>, so the UPC-A number is legitimate.</li>
-</ol>
+</ul>
 <h2 id="hints">Hints</h2>
 <ul>
 <li>Note that the UPC-A bar code pattern is being brought into the function as a String. This means that you will have to use the <code>substring()</code> method throughout your program, to extract the necessary bit patterns. Also, remember to use the <code>Integer.parseInt(String sample)</code> method to convert from a String to an integer.</li>
