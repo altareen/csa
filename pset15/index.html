@@ -378,10 +378,8 @@
 </ul>
 <h3 id="applying-the-algorithm">Applying the Algorithm</h3>
 <ul>
-<li>Consider an example of the UPC-A verification algorithm with the following number: <code>012000002304</code>. Note that the <strong>Modulo Check Character</strong> is 4.<ol>
+<li>Consider an example of the UPC-A verification algorithm with the following number: <code>012000002304</code>. Note that the <strong>Modulo Check Character</strong> is 4.</li>
 <li>For the sake of clarity, I have underlined every other digit, starting with the number's first digit:</li>
-</ol>
-</li>
 </ul>
 <div>
 <div class="MathJax_Preview">
@@ -391,8 +389,7 @@
 \underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4
 </script>
 </div>
-<pre><code>Then, add together each of the underlined digits(the ones corresponding to **even** indexes):
-</code></pre>
+<p>Then, add together each of the underlined digits(the ones corresponding to <strong>even</strong> indexes):</p>
 <div>
 <div class="MathJax_Preview">
 0 + 2 + 0 + 0 + 2 + 0 = 4
@@ -401,8 +398,7 @@
 0 + 2 + 0 + 0 + 2 + 0 = 4
 </script>
 </div>
-<pre><code>Next, multiply this sum by 3:
-</code></pre>
+<p>Next, multiply this sum by 3:</p>
 <div>
 <div class="MathJax_Preview">
 4 * 3 = 12
@@ -411,8 +407,9 @@
 4 * 3 = 12
 </script>
 </div>
-<pre><code>2. Add together each of the non-underlined digits(the ones corresponding to **odd** indexes), except for the final digit:
-</code></pre>
+<ol>
+<li>Add together each of the non-underlined digits(the ones corresponding to <strong>odd</strong> indexes), except for the final digit:</li>
+</ol>
 <div>
 <div class="MathJax_Preview">
 1 + 0 + 0 + 0 + 3 = 4
@@ -421,8 +418,9 @@
 1 + 0 + 0 + 0 + 3 = 4
 </script>
 </div>
-<pre><code>3. Then, add these two results together:
-</code></pre>
+<ol>
+<li>Then, add these two results together:</li>
+</ol>
 <div>
 <div class="MathJax_Preview">
 12 + 4 = 16
@@ -440,8 +438,9 @@
 16 \,\,\texttt{%}\,\, 10 = 6
 </script>
 </div>
-<pre><code>4. The result is not equal to 0, so subtract it from 10:
-</code></pre>
+<ol>
+<li>The result is not equal to 0, so subtract it from 10:</li>
+</ol>
 <div>
 <div class="MathJax_Preview">
 10 - 6 = 4
@@ -450,8 +449,9 @@
 10 - 6 = 4
 </script>
 </div>
-<pre><code>5. Notice that the resulting number 4 is exactly the same as the **Modulo Check Character**, so the UPC-A number is legitimate.
-</code></pre>
+<ol>
+<li>Notice that the resulting number 4 is exactly the same as the <strong>Modulo Check Character</strong>, so the UPC-A number is legitimate.</li>
+</ol>
 <h2 id="hints">Hints</h2>
 <ul>
 <li>Note that the UPC-A bar code pattern is being brought into the function as a String. This means that you will have to use the <code>substring()</code> method throughout your program, to extract the necessary bit patterns. Also, remember to use the <code>Integer.parseInt(String sample)</code> method to convert from a String to an integer.</li>
