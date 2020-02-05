@@ -39,6 +39,8 @@
 + **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
 + [Problem Set 12](pset12.md): **Library Rental** is due on Monday, March 2nd(Winter Break Assignment).
 + [Problem Set 13](pset13.md): **Stock Broker** is due on Monday, March 9th.
++ [Problem Set 14](pset14.md): **Gene Extraction** is due on Monday, March 16th.
++ [Problem Set 15](pset15.md): **Bar Code** is due on Monday, March 30th.
 
 ## Course Calendar: Semester Two
 
@@ -71,9 +73,9 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2 *School Resumes*<br>[**PSet 12 Due**](pset12.md) | 3       | 4         | 5        | 6      | 7 
 8      | 9 [**PSet 13 Due**](pset13.md) | 10      | 11        | 12       | 13     | 14
-15     | 16     | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
+15     | 16 [**PSet 14 Due**](pset14.md) | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
 22     | 23     | 24      | 25        | 26       | 27     | 28
-29     | 30     | 31
+29     | 30 [**PSet 15 Due**](pset15.md) | 31
 
 ### April 2020
 
