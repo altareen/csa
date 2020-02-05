@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>Problem Set 3: Note Frequency - CSA</title>
+    <title>Problem Set 15: Bar Code - CSA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -94,8 +94,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Problem Set 3: Note Frequency</a>
+<li >
+    <a href="../pset03/">Problem Set 3: Note Frequency</a>
 </li>
 
                         
@@ -166,8 +166,8 @@
 
                         
                             
-<li >
-    <a href="../pset15/">Problem Set 15: Bar Code</a>
+<li class="active">
+    <a href="./">Problem Set 15: Bar Code</a>
 </li>
 
                         
@@ -277,12 +277,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../pset02/">
+                        <a rel="prev" href="../pset14/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../pset04/">
+                        <a rel="next" href="../lab01/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -296,10 +296,17 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#problem-set-3-note-frequency">Problem Set 3: Note Frequency</a></li>
+        <li class="first-level active"><a href="#problem-set-15-bar-code">Problem Set 15: Bar Code</a></li>
             <li class="second-level"><a href="#task-outline">Task Outline</a></li>
                 
             <li class="second-level"><a href="#background-theory">Background Theory</a></li>
+                
+                <li class="third-level"><a href="#left-section">Left Section</a></li>
+                <li class="third-level"><a href="#right-section">Right Section</a></li>
+                <li class="third-level"><a href="#lookup-table">Lookup Table</a></li>
+            <li class="second-level"><a href="#example-case">Example Case</a></li>
+                
+            <li class="second-level"><a href="#hints">Hints</a></li>
                 
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
                 
@@ -313,60 +320,132 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="problem-set-3-note-frequency">Problem Set 3: Note Frequency</h1>
+<h1 id="problem-set-15-bar-code">Problem Set 15: Bar Code</h1>
 <div class="admonition note">
 <p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
 </div>
 <h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Monday, September 23, 2019</li>
+<li><strong>Due Date:</strong> Monday, March 30, 2020</li>
 <li><strong>Total Points:</strong> 10</li>
-<li>Implement a <code>Java</code> program that calculates the frequency of a particular music
-note, given its octave and pitch class.</li>
+<li>Implement a <code>Java</code> program that determines whether a particular bar code pattern is valid.</li>
 </ul>
 <h2 id="background-theory">Background Theory</h2>
 <ul>
-<li>One of the oldest problems in music theory is how to map the notes of a musical
-piece to a set of audio frequencies. Your task is to write a <code>Java</code> program that
-performs a particular kind of mapping.</li>
-<li>First, we must define a form of musical note notation. One common way of accomplishing
-this is to use the <em>octave pitch</em> notation. This notation represents each note as
-a number pair, where the first number indicates which <em>octave</em> the note belongs to, and
-the second number indicates which semitone the <em>pitch</em> corresponds to.</li>
-<li>There are 12 <strong>semitone notes</strong> within each octave on the keyboard, as in the
-following diagram:</li>
+<li>The Universal Product Code(UPC-A) is a bar code system that was first used in an Ohio grocery store back in 1974, to automate the checkout process. The UPC-A system has since been much more widely adopted, and it is now seen on virtually every product in existence.</li>
+<li>For example, the UPC code shown below is for a box of tissues made by a US company called Kleenex. Every UPC code contains 12 digits in total, and this code would be read as: <code>036000291452</code>
+<img alt="Kleenex UPC" src="/csa/img/kleenex.png" /></li>
+<li>In recent years, a new system has emerged called the European Article Number(EAN-13), which is backwards compatible with UPC-A. However, in this problem set, we will deal exclusively with the UPC-A system.</li>
+<li>Consider the following detailed diagram of a UPC-A code. It corresponds to a 2 Liter bottle of Pepsi.
+<img alt="Pepsi UPC" src="/csa/img/pepsidetail.png" /></li>
+<li>Each of the vertical bars in the UPC-A code represents a binary digit, where a black vertical bar represents a <code>1</code>, and a white vertical bar represents a <code>0</code>.</li>
+<li>You may have noticed that the middle and ends of a UPC-A code have several bars which are longer than the others. These longer bars serve to separate the UPC-A code into two distinct sections. The <strong>Left Hand Guard Bars</strong> and the <strong>Right Hand Guard Bars</strong> each consist of the bit pattern <code>101</code>. The <strong>Tall Center Bars</strong> have the pattern <code>01010</code>.</li>
+<li>The UPC-A code is separated into two distinct sections: The part to the left of the <strong>Tall Center Bars</strong>, and the part to the right of them. Each section has its own unique encoding scheme for describing the decimal number data which is contained within it. The reason for this is to allow bar codes to be read upside down, as well as right side up.</li>
+<li>The following is a description of each section's encoding scheme, where each decimal number appears on top, and its corresponding bar pattern follows below it. Note that consecutive black bars have no dividing markers, so they just appear to be thicker. Also note that the white bars encode data(binary digit <code>0</code>) just like the black bars(binary digit <code>1</code>).</li>
 </ul>
-<p><img alt="Semitone notes" src="/csp/img/semitones.png" title="Semitone notes" /></p>
+<h3 id="left-section">Left Section</h3>
 <ul>
-<li><em>octave pitch</em> representations are written in decimal format. For example, the
-5th octave and 9th semitone(corresponding to note A) would be written as: 5.9</li>
-<li>In order to map a sound frequency to this <em>octave pitch</em> representation, we must
-begin by selecting a reference note. In the Western musical scale, we assign the
-frequency 440Hz to the <em>octave pitch</em> reference note of 4.9. This corresponds to
-the 4th octave, 9th semitone, which is note A.</li>
-<li>Our mapping must ensure that the same note in the next higher octave has double
-the frequency. In other words, 5.9 corresponds to 880Hz, and 3.9 corresponds to
-220Hz. This mapping system assumes that each of the semitones within an octave is
-equally spaced, and this is known as a <strong>tempered scale.</strong></li>
-<li>
-<p>The formula we use to calculate the frequency from a given <em>octave pitch</em> note is as follows:
-<!-- $$
-\mbox{frequency} = \text{ref} \times 2^{\left(\text{octa} + \frac{\text{semi}}{12.0}\right)}
-$$ -->
-<img alt="Frequency equation" src="/csa/img/octave02.png" title="Frequency equation" /></p>
-</li>
-<li>
-<p>In <code>Java</code>, this formula would be implemented as:</p>
-</li>
+<li>The data in this section appears between the <strong>Right Hand Guard Bars</strong> and the <strong>Tall Center Bars</strong>. It contains the <strong>Number System Character</strong> and the <strong>Manufacturer ID Number</strong>. The encoding scheme for this section is as follows:
+<img alt="Left section" src="/csa/img/left.png" /></li>
 </ul>
-<pre><code class="java">frequency = ref * Math.pow(2, (octa + (semi/12.0)));
+<h3 id="right-section">Right Section</h3>
+<ul>
+<li>The data in this section appears between the <strong>Tall Center Bars</strong> and the <strong>Left Hand Guard Bars</strong>. It contains the <strong>Item Number</strong> and the <strong>Modulo Check Character</strong>. The encoding scheme for this section is as follows:
+<img alt="Right section" src="/csa/img/right.png" /></li>
+</ul>
+<h3 id="lookup-table">Lookup Table</h3>
+<ul>
+<li>We can represent these two encoding schemes with a lookup table:
+<img alt="Lookup table" src="/csa/img/encoding.png" /></li>
+<li>These encoding schemes will be used to represent an entire UPC-A bar code, where a <code>0</code> represents a white bar, and a <code>1</code> represents a black bar. In other words, the previously indicated Pepsi bar code, corresponding to the decimal number <code>012000002304</code>, can be represented by the following binary string of digits:</li>
+</ul>
+<pre><code class="bash">10100011010011001001001100011010001101000110101010111001011100101101100100001011100101011100101
 </code></pre>
 
+<h2 id="example-case">Example Case</h2>
 <ul>
-<li><code>double frequency</code>: The result of the calculation, in Hertz.</li>
-<li><code>int ref</code>: The frequency of the reference note, which is: <code>440</code> Hertz.</li>
-<li><code>int octa</code>: The <em>octave</em> note minus the reference note, which is: <code>octave - 4</code></li>
-<li><code>int semi</code>: The <em>pitch</em> semitone minus the reference semitone, which is: <code>pitch - 9</code></li>
+<li>One of your tasks is to convert this string of binary digits to its corresponding UPC-A number, in decimal form. You will have to contend with the <strong>Guard Bars</strong>, the <strong>Tall Center Bars</strong>, and the different encoding schemes.</li>
+<li>Once you have the decimal form of the UPC-A number, you must verify that it is valid. Fortunately, UPC-A codes have a <strong>checksum</strong> built into them, which is a mathematical relationship between the digits, that enables us to perform a verification algorithm.</li>
+<li>According to this algorithm, you can determine if a UPC-A number is valid by executing the following steps:<ol>
+<li>Add together all of the numbers corresponding to an <strong>even</strong> index, starting with the number at index <code>0</code>. Take this result, and multiply it by <code>3</code>.</li>
+<li>Add together all of the numbers corresponding to an <strong>odd</strong> index, starting with the number at index <code>1</code>, but excluding the last digit(the <strong>Modulo Check Character</strong>) from this calculation.</li>
+<li>Add together these two results. From this sum, find the remainder when it is divided by 10.</li>
+<li>If the result is <code>0</code>, then your <strong>Check Digit</strong> is <code>0</code>. Otherwise, calculate the <strong>Check Digit</strong> by subtracting the result from <code>10</code>.</li>
+<li>Compare your <strong>Check Digit</strong> to the <strong>Modulo Check Character</strong>. If they are equal, then the UPC-A number is <code>VALID</code>.</li>
+</ol>
+</li>
+<li>Consider an example of the UPC-A verification algorithm with the following number: <code>012000002304</code>. Note that the <strong>Modulo Check Character</strong> is 4.<ol>
+<li>For the sake of clarity, I have underlined every other digit, starting with the number's first digit:</li>
+</ol>
+</li>
+</ul>
+<div>
+<div class="MathJax_Preview">
+\mbox{\underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4}
+</div>
+<script type="math/tex; mode=display">
+\mbox{\underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4}
+</script>
+</div>
+<p>Then, add together each of the underlined digits(the ones corresponding to <strong>even</strong> indexes):</p>
+<div>
+<div class="MathJax_Preview">
+0 + 2 + 0 + 0 + 2 + 0 = 4
+</div>
+<script type="math/tex; mode=display">
+0 + 2 + 0 + 0 + 2 + 0 = 4
+</script>
+</div>
+<p>Next, multiply this sum by 3:</p>
+<div>
+<div class="MathJax_Preview">
+4 * 3 = 12
+</div>
+<script type="math/tex; mode=display">
+4 * 3 = 12
+</script>
+</div>
+<pre><code>2. Add together each of the non-underlined digits(the ones corresponding to **odd** indexes), except for the final digit:
+</code></pre>
+<div>
+<div class="MathJax_Preview">
+1 + 0 + 0 + 0 + 3 = 4
+</div>
+<script type="math/tex; mode=display">
+1 + 0 + 0 + 0 + 3 = 4
+</script>
+</div>
+<pre><code>3. Then, add these two results together:
+</code></pre>
+<div>
+<div class="MathJax_Preview">
+12 + 4 = 16
+</div>
+<script type="math/tex; mode=display">
+12 + 4 = 16
+</script>
+</div>
+<p>Determine the remainder when this result is divided by 10(<strong>Hint:</strong> use the modulus operator):</p>
+<div>
+<div class="MathJax_Preview">
+16 \,\,\texttt{\%}\,\, 10 &amp;=&amp; 6
+</div>
+<script type="math/tex; mode=display">
+16 \,\,\texttt{\%}\,\, 10 &=& 6
+</script>
+</div>
+<pre><code>4. The result is not equal to 0, so subtract it from 10:
+</code></pre>
+<p>$$
+10 - 6 &amp;=&amp; 4
+$$
+    5. Notice that the resulting number 4 is exactly the same as the <strong>Modulo Check Character</strong>, so the UPC-A number is legitimate.</p>
+<h2 id="hints">Hints</h2>
+<ul>
+<li>Note that the UPC-A bar code pattern is being brought into the function as a String. This means that you will have to use the <code>substring()</code> method throughout your program, to extract the necessary bit patterns. Also, remember to use the <code>Integer.parseInt(String sample)</code> method to convert from a String to an integer.</li>
+<li>The UPC-A bar code pattern includes the <strong>End Guard Bars</strong> and the <strong>Tall Center Bars</strong> with the numerical data. You must take these into account, when you are extracting the bit patterns corresponding to the numerical data. The following diagram outlines each of the sections that are contained in the bit code pattern:
+<img alt="Bit code pattern" src="/csa/img/sections.png" /></li>
+<li>You are provided with two <code>String</code> arrays that describe both the left-hand encoding scheme, and the right-hand encoding scheme. Note that the index of each bit pattern corresponds to its equivalent decimal value. You will have to perform a lookup with the bit pattern on its respective array, to retrieve its index.</li>
 </ul>
 <h2 id="code-distribution">Code Distribution</h2>
 <table>
@@ -379,42 +458,38 @@ $$ -->
 </thead>
 <tbody>
 <tr>
-<td><code>Java</code> Source Code for Note Frequency</td>
-<td>4.8KB</td>
-<td><a href="/csa/zip/pset03.zip">pset03.zip</a></td>
+<td><code>Java</code> Source Code for Bar Code</td>
+<td>5.8KB</td>
+<td><a href="/csa/zip/pset15.zip">pset15.zip</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Contents of <code>pset03.zip</code>:</strong></p>
-<pre><code class="bash">PSet03NoteFrequency/
-├── NoteFrequency.class
-├── NoteFrequency.ctxt
-├── NoteFrequency.java
-├── NoteFrequencyJUnitTest.class
-├── NoteFrequencyJUnitTest.ctxt
-├── NoteFrequencyJUnitTest.java
+<p><strong>Contents of <code>pset15.zip</code>:</strong></p>
+<pre><code class="bash">PSet15BarCode/
+├── BarCode.class
+├── BarCode.ctxt
+├── BarCode.java
+├── BarCodeJUnitTest.class
+├── BarCodeJUnitTest.ctxt
+├── BarCodeJUnitTest.java
 ├── package.bluej
 └── README.TXT
 </code></pre>
 
 <h2 id="specification">Specification</h2>
 <ul>
-<li>Write a <code>Java</code> program in the file <code>NoteFrequency.java</code> that calculates the
-frequency of a particular musical note, given its <em>octave</em> and <em>pitch</em> class.</li>
-<li>You will write your solution in a function called <code>temperedScale(int octave, int pitch)</code>
-right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>When the function call <code>temperedScale(0, 0)</code> is executed, the
-output of the program should be: <code>16.351597831287414</code></li>
+<li>Write a <code>Java</code> program in the file <code>BarCode.java</code> that determines whether a UPC-A bar code pattern is legitimate or not.</li>
+<li>You will write your solution in a function called <code>validate(String barPattern)</code>, right below the place where it says: <code>YOUR CODE HERE</code>.</li>
+<li>If the UPC-A number is valid, then your <code>validate</code> function should return a String <code>VALID</code>. Otherwise, if the UPC-A number is not valid, then your <code>validate</code> function should return the String <code>INVALID</code>.</li>
+<li>When the function call <code>validate("10100011010011001001001100011010001101000110101010111001011100101101100100001011100101011100101")</code> is executed, the output of the program should be: <code>VALID</code></li>
 </ul>
 <h2 id="testing">Testing</h2>
 <ul>
-<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench.
-<code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful
-test with a <strong>red</strong> bar.</li>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
 </ul>
 <h2 id="submission">Submission</h2>
 <ul>
-<li>Upload the file <code>NoteFrequency.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>Upload the file <code>BarCode.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul></div>
         
         
