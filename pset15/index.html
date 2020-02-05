@@ -306,6 +306,8 @@
                 <li class="third-level"><a href="#lookup-table">Lookup Table</a></li>
             <li class="second-level"><a href="#example-case">Example Case</a></li>
                 
+            <li class="second-level"><a href="#applying-the-algorithm">Applying the Algorithm</a></li>
+                
             <li class="second-level"><a href="#hints">Hints</a></li>
                 
             <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
@@ -374,6 +376,9 @@
 <li>Compare your <strong>Check Digit</strong> to the <strong>Modulo Check Character</strong>. If they are equal, then the UPC-A number is <code>VALID</code>.</li>
 </ol>
 </li>
+</ul>
+<h2 id="applying-the-algorithm">Applying the Algorithm</h2>
+<ul>
 <li>Consider an example of the UPC-A verification algorithm with the following number: <code>012000002304</code>. Note that the <strong>Modulo Check Character</strong> is 4.<ol>
 <li>For the sake of clarity, I have underlined every other digit, starting with the number's first digit:</li>
 </ol>
@@ -381,10 +386,10 @@
 </ul>
 <div>
 <div class="MathJax_Preview">
-\mbox{\underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4}
+\underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4
 </div>
 <script type="math/tex; mode=display">
-\mbox{\underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4}
+\underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4
 </script>
 </div>
 <p>Then, add together each of the underlined digits(the ones corresponding to <strong>even</strong> indexes):</p>
@@ -428,18 +433,24 @@
 <p>Determine the remainder when this result is divided by 10(<strong>Hint:</strong> use the modulus operator):</p>
 <div>
 <div class="MathJax_Preview">
-16 \,\,\texttt{\%}\,\, 10 &amp;=&amp; 6
+16 \,\,\texttt{\%}\,\, 10 = 6
 </div>
 <script type="math/tex; mode=display">
-16 \,\,\texttt{\%}\,\, 10 &=& 6
+16 \,\,\texttt{\%}\,\, 10 = 6
 </script>
 </div>
 <pre><code>4. The result is not equal to 0, so subtract it from 10:
 </code></pre>
-<p>$$
-10 - 6 &amp;=&amp; 4
-$$
-    5. Notice that the resulting number 4 is exactly the same as the <strong>Modulo Check Character</strong>, so the UPC-A number is legitimate.</p>
+<div>
+<div class="MathJax_Preview">
+10 - 6 = 4
+</div>
+<script type="math/tex; mode=display">
+10 - 6 = 4
+</script>
+</div>
+<pre><code>5. Notice that the resulting number 4 is exactly the same as the **Modulo Check Character**, so the UPC-A number is legitimate.
+</code></pre>
 <h2 id="hints">Hints</h2>
 <ul>
 <li>Note that the UPC-A bar code pattern is being brought into the function as a String. This means that you will have to use the <code>substring()</code> method throughout your program, to extract the necessary bit patterns. Also, remember to use the <code>Integer.parseInt(String sample)</code> method to convert from a String to an integer.</li>
