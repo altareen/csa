@@ -287,133 +287,13 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#test-3-inheritance">Test 3: Inheritance</a></li>
-            <li class="second-level"><a href="#task-outline">Task Outline</a></li>
-                
-        <li class="first-level "><a href="#part-1-racehorsejava10-points">Part 1: RaceHorse.java[10 points]</a></li>
-            <li class="second-level"><a href="#background-theory">Background Theory</a></li>
-                
-            <li class="second-level"><a href="#requirements">Requirements</a></li>
-                
-        <li class="first-level "><a href="#part-2-todojava10-points">Part 2: TODO.java[10 points]</a></li>
-            <li class="second-level"><a href="#background-theory_1">Background Theory</a></li>
-                
-            <li class="second-level"><a href="#requirements_1">Requirements</a></li>
-                
-            <li class="second-level"><a href="#code-distribution">Code Distribution</a></li>
-                
-            <li class="second-level"><a href="#specification">Specification</a></li>
-                
-            <li class="second-level"><a href="#testing">Testing</a></li>
-                
-            <li class="second-level"><a href="#submission">Submission</a></li>
-                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
 <h1 id="test-3-inheritance">Test 3: Inheritance</h1>
-<div class="admonition note">
-<p><a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT:</a> Submit <code>Java</code> programs to this automated grading platform.</p>
-</div>
-<h2 id="task-outline">Task Outline</h2>
 <ul>
-<li><strong>Due Date:</strong> Monday, March 30, 2020</li>
-<li><strong>Total Points:</strong> 20</li>
-<li>Implement <code>Java</code> programs for <code>RaceHorse.java</code> and <code>TODO.java</code></li>
-</ul>
-<h1 id="part-1-racehorsejava10-points">Part 1: <code>RaceHorse.java</code>[10 points]</h1>
-<h2 id="background-theory">Background Theory</h2>
-<ul>
-<li>A <code>Horse</code> class is defined with the following instance variables, constructors, and methods:</li>
-</ul>
-<pre><code class="java">public class Horse
-{
-    // instance variables
-    private String owner;
-    private int age;
-    private double value;
-
-    // constructors
-    public Horse()
-    {
-        owner = &quot;&quot;;
-        age = 0;
-        value = 0;
-    }
-
-    public Horse(String own, int a, double v)
-    {
-        owner = own;
-        age = a;
-        value = v;
-    }
-
-    // accessor methods
-    public String toString()
-    {
-        String result = &quot;&quot;;
-        result += &quot;Owner = &quot; + owner + &quot;\n&quot;;
-        result += &quot;Age   = &quot; + age   + &quot;\n&quot;;
-        result += &quot;Value = $&quot; + value;
-        return result;
-    }
-}
-</code></pre>
-
-<h2 id="requirements">Requirements</h2>
-<ul>
-<li>
-<p>Define a <code>RaceHorse</code> class that inherits from the <code>Horse</code> class, but has an additional private instance variable that indicates the number of races that the horse has won. The relationship between <code>RaceHorse</code> and <code>Horse</code> can be illustrated by  the following UML diagram:
-<img alt="Horse UML Diagram" src="/csa/img/horseUML.png" /></p>
-</li>
-<li>
-<p>Use the following guidelines to implement the <code>RaceHorse</code> class.</p>
-</li>
-<li>Create a private instance variable of type <code>int</code> named <code>numRacesWon</code>.</li>
-<li>Create a default constructor which initializes the instance variables to 0.</li>
-<li>Create a constructor which takes 4 parameters to initialize the instance variables <code>owner</code>, <code>age</code>, <code>value</code>, and <code>numRacesWon</code>.</li>
-<li>Implement the accessor method <code>getRacesWon</code> which has the return type <code>int</code>.</li>
-<li>Implement the mutator method <code>wonRace</code> which has the return type <code>void</code>. Think about what it means when a horse wins a race. What do you think would happen? Is there any instance variable in particular that would have to change?</li>
-<li>Override the <code>toString</code> method so that the instance variable <code>numRacesWon</code> is appended to it.</li>
-</ul>
-<h1 id="part-2-todojava10-points">Part 2: <code>TODO.java</code>[10 points]</h1>
-<h2 id="background-theory_1">Background Theory</h2>
-<h2 id="requirements_1">Requirements</h2>
-<h2 id="code-distribution">Code Distribution</h2>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th>File Size</th>
-<th>File Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Java</code> Source Code for RaceHorse and TODO</td>
-<td>KB</td>
-<td><a href="/csa/zip/test03.zip">test03.zip</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Contents of <code>test03.zip</code>:</strong></p>
-<pre><code class="bash">
-</code></pre>
-
-<h2 id="specification">Specification</h2>
-<ul>
-<li>Write a <code>Java</code> program in the file <code>RaceHorse.java</code> that describes a specific kind of Horse known as a RaceHorse.</li>
-<li>Write a <code>Java</code> program in the file <code>TODO.java</code></li>
-<li>You will write your solution right below the place where it says: <code>YOUR CODE HERE</code></li>
-<li>Note that you will not be provided with any test benches.</li>
-</ul>
-<h2 id="testing">Testing</h2>
-<ul>
-<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
-</ul>
-<h2 id="submission">Submission</h2>
-<ul>
-<li>Upload the file <code>RaceHorse.java</code> and <code>TODO.java</code>to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+<li>This test will be posted on <strong>Friday, March 27th</strong> and is due on <strong>Monday, March 30th at 4:20PM.</strong></li>
 </ul></div>
         
         
