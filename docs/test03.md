@@ -8,7 +8,9 @@
 + **Total Points:** 20
 + Implement `Java` programs for `RaceHorse.java` and `TODO.java`
 
-# Part 1: `RaceHorse.java`[10 points]
+---
+
+## Part 1: `RaceHorse.java`[10 points]
 
 ## Background Theory
 + A `Horse` class is defined with the following instance variables, constructors, and methods:
@@ -50,6 +52,7 @@ public class Horse
 
 ## Requirements
 + Define a `RaceHorse` class that inherits from the `Horse` class, but has an additional private instance variable that indicates the number of races that the horse has won. The relationship between `RaceHorse` and `Horse` can be illustrated by  the following UML diagram:
+
 ![Horse UML Diagram](/csa/img/horseUML.png)
 
 + Use the following guidelines to implement the `RaceHorse` class.
@@ -60,7 +63,9 @@ public class Horse
 5. Implement the mutator method `wonRace` which has the return type `void`. Think about what it means when a horse wins a race. What do you think would happen? Is there any instance variable in particular that would have to change?
 6. Override the `toString` method so that the instance variable `numRacesWon` is appended to it.
 
-# Part 2: `TODO.java`[10 points]
+---
+
+## Part 2: `TODO.java`[10 points]
 
 ## Background Theory
 
@@ -72,6 +77,7 @@ public class Horse
 
 
 
+---
 
 ## Code Distribution
 Description | File Size | File Name
