@@ -36,17 +36,22 @@
 + [Problem Set 11](pset11.md) is due on Monday, December 2nd.
 + [Quiz 5: Classes and Objects](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, December 11th.
 + **Test 2: Java Arrays and Classes** will be held on Thursday, December 12th.
-+ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library. -->
-+ [Problem Set 12](pset12.md): **Library Rental** is due on Monday, March 2nd(Winter Break Assignment).
-+ [Problem Set 13](pset13.md): **Stock Broker** is due on Monday, March 9th.
-+ [Problem Set 14](pset14.md): **Gene Extraction** is due on Monday, March 16th.
++ **Semester 1 Final Exam** will be held on Friday, January 10th at 2:00PM in the 6th Floor Library.
+---
++ [Problem Set 12](pset12.md): **Library Rental** is due on Monday, March 16nd(Winter Break Assignment).
++ [Problem Set 13](pset13.md): **Stock Broker** is due on Monday, March 17th.
++ [Problem Set 14](pset14.md): **Gene Extraction** is due on Monday, March 18th.
 + [Problem Set 15](pset15.md): **Bar Code** is due on Monday, March 23rd.
 ---
-+ [Quiz 6: ArrayLists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, March 11th.
++ [Quiz 6: ArrayLists](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, March 25th.
 + [Quiz 7: Inheritance](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) is due on Wednesday, March 25th.
 ---
 + [Test 3: Inheritance](test03.md) will be posted on **Friday, March 27th** and is due on **Monday, March 30th at 4:20PM.**
-+ [Test 4: Searching, Sorting, and Recursion](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.**
++ [Test 4: Sorting and Recursion](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.** -->
++ All Problem Sets and Quizzes are due on Tuesday, March 31st.
+---
++ Tests 3 and 4 will be postponed until further notice.
+
 
 ## Course Calendar: Semester Two
 
@@ -77,11 +82,11 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-1      | 2 *School Resumes*<br>[**PSet 12 Due**](pset12.md) | 3       | 4         | 5        | 6      | 7 
-8      | 9 [**PSet 13 Due**](pset13.md) | 10      | 11 [**Quiz 6 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12       | 13     | 14
-15     | 16 [**PSet 14 Due**](pset14.md) | 17 *St. Patrick's Day* | 18        | 19       | 20 *Adult Ceremony* | 21
-22     | 23 [**PSet 15 Due**](pset15.md) | 24      | 25 [**Quiz 7 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 26       | 27 [**Test 3 Posted**](test03.md) | 28
-29     | 30 [**Test 3 Due**](test03.md) | 31
+1      | 2  | 3 [CS50 Video: Linear Search](https://www.youtube.com/watch?v=TwsgCHYmbbA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=34&t=0s) | 4 [CS50 Video: Binary Search](https://www.youtube.com/watch?v=T98PIp4omUA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=6&t=0s) | 5 [CS50 Video: Selection Sort](https://www.youtube.com/watch?v=3hH8kTHFw2A&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=44&t=0s) | 6 [CS50 Video: Insertion Sort](https://www.youtube.com/watch?v=O0VbBkUvriI&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=30&t=0s) | 7 
+8      | 9  | 10 [CS50 Video: Merge Sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=37&t=0s) | 11  | 12 [CS50 Video: Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=43&t=0s) | 13  | 14
+15     | 16  | 17  | 18  | 19       | 20  | 21
+22     | 23  | 24      | 25  | 26       | 27  | 28
+29     | 30  | 31 **PSets and Quizzes Due**
 
 ### April 2020
 
@@ -90,8 +95,8 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         | 1         | 2        | 3      | 4 
 5      | 6 *Tomb Sweeping Holiday* | 7  *Mock Exams* | 8 *Mock Exams* | 9 *Mock Exams* | 10 *Mock Exams* | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20     | 21      | 22        | 23       | 24 [**Test 4 Posted**](test04.md) | 25
-26 *Make-up Day* | 27 [**Test 4 Due**](test04.md) | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
+19     | 20     | 21      | 22        | 23       | 24  | 25
+26 *Make-up Day* | 27  | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
 
 ### May 2020
 
