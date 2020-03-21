@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Lunch()
+comment1.params=p
+comment1.target=Lunch(double)
+comment2.params=
+comment2.target=double\ getPrice()
+numComments=3
