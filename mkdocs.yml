@@ -37,6 +37,7 @@ nav:
     - 'Lab 7: Polybius Cipher': lab07.md
     - 'Lab 8: Substitution Cipher': lab08.md
     - 'Lab 9: Request Line': lab09.md
+- Lectures: lectures.md
 - Course Notes: notes.md
 - FRQs: frqs.md
 - Prior Tests: priortests.md
