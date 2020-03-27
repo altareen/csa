@@ -2,18 +2,18 @@
 
 ## Semester 2
 
-**Note:** `abstract classes` and `interfaces` have been removed from the curriculum.
+**Note:** `Two-dimensional arrays`, `abstract classes`, `interfaces`, `inheritance`, `polymorphism`, and `recursion` have been removed from the 2019-2020 curriculum.
 
 Description | File Size | File Name
 ----------- | --------- | ---------
 **Wrapper Classes:** Using primitive types with an `ArrayList`. | 146KB | [csaNotes12WrapperClasses.pdf](/csa/pdf/csaNotes12WrapperClasses.pdf)
 **Removing Items from an `ArrayList`:** Looping through an `ArrayList` and removing multiple items. | 172KB | [csaNotes13ArrayListRemoval.pdf](/csa/pdf/csaNotes13ArrayListRemoval.pdf)
-**Inheritance:** Providing a unique form of code-sharing. | 189KB | [csaNotes14Inheritance.pdf](/csa/pdf/csaNotes14Inheritance.pdf)
-**Polymorphism:** Allowing methods and objects to take on different forms. | 170KB | [csaNotes15Polymorphism.pdf](/csa/pdf/csaNotes15Polymorphism.pdf)
 **Searching Algorithms:** Locating an element from within a data structure. | 208KB | [csaNotes16Searching.pdf](/csa/pdf/csaNotes16Searching.pdf)
 **Sorting Algorithms:** Rearranging data into a particular order. | 236KB | [csaNotes17Sorting.pdf](/csa/pdf/csaNotes17Sorting.pdf)
-**Recursion:** A programming technique in which a method calls itself. | 360KB | [csaNotes18Recursion.pdf](/csa/pdf/csaNotes18Recursion.pdf)
 
+<!-- **Inheritance:** Providing a unique form of code-sharing. | 189KB | [csaNotes14Inheritance.pdf](/csa/pdf/csaNotes14Inheritance.pdf)
+**Polymorphism:** Allowing methods and objects to take on different forms. | 170KB | [csaNotes15Polymorphism.pdf](/csa/pdf/csaNotes15Polymorphism.pdf)
+**Recursion:** A programming technique in which a method calls itself. | 360KB | [csaNotes18Recursion.pdf](/csa/pdf/csaNotes18Recursion.pdf) -->
 ## Semester 1
 
 Description | File Size | File Name

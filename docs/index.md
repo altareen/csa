@@ -48,9 +48,16 @@
 ---
 + [Test 3: Inheritance](test03.md) will be posted on **Friday, March 27th** and is due on **Monday, March 30th at 4:20PM.**
 + [Test 4: Sorting and Recursion](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.** -->
-+ All Problem Sets and Quizzes are due on Tuesday, March 31st.
-+ Tests 3 and 4 will be postponed until further notice.
++ The AP Computer Science A Exam will consist of a **45-minute online free-response section** administered on the student's personal computer.
++ The course curriculum has been reduced to **Units 1-7** from the [AP Classroom](https://myap.collegeboard.org/login) course outline. **Units 8-10** will not be covered.
++ Quiz 7: Inheritance has been **discontinued**, since that material is no longer part of the curriculum. 
 
+## Problem Sets
+
++ [Problem Set 12](pset12.md): **Library Rental**
++ [Problem Set 13](pset13.md): **Stock Broker**
++ [Problem Set 14](pset14.md): **Gene Extraction**
++ [Problem Set 15](pset15.md): **Bar Code**
 
 ## Course Calendar: Semester Two
 
@@ -82,17 +89,17 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
 1      | 2  | 3 [CS50 Video: Linear Search](https://www.youtube.com/watch?v=TwsgCHYmbbA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=34&t=0s) | 4 [CS50 Video: Binary Search](https://www.youtube.com/watch?v=T98PIp4omUA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=6&t=0s) | 5 [CS50 Video: Selection Sort](https://www.youtube.com/watch?v=3hH8kTHFw2A&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=44&t=0s) | 6 [CS50 Video: Insertion Sort](https://www.youtube.com/watch?v=O0VbBkUvriI&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=30&t=0s) | 7 
-8      | 9  | 10 [CS50 Video: Merge Sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=37&t=0s) | 11  | 12 [CS50 Video: Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=43&t=0s) | 13  | 14
+8      | 9  | 10 [CS50 Video: Merge Sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=37&t=0s) | 11  | 12 | 13  | 14
 15     | 16  | 17  | 18  | 19       | 20  | 21
 22     | 23  | 24      | 25  | 26       | 27  | 28
-29     | 30  | 31 **PSets and Quizzes Due**
+29     | 30  | 31 
 
 ### April 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         | 1         | 2        | 3      | 4 
-5      | 6 *Tomb Sweeping Holiday* | 7  *Mock Exams* | 8 *Mock Exams* | 9 *Mock Exams* | 10 *Mock Exams* | 11
+5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24  | 25
 26 *Make-up Day* | 27  | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
@@ -102,7 +109,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 *May Day Holiday* | 2 
-3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8 **AP CSA Exam 12:00PM** | 9 *Make-up Day*
+3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8  | 9 *Make-up Day*
 10     | 11     | 12      | 13        | 14       | 15     | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28       | 29 *G12 Final Exams* | 30
