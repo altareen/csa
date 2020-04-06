@@ -17,6 +17,14 @@
 
 + [Question 1: `MixedSwap`](https://www.youtube.com/watch?v=Xl3ui2VJpsQ)
 
+### 2015 Free Response Exam
+
++ [Question 2: `HiddenWord`](https://www.youtube.com/watch?v=gFmnQjlh_zM)
+
+### 2016 Free Response Exam
+
++ [Question 3: `Crossword`](https://www.youtube.com/watch?v=)
+
 ## Harvard's CS50 Supplemental Lectures
 
 + [Linear Search](https://www.youtube.com/watch?v=TwsgCHYmbbA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=34&t=0s)
