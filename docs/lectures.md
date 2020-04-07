@@ -23,7 +23,7 @@
 
 ### 2016 Free Response Exam
 
-+ [Question 3: `Crossword`](https://www.youtube.com/watch?v=)
++ [Question 3: `Crossword`](https://www.youtube.com/watch?v=R1G7OMJITqE)
 
 ## Harvard's CS50 Supplemental Lectures
 
