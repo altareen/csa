@@ -1,36 +1,31 @@
 # Lectures
 
-## Coding Solution Screencasts
+## Mr. Tareen's Coding Solution Screencasts
 
-### 2010 Free Response Exam
-
-+ [Question 1: `CookieOrder`](https://www.youtube.com/watch?v=euL7DW7tlKA)
-+ [Question 2: `APLine`](https://www.youtube.com/watch?v=L6-jGSL-V9g)
-+ [Question 3: `Trail`](https://www.youtube.com/watch?v=6MxoekBdOe4)
-
-### 2013 Free Response Exam
-
-+ [Question 1: `MusicDownloads`](https://www.youtube.com/watch?v=oNPLIuDbFiU)
-+ [Question 4: `SkyView`](https://www.youtube.com/watch?v=rf77BTbzvCI)
-
-### 2014 Free Response Exam
-
-+ [Question 1: `MixedSwap`](https://www.youtube.com/watch?v=Xl3ui2VJpsQ)
-
-### 2015 Free Response Exam
-
-+ [Question 2: `HiddenWord`](https://www.youtube.com/watch?v=gFmnQjlh_zM)
-
-### 2016 Free Response Exam
-
-+ [Question 3: `Crossword`](https://www.youtube.com/watch?v=R1G7OMJITqE)
-+ [Question 4: `StringFormatter`](https://www.youtube.com/watch?v=lzzJQO1nIek)
+Free Response Exam | YouTube Video | Duration
+------------------ | ------------- | --------
+**2010**           | [CookieOrder](https://www.youtube.com/watch?v=euL7DW7tlKA)     | 9:54
+                   | [APLine](https://www.youtube.com/watch?v=L6-jGSL-V9g)          | 8:52
+                   | [Trail](https://www.youtube.com/watch?v=6MxoekBdOe4)           | 11:03
+**2013**           | [MusicDownloads](https://www.youtube.com/watch?v=oNPLIuDbFiU)  | 10:41
+                   | [SkyView](https://www.youtube.com/watch?v=rf77BTbzvCI)         | 12:01
+**2014**           | [MixedSwap](https://www.youtube.com/watch?v=Xl3ui2VJpsQ)       | 17:30
+**2015**           | [HiddenWord](https://www.youtube.com/watch?v=gFmnQjlh_zM)      | 9:55
+**2016**           | [Crossword](https://www.youtube.com/watch?v=R1G7OMJITqE)       | 16:52
+                   | [StringFormatter](https://www.youtube.com/watch?v=lzzJQO1nIek) | 19:40
+**2017**           | [Phrase](https://www.youtube.com/watch?v=WZYY6VW7HCI)          | 13:26
+**2018**           | [WordPair](https://www.youtube.com/watch?v=)                   | 99:99
+                   | [ArrayTester](https://www.youtube.com/watch?v=)                | 99:99
+**2019**           | [StepTracker](https://www.youtube.com/watch?v=)                | 99:99
+                   | [Delimiters](https://www.youtube.com/watch?v=)                 | 99:99
 
 ## Harvard's CS50 Supplemental Lectures
 
-+ [Linear Search](https://www.youtube.com/watch?v=TwsgCHYmbbA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=34&t=0s)
-+ [Binary Search](https://www.youtube.com/watch?v=T98PIp4omUA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=6&t=0s)
-+ [Selection Sort](https://www.youtube.com/watch?v=3hH8kTHFw2A&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=44&t=0s)
-+ [Insertion Sort](https://www.youtube.com/watch?v=O0VbBkUvriI&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=30&t=0s)
-+ [Merge Sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=37&t=0s)
+YouTube Video | Duration
+------------- | --------
+[Linear Search](https://www.youtube.com/watch?v=TwsgCHYmbbA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=34&t=0s)  | 2:50
+[Binary Search](https://www.youtube.com/watch?v=T98PIp4omUA&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=6&t=0s)   | 9:31
+[Selection Sort](https://www.youtube.com/watch?v=3hH8kTHFw2A&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=44&t=0s) | 4:01
+[Insertion Sort](https://www.youtube.com/watch?v=O0VbBkUvriI&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=30&t=0s) | 4:44
+[Merge Sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=37&t=0s)     | 10:27
 
