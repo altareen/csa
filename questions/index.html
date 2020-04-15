@@ -304,6 +304,7 @@
                 <li class="third-level"><a href="#example-2-num-has-the-value-2183">Example 2: num has the value 2183</a></li>
                 <li class="third-level"><a href="#specification">Specification</a></li>
                 <li class="third-level"><a href="#part-b-the-isvalid-method">Part (b): The isValid method</a></li>
+                <li class="third-level"><a href="#specification_1">Specification</a></li>
                 <li class="third-level"><a href="#testing">Testing</a></li>
                 <li class="third-level"><a href="#submission">Submission</a></li>
             <li class="second-level"><a href="#free-response-question-2-reviewcollector">Free-Response Question 2: ReviewCollector</a></li>
@@ -467,6 +468,7 @@
 <ul>
 <li>Write your <code>Java</code> program code response in the file <code>CheckDigit.java</code>.</li>
 <li>Place your solution in the function called <code>getCheck(int num)</code> right below the place where it says: <code>Part (a): YOUR CODE HERE</code></li>
+<li>You must use the methods <code>getNumberOfDigits</code> and <code>getDigit</code> appropriately to receive full credit.</li>
 </ul>
 <h3 id="part-b-the-isvalid-method">Part (b): The <code>isValid</code> method</h3>
 <ul>
@@ -474,6 +476,38 @@
 <li>The check digit is always the rightmost digit of <code>numWithCheckDigit</code>.</li>
 </ul>
 <p>The following table shows some examples of the use of the <code>isValid</code> method.</p>
+<table>
+<thead>
+<tr>
+<th>Method Call</th>
+<th>Return Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>getCheck(159)</code></td>
+<td><code>2</code></td>
+<td>The check digit for <code>159</code> is <code>2</code>.</td>
+</tr>
+<tr>
+<td><code>isValid(1592)</code></td>
+<td><code>true</code></td>
+<td>The number <code>1592</code> is a valid combination of a number(<code>159</code>) and its check digit(<code>2</code>).</td>
+</tr>
+<tr>
+<td><code>isValid(1593)</code></td>
+<td><code>false</code></td>
+<td>The number <code>1593</code> is not a valid combination of a number(<code>159</code>) and its check digit(<code>3</code>) because <code>2</code> is the check digit for <code>159</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="specification_1">Specification</h3>
+<ul>
+<li>Write your <code>Java</code> program code response in the file <code>CheckDigit.java</code>.</li>
+<li>Place your solution in the function called <code>isValid(int numWithCheckDigit)</code> right below the place where it says: <code>Part (b): YOUR CODE HERE</code></li>
+<li>You must use the method <code>getCheck</code> appropriately to receive full credit.</li>
+</ul>
 <h3 id="testing">Testing</h3>
 <ul>
 <li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
