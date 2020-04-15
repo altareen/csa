@@ -309,6 +309,14 @@
                 <li class="third-level"><a href="#submission">Submission</a></li>
             <li class="second-level"><a href="#free-response-question-2-reviewcollector">Free-Response Question 2: ReviewCollector</a></li>
                 
+                <li class="third-level"><a href="#part-a-the-addreview-method">Part (a): The addReview method</a></li>
+                <li class="third-level"><a href="#specification_2">Specification</a></li>
+                <li class="third-level"><a href="#part-b-the-getnumgoodreviews-method">Part (b): The getNumGoodReviews method</a></li>
+                <li class="third-level"><a href="#specification_3">Specification</a></li>
+                <li class="third-level"><a href="#testing_1">Testing</a></li>
+                <li class="third-level"><a href="#submission_1">Submission</a></li>
+            <li class="second-level"><a href="#end-of-mock-exam">End of Mock Exam.</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -518,7 +526,98 @@
 <li>Upload the file <code>CheckDigit.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
 </ul>
 <hr />
-<h2 id="free-response-question-2-reviewcollector">Free-Response Question 2: <code>ReviewCollector</code></h2></div>
+<h2 id="free-response-question-2-reviewcollector">Free-Response Question 2: <code>ReviewCollector</code></h2>
+<p>A student plans to analyze product reviews found on a Web site by looking for keywords in posted reviews. The <code>ProductReview</code> class, shown below, is used to represent a single review. A product review consists of a product name, and a review of that product.</p>
+<pre><code class="java">public class ProductReview
+{
+    private String name;
+    private String review;
+
+    /** Constructs a ProductReview object and initializes the instance variables. */
+    public ProductReview(String pName, String pReview)
+    {
+        name = pName;
+        review = pReview;
+    }
+
+    /** Returns the name of the product. */
+    public String getName()
+    {
+        return name;
+    }
+
+    /** Returns the review of the product. */
+    public String getReview()
+    {
+        return review;
+    }
+}
+</code></pre>
+
+<p>The <code>ReviewCollector</code> class, shown below, is used to represent a collection of reviews to be analyzed.</p>
+<pre><code class="java">public class ReviewCollector
+{
+    private ArrayList&lt;ProductReview&gt; reviewList;
+    private ArrayList&lt;String&gt; productList;
+
+    /** Constructs a ReviewCollector object and initializes the instance variables. */
+    public ReviewCollector()
+    {
+        reviewList = new ArrayList&lt;ProductReview&gt;();
+        productList = new ArrayList&lt;String&gt;();
+    }
+
+    /** Adds a new review to the collection of reviews, as described in Part (a). */
+    public void addReview(ProductReview prodReview)
+    {
+        /* To be implemented in Part (a). */
+
+    }
+
+    /** Returns the number of good reviews for a given product name, as described in Part (b). */
+    public int getNumGoodReviews(String prodName)
+    {
+        /* To be implemented in Part (b). */
+    }
+
+    // There may be instance variables, constructors, and methods not shown.
+}
+</code></pre>
+
+<h3 id="part-a-the-addreview-method">Part (a): The <code>addReview</code> method</h3>
+<p>The <code>addReview</code> method adds a single product review, represented by a <code>ProductReview</code> object, to the <code>ReviewCollector</code> object. The <code>addReview</code> method does the following when it adds a product review.</p>
+<ul>
+<li>The <code>ProductReview</code> object is added to the end of the <code>reviewList</code> instance variable.</li>
+<li>The product name from the <code>ProductReview</code> object is added to the end of the <code>productList</code> instance variable if the product name is not already found in <code>productList</code>.</li>
+</ul>
+<h3 id="specification_2">Specification</h3>
+<ul>
+<li>Write your <code>Java</code> program code response in the file <code>ReviewCollector.java</code>.</li>
+<li>Place your solution in the function called <code>addReview(ProductReview prodReview)</code> right below the place where it says: <code>Part (a): YOUR CODE HERE</code></li>
+</ul>
+<hr />
+<h3 id="part-b-the-getnumgoodreviews-method">Part (b): The <code>getNumGoodReviews</code> method</h3>
+<ul>
+<li>The <code>getNumGoodReviews</code> method returns the number of good reviews for a given product name.</li>
+<li>A review is considered <strong>good</strong> if it contains the string <code>"best"</code>(with all lowercase letters).</li>
+<li>If there are no reviews with a matching product name, then the method returns <code>0</code>.</li>
+<li>Note that a review that contains the string <code>"BEST"</code> or <code>"Best"</code> would <strong>not be considered</strong> a good review, since some of the letters are uppercase.</li>
+<li>However, a review that contains the string <code>"asbestos"</code> would be considered a good review, since it does happen to contain the string <code>"best"</code> within it.</li>
+</ul>
+<h3 id="specification_3">Specification</h3>
+<ul>
+<li>Write your <code>Java</code> program code response in the file <code>ReviewCollector.java</code>.</li>
+<li>Place your solution in the function called <code>getNumGoodReviews(String prodName)</code> right below the place where it says: <code>Part (b): YOUR CODE HERE</code></li>
+</ul>
+<h3 id="testing_1">Testing</h3>
+<ul>
+<li>Click on the <strong>Run Tests</strong> button to execute the <code>JUnit</code> test bench. <code>JUnit</code> indicates a successful test with a <strong>green</strong> bar, and an unsuccessful test with a <strong>red</strong> bar.</li>
+</ul>
+<h3 id="submission_1">Submission</h3>
+<ul>
+<li>Upload the file <code>ReviewCollector.java</code> to the <a href="http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa">Web-CAT</a> automated grading platform.</li>
+</ul>
+<h2 id="end-of-mock-exam">End of Mock Exam.</h2></div>
         
         
     </div>
