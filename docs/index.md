@@ -49,10 +49,12 @@
 + [Test 3: Inheritance](test03.md) will be posted on **Friday, March 27th** and is due on **Monday, March 30th at 4:20PM.**
 + [Test 4: Sorting and Recursion](test04.md) will be posted on **Friday, April 24th** and is due on **Monday, April 27th at 4:20PM.**
 + Quiz 7: Inheritance has been **discontinued**, since that material is no longer part of the curriculum.
-+ The course curriculum has been reduced to **Units 1-7** from the [AP Classroom](https://myap.collegeboard.org/login) course outline. **Units 8-10** will not be covered. -->
++ The course curriculum has been reduced to **Units 1-7** from the [AP Classroom](https://myap.collegeboard.org/login) course outline. **Units 8-10** will not be covered.
++ The [**Mock Exam**](mockexam.md) will be posted at exactly **10:00AM CST** on **Monday, April 20th** to the following link: [Mock Exam](mockexam.md)
 + The [AP Computer Science A Exam](https://apcoronavirusupdates.collegeboard.org/educators/taking-the-exams/ap-exam-schedule) will be held on **Friday, May 15th** at **4:00AM CST**.
-+ The exam will consist of a **45-minute online free-response section** administered on the student's personal computer.
-+ The **CSA Mock Exam** will be taken in an online format on **Monday, April 20th** at **10:00AM CST**.
++ The exam will consist of a **45-minute online free-response section** administered on the student's personal computer. -->
++ [**CLICK HERE to access the Mock Exam.**](mockexam.md)
++ On **Monday, April 20th** at exactly **10:00AM CST** the Mock Exam will be posted on this website.
 
 ## Problem Sets
 
@@ -103,29 +105,29 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
        |        |         | 1         | 2        | 3      | 4 
 5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
-19     | 20 **10:00AM: CSA Mock Exam** | 21      | 22        | 23       | 24  | 25
-26 *Make-up Day* | 27  | 28      | 29        | 30 *Field Trip*<br>*Sports Day*
+19     | 20 **10:00AM: [Mock Exam](mockexam.md)** | 21      | 22        | 23       | 24  | 25
+26     | 27  | 28      | 29        | 30 
 
 ### May 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        |        |         |           |          | 1 *May Day Holiday* | 2 
-3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8  | 9 *Make-up Day*
+3      | 4 *May Day Holiday* | 5 *May Day Holiday* | 6         | 7        | 8  | 9 
 10     | 11     | 12      | 13        | 14       | 15 **4:00AM: AP Computer Science A Exam** | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
-24     | 25     | 26      | 27        | 28       | 29 *G12 Final Exams* | 30
+24     | 25     | 26      | 27        | 28       | 29     | 30
 31
 
 ### June 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       | 1 *G12 Final Exams* | 2       | 3         | 4        | 5      | 6
+       | 1      | 2       | 3         | 4        | 5      | 6
 7      | 8      | 9       | 10        | 11       | 12     | 13
-14     | 15     | 16 *Graduation Ceremony* | 17 *G11 Final Exams* | 18 *G11 Final Exams* | 19 *G11 Final Exams* | 20
-21     | 22 *G11 Final Exams* | 23 *G11 Final Exams* | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
-28 *Make-up Day* | 29     | 30
+14     | 15     | 16      | 17  | 18     | 19  | 20
+21     | 22     | 23      | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
+28     | 29     | 30
 
 ### July 2020
 
@@ -137,7 +139,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
 
-## Course Calendar: Semester One
+<!-- ## Course Calendar: Semester One
 
 !!! note ""
     Academic dates are in *italics*, course assessment deadlines are in **bold**.
@@ -180,5 +182,5 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 8      | 9      | 10      | 11 [**Quiz 5 Due**](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) | 12 **Test 2: Arrays & Classes** | 13     | 14
 15     | 16     | 17      | 18        | 19       | 20     | 21
 22     | 23 *Xmas Break* | 24 *Xmas Break* | 25 *Xmas Break* | 26       | 27     | 28 
-29     | 30     | 31 *NYE Carnival* | | | | 
+29     | 30     | 31 *NYE Carnival* | | | | -->
 

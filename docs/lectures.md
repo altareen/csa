@@ -16,8 +16,8 @@ Free Response Exam | YouTube Video | Duration
 **2017**           | [Phrase](https://www.youtube.com/watch?v=WZYY6VW7HCI)          | 13:26
 **2018**           | [WordPair](https://www.youtube.com/watch?v=OrDFg9zp5Sw)        | 12:56
                    | [ArrayTester](https://www.youtube.com/watch?v=FE0GmwNWI-Y)     | 15:12
-**2019**           | [StepTracker](https://www.youtube.com/watch?v=)                | 99:99
-                   | [Delimiters](https://www.youtube.com/watch?v=)                 | 99:99
+**2019**           | [StepTracker](https://www.youtube.com/watch?v=y9z9klZExMU)     | 14:18
+                   | [Delimiters](https://www.youtube.com/watch?v=NPKBEmXm6QY)      | 11:13
 
 ## Harvard's CS50 Supplemental Lectures
 
