@@ -96,7 +96,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 8      | 9  | 10 [CS50 Video: Merge Sort](https://www.youtube.com/watch?v=Ns7tGNbtvV4&list=PLhQjrBD2T381k8ul4WQ8SQ165XqY149WW&index=37&t=0s) | 11  | 12 | 13  | 14
 15     | 16  | 17  | 18  | 19       | 20  | 21
 22     | 23  | 24      | 25  | 26       | 27  | 28
-29     | 30  | 31 -->
+29     | 30  | 31 
 
 ### April 2020
 
@@ -106,7 +106,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20 **10:00AM: [Mock Exam](mockexam.md)** | 21      | 22        | 23       | 24  | 25
-26     | 27  | 28      | 29        | 30 
+26     | 27  | 28      | 29        | 30 -->
 
 ### May 2020
 

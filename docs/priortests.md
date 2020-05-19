@@ -2,6 +2,12 @@
 
 ## Semester 2
 
+### Semester 2 Final Exam
+
+Description | File Size | File Name
+----------- | --------- | ---------
+Spring 2019 | 171KB | [csaSemester2Exam2019.pdf](/csa/pdf/csaSemester2Exam2019.pdf)
+
 ### Test 3: Inheritance
 
 Description | File Size | File Name
@@ -40,7 +46,7 @@ Fall 2017 | 163KB | [csaTest02Fall2017.pdf](/csa/pdf/csaTest02Fall2017.pdf)
 Fall 2018 | 168KB | [csaTest02Fall2018.pdf](/csa/pdf/csaTest02Fall2018.pdf)
 Fall 2019 | 175KB | [csaTest02Fall2019.pdf](/csa/pdf/csaTest02Fall2019.pdf)
 
-### Semester 1 Exam
+### Semester 1 Final Exam
 
 Description | File Size | File Name
 ----------- | --------- | ---------
