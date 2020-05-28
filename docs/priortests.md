@@ -6,8 +6,10 @@
 
 Description | File Size | File Name
 ----------- | --------- | ---------
-Spring 2019 | 171KB | [csaSemester2Exam2019.pdf](/csa/pdf/csaSemester2Exam2019.pdf)
+Spring 2019: Questions | 171KB | [csaSemester2Exam2019.pdf](/csa/pdf/csaSemester2Exam2019.pdf)
+Spring 2019: Solutions | 176KB | [csaSemester2ExamSolutions2019.pdf](/csa/pdf/csaSemester2ExamSolutions2019.pdf)
 
+<!--
 ### Test 3: Inheritance
 
 Description | File Size | File Name
@@ -20,7 +22,7 @@ Spring 2019 | 170KB | [csaTest03Spring2019.pdf](/csa/pdf/csaTest03Spring2019.pdf
 Description | File Size | File Name
 ----------- | --------- | ---------
 Spring 2018 | 154KB | [csaTest04Spring2018.pdf](/csa/pdf/csaTest04Spring2018.pdf)
-Spring 2019 | 150KB | [csaTest04Spring2019.pdf](/csa/pdf/csaTest04Spring2019.pdf)
+Spring 2019 | 150KB | [csaTest04Spring2019.pdf](/csa/pdf/csaTest04Spring2019.pdf) -->
 
 ## Semester 1
 

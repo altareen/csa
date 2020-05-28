@@ -52,9 +52,11 @@
 + The course curriculum has been reduced to **Units 1-7** from the [AP Classroom](https://myap.collegeboard.org/login) course outline. **Units 8-10** will not be covered.
 + The [**Mock Exam**](mockexam.md) will be posted at exactly **10:00AM CST** on **Monday, April 20th** to the following link: [Mock Exam](mockexam.md)
 + The [AP Computer Science A Exam](https://apcoronavirusupdates.collegeboard.org/educators/taking-the-exams/ap-exam-schedule) will be held on **Friday, May 15th** at **4:00AM CST**.
-+ The exam will consist of a **45-minute online free-response section** administered on the student's personal computer. -->
++ The exam will consist of a **45-minute online free-response section** administered on the student's personal computer.
 + [**CLICK HERE to access the Mock Exam.**](mockexam.md)
-+ On **Monday, April 20th** at exactly **10:00AM CST** the Mock Exam will be posted on this website.
++ On **Monday, April 20th** at exactly **10:00AM CST** the Mock Exam will be posted on this website. -->
++ **Grade 12 Students:** Your [Semester 2 Exam](priortests.md) will be held on Tuesday, June 9th at 3:00PM.
++ **Grade 11 Students:** Your [Semester 2 Exam](priortests.md) will be held on Wednesday, June 24th at 10:00AM.
 
 ## Problem Sets
 
@@ -106,7 +108,7 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 5      | 6 *Tomb Sweeping Holiday* | 7 | 8 | 9 | 10 | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20 **10:00AM: [Mock Exam](mockexam.md)** | 21      | 22        | 23       | 24  | 25
-26     | 27  | 28      | 29        | 30 -->
+26     | 27  | 28      | 29        | 30 
 
 ### May 2020
 
@@ -117,24 +119,24 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 10     | 11     | 12      | 13        | 14       | 15 **4:00AM: AP Computer Science A Exam** | 16
 17     | 18     | 19      | 20        | 21       | 22     | 23
 24     | 25     | 26      | 27        | 28       | 29     | 30
-31
+31 -->
 
 ### June 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
        | 1      | 2       | 3         | 4        | 5      | 6
-7      | 8      | 9       | 10        | 11       | 12     | 13
+7      | 8      | 9 **3:00PM: G12 Semester 2 Exam** | 10        | 11       | 12     | 13
 14     | 15     | 16      | 17  | 18     | 19  | 20
-21     | 22     | 23      | 24        | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
+21     | 22     | 23      | 24 **10:00AM: G11 Semester 2 Exam** | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
 28     | 29     | 30
 
 ### July 2020
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       |        |         | 1         | 2        | 3      | 4 
-5      | 6      | 7       | 8 *Summer Break Begins* | 9        | 10      | 11
+       |        |         | 1         | 2        | 3 *Summer Break Begins* | 4 
+5      | 6      | 7       | 8         | 9        | 10      | 11
 12     | 13     | 14      | 15        | 16       | 17     | 18
 19     | 20     | 21      | 22        | 23       | 24     | 25
 26     | 27     | 28      | 29        | 30       | 31
