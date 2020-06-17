@@ -1,10 +1,7 @@
 # AP Computer Science A
 
 !!! note ""
-    [Web-CAT:](http://ec2-54-65-207-33.ap-northeast-1.compute.amazonaws.com:8080/Web-CAT/WebObjects/Web-CAT.woa) Submit `Java` programs to this automated grading platform.<br>
     [GitHub Code Repository:](https://github.com/altareen/csa) `Java` code examples covered in class.<br>
-    [AP Classroom:](https://myap.collegeboard.org/login) CollegeBoard's question bank and exam registration portal.<br>
-    [Sakai Learning Management System:](http://ec2-18-179-136-95.ap-northeast-1.compute.amazonaws.com:8080/portal/xlogin) Platform for taking online quizzes.
 
 ## Announcements
 
@@ -54,16 +51,19 @@
 + The [AP Computer Science A Exam](https://apcoronavirusupdates.collegeboard.org/educators/taking-the-exams/ap-exam-schedule) will be held on **Friday, May 15th** at **4:00AM CST**.
 + The exam will consist of a **45-minute online free-response section** administered on the student's personal computer.
 + [**CLICK HERE to access the Mock Exam.**](mockexam.md)
-+ On **Monday, April 20th** at exactly **10:00AM CST** the Mock Exam will be posted on this website. -->
++ On **Monday, April 20th** at exactly **10:00AM CST** the Mock Exam will be posted on this website.
 + **Grade 12 Students:** Your [Semester 2 Exam](priortests.md) will be held on Tuesday, June 9th at 3:00PM.
-+ **Grade 11 Students:** Your [Semester 2 Exam](priortests.md) will be held on Wednesday, June 24th at 10:00AM.
 
 ## Problem Sets
 
 + [Problem Set 12](pset12.md): **Library Rental**
 + [Problem Set 13](pset13.md): **Stock Broker**
 + [Problem Set 14](pset14.md): **Gene Extraction**
-+ [Problem Set 15](pset15.md): **Bar Code**
++ [Problem Set 15](pset15.md): **Bar Code** -->
++ **Grade 11 Students:** Your [Semester 2 Exam](priortests.md) will be held on Wednesday, June 24th at 10:00AM.
++ The following are some review questions for the **Semester 2 Exam**(PDF/159KB): (apCompSciASemester2ExamReviewQuestions.pdf)[/csa/pdf/apCompSciASemester2ExamReviewQuestions.pdf]
++ The **Semester 2 Exam** will cover all topics up to and including **ArrayLists**.
++ The following topics **will not be covered** on the Semester 2 Exam: **wrapper classes, abstract classes, interfaces, inheritance, polymorphism, recursion, searching algorithms, and sorting algorithms.**
 
 ## Course Calendar: Semester Two
 
@@ -125,11 +125,11 @@ Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 
 Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday
 ------ | ------ | ------- | --------- | -------- | ------ | --------
-       | 1      | 2       | 3         | 4        | 5      | 6
-7      | 8      | 9 **3:00PM: G12 Semester 2 Exam** | 10        | 11       | 12     | 13
-14     | 15     | 16      | 17  | 18     | 19  | 20
+       | 1      | 2       | 3         | 4        | 5      | 6 *Make-up Day*
+7      | 8      | 9 **3:00PM: G12 Semester 2 Exam** | 10        | 11       | 12     | 13 *Make-up Day*
+14     | 15     | 16      | 17  | 18     | 19  | 20 *Make-up Day*
 21     | 22     | 23      | 24 **10:00AM: G11 Semester 2 Exam** | 25 *Dragon Boat Holiday* | 26 *Dragon Boat Holiday* | 27
-28     | 29     | 30
+28 *Make-up Day* | 29     | 30
 
 ### July 2020
 
