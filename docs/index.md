@@ -61,7 +61,8 @@
 + [Problem Set 14](pset14.md): **Gene Extraction**
 + [Problem Set 15](pset15.md): **Bar Code** -->
 + **Grade 11 Students:** Your [Semester 2 Exam](priortests.md) will be held on Wednesday, June 24th at 10:00AM.
-+ The following are some review questions for the **Semester 2 Exam**(PDF/159KB): (apCompSciASemester2ExamReviewQuestions.pdf)[/csa/pdf/apCompSciASemester2ExamReviewQuestions.pdf]
++ The following are some review questions for the **Semester 2 Exam**(PDF/159KB): [apCompSciASemester2ExamReviewQuestions.pdf](/csa/pdf/apCompSciASemester2ExamReviewQuestions.pdf)
++ The following are the solutions for the review questions(PDF/163KB): [apCompSciASemester2ExamReviewSolutions.pdf](/csa/pdf/apCompSciASemester2ExamReviewSolutions.pdf)
 + The **Semester 2 Exam** will cover all topics up to and including **ArrayLists**.
 + The following topics **will not be covered** on the Semester 2 Exam: **wrapper classes, abstract classes, interfaces, inheritance, polymorphism, recursion, searching algorithms, and sorting algorithms.**
 
