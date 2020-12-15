@@ -1,2 +1,2 @@
 # csa
-Course website for AP Computer Science A
+Course website for AP Computer Science A.
