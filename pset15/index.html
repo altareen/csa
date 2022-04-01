@@ -37,23 +37,6 @@
         <![endif]-->
 
     
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-63025127-1', 'altareen.github.io/csa');
-    ga('send', 'pageview');
-    </script>
-    
 
      
 </head>
@@ -402,7 +385,7 @@
 <li>Consider an example of the UPC-A verification algorithm with the following number: <code>012000002304</code>. Note that the <strong>Modulo Check Character</strong> is 4.</li>
 <li>For the sake of clarity, I have underlined every other digit, starting with the number's first digit:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 \underline{0}1\underline{2}0\underline{0}0\underline{0}0\underline{2}3\underline{0}4
 </div>
@@ -413,7 +396,7 @@
 <ul>
 <li>Then, add together each of the underlined digits(the ones corresponding to <strong>even</strong> indexes):</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 0 + 2 + 0 + 0 + 2 + 0 = 4
 </div>
@@ -424,7 +407,7 @@
 <ul>
 <li>Next, multiply this sum by 3:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 4 * 3 = 12
 </div>
@@ -435,7 +418,7 @@
 <ul>
 <li>Add together each of the non-underlined digits(the ones corresponding to <strong>odd</strong> indexes), except for the final digit:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 1 + 0 + 0 + 0 + 3 = 4
 </div>
@@ -446,7 +429,7 @@
 <ul>
 <li>Then, add these two results together:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 12 + 4 = 16
 </div>
@@ -457,7 +440,7 @@
 <ul>
 <li>Determine the remainder when this result is divided by 10(<strong>Hint:</strong> use the modulus operator):</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 16 \,\,\texttt{%}\,\, 10 = 6
 </div>
@@ -468,7 +451,7 @@
 <ul>
 <li>The result is not equal to 0, so subtract it from 10:</li>
 </ul>
-<div>
+<div class="arithmatex">
 <div class="MathJax_Preview">
 10 - 6 = 4
 </div>
